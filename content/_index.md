@@ -1,6 +1,5 @@
 ---
-title: "Ananke: a Hugo Theme"
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
-description: "The last theme you'll ever need. Maybe."
+title: "Hey!"
+featured_image: '/images/shufang.jpg'
+description: "若以书而论，每本书都会变成你自己的房间，给你一个庇护，让你安静下来。"
 ---
-Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
