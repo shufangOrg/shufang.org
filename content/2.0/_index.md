@@ -1,7 +1,7 @@
 ---
 title: "2.0"
 description: "那里有一群钟情于声音和阅读的人"
-featured_image: '/images/about.jpg'
+featured_image: '/images/shufang-steal.jpg'
 ---
 
 ## 关于“一个人的书房 2.0” ##
