@@ -2,6 +2,7 @@ baseURL = "https://shufang.org/"
 languageCode = "en-us"
 title = "一个人的书房"
 theme = "ananke"
+uglyurls = true
 
 [menu]
 [[menu.main]]
