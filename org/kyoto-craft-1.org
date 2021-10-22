@@ -1,0 +1,15 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: "京都手艺人_01"
+#+DATE: <2021-10-21 Thu 21:52>
+#+HUGO_CUSTOM_FRONT_MATTER: :summary 京都的手艺人不留自己的履历，被更多人看到自己的作品便已知足。各行各业的人们从事工作，也有留存后世的。所以我想留存下手艺人的这份矜持。虽然手艺人不留名，但是历经百年后，后世的人们能想到‘啊，当时还有从事这样工作的人’，这就是手艺人的欣慰之处了。
+#+HUGO_CUSTOM_FRONT_MATTER: :url /kyoto-craft-1.html
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+
+作者: [日] 樱花编辑事务所 编著
+
+朗读者：[[/summer.html][大夏]]
+
+音频：[[https://ting.shufang.org/kyoto-craft/kyoto-craft_01_v1.mp3][link]]

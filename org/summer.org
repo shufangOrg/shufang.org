@@ -1,9 +1,12 @@
----
-title: "大夏·与书房的故事"
-date: 2015-04-29
-summary: "有那么多大大小小的电台，偏偏遇见了你们。"
-draft: false
----
+#+HUGO_BASE_DIR: ../
+#+TITLE: 大夏·与书房的故事
+#+DATE: 2015-04-29
+#+HUGO_CUSTOM_FRONT_MATTER: :summary 有那么多大大小小的电台，偏偏遇见了你们。
+#+HUGO_CUSTOM_FRONT_MATTER: :url /summer.html
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
 
 [[/images/summer.jpg]]
 

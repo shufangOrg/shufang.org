@@ -1,9 +1,12 @@
----
-title: "关于“一个人的书房 2.0”"
-date: 2021-09-20T21:52:49+08:00
-summary: "多年之后他和他们可能会去找一本老书，顺着链接，找到了“一个人的书房”，那是他们的回忆，是一群人的小坚持，那里有一群钟情于声音和阅读的人。"
-draft: false
----
+#+HUGO_BASE_DIR: ../
+#+TITLE: 关于“一个人的书房 2.0”
+#+DATE: 2021-09-20
+#+HUGO_CUSTOM_FRONT_MATTER: :summary 多年之后他和他们可能会去找一本老书，顺着链接，找到了“一个人的书房”，那是他们的回忆，是一群人的小坚持，那里有一群钟情于声音和阅读的人。
+#+HUGO_CUSTOM_FRONT_MATTER: :url /shufang-2.0.html
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
 
 我发现时间过得非常快。
 
