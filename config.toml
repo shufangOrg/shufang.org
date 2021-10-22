@@ -8,10 +8,10 @@ uglyurls = true
 [[menu.main]]
   identifier = 'about'
   name = '关于'
-  url = '/about/'
+  url = '/about.html'
   weight = -110
 [[menu.main]]
   identifier = '2.0'
   name = '2.0'
-  url = '/2.0/'
+  url = '/2.0.html'
   weight = -100
