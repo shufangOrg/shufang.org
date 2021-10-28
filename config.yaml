@@ -1,0 +1,49 @@
+baseURL: https://shufang.org # this is needed for relURL in podcast.xml
+                            # refer to https://gohugo.io/functions/relurl/
+DefaultContentLanguage: zh
+# languageCode: en-us
+title: 一个人的书房
+theme: ananke
+uglyurls: true
+
+Params:
+  mainSections:
+    - posts
+  # PODCAST
+  baseURL: https://shufang.org
+  logo: https://shufang.org/images/podcast-logo.jpg
+  author: 小编
+  email: hi@shufang.org
+  podcastLanguage: zh-cn
+  podcastGenerator: shufang.org
+  itunesCategory1: Society &amp; Culture
+  itunesCategory2: Personal Journals
+  podcastLicense: CC-BY-SA
+  podcastTitle: 一个人的书房
+  podcastArt: https://shufang.org/images/podcast-art.jpg
+  podcastSubtitle: 若以书而论，每本书都会变成你自己的房间，给你一个庇护，让你安静下来。
+  podcastSummary: >
+    “一个人的书房”是一个网络电台，始发于几个爱书人的“自娱自乐”。我们选择自己喜欢的书，进行原文朗读，不声情并茂，不激情澎湃；不装正经，也不装不正经；不用背景音乐干扰听者对文字的感知与想象。希望回归到文字本身、回归到声音本身，“用声音裸泳”。<br /><br />
+    一个人的书房：<a href="https://shufang.org">shufang.org</a>
+
+menu:
+  main:
+    - identifier: about
+      name: 关于
+      url: /about.html
+      weight: -110
+    - identifier: "2.0"
+      name: "2.0"
+      url: /2.0.html
+      weight: -100
+
+outputFormats:
+  podcast-xml:
+    mediaType: "application/rss+xml"
+    baseName: "podcast"
+    isPlainText: true
+
+outputs:
+  home:
+    - "html"
+    - "podcast-xml"
