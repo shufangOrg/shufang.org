@@ -1,7 +1,7 @@
 +++
-title = "京都手艺人_03"
+title = "京都手艺人 第三集"
 date = 2021-10-21T21:54:00+08:00
-lastmod = 2021-10-28T23:23:44+08:00
+lastmod = 2021-11-09T11:12:54+08:00
 tags = ["podcast"]
 draft = false
 subtitle = "手艺人的欣慰之处"
