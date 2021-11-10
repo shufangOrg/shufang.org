@@ -8,6 +8,8 @@
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 
+[[https://jsntn.com/images/2016/05/olive.jpg]]
+
 #+BEGIN_QUOTE
 在这个碎片化的时代，整理思路、组织语言来写一篇长文，对于我这种不擅长文字的人来说，
 需要耗费太多精力与时间。所以每每在写之前我会再三拷问自己：只是想借文字满足一下表
