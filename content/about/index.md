@@ -1,11 +1,11 @@
 +++
 title = "关于"
 date = 2013-03-01
-lastmod = 2021-11-11T11:34:49+08:00
+lastmod = 2021-11-11T11:55:53+08:00
 draft = false
 summary = "“一个人的书房”是一个网络电台，始发于几个爱书人的“自娱自乐”。我们选择自己喜欢的书，进行原文朗读，不声情并茂，不激情澎湃；不装正经，也不装不正经；不用背景音乐干扰听者对文字的感知与想象。希望回归到文字本身、回归到声音本身，“用声音裸泳”。"
 description = "“希望回归到文字本身、回归到声音本身。”"
-featured_image = "/images/about.jpg"
+featured_image = "/images/shufang.jpg"
 url = "/about.html"
 +++
 

@@ -1,6 +1,7 @@
 #+HUGO_BASE_DIR: ../..
 #+HUGO_SECTION: 2.0
 #+TITLE: 2.0
+#+DATE: 2013-09-20
 #+HUGO_CUSTOM_FRONT_MATTER: :summary 多年之后他和他们可能会去找一本老书，顺着链接，找到了“一个人的书房”，那是他们的回忆，是一群人的小坚持，那里有一群钟情于声音和阅读的人。
 #+HUGO_CUSTOM_FRONT_MATTER: :description 那里有一群钟情于声音和阅读的人
 #+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/shufang-steal.jpg
