@@ -1,0 +1,42 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Clone Org-mode exporter
+        run: git clone https://github.com/kaushalmodi/ox-hugo.git ox-hugo
+
+      - name: Setup emacs
+        uses: purcell/setup-emacs@master
+        with:
+          version: 26.3
+
+      - name: Export Org file to Markdown
+        run: emacs --batch -L ./ox-hugo -l ox-hugo.el --load scripts/config.el --kill
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.87.0'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: shufang.org
