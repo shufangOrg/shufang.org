@@ -36,7 +36,7 @@
 <itunes:name>{{ .Site.Params.author }}</itunes:name>
 <itunes:email>{{ .Site.Params.email }}</itunes:email>
 </itunes:owner>
-{{- range (.Site.RegularPages.ByParam "update").Reverse -}}
+{{- range (.Site.RegularPages.ByParam "date").Reverse -}}
 {{- if in .Params.tags "podcast" -}}
 <item>
 <title>{{ .Title }}</title>
