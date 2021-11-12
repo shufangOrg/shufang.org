@@ -5,6 +5,7 @@
 #+HUGO_CUSTOM_FRONT_MATTER: :summary 多年之后他和他们可能会去找一本老书，顺着链接，找到了“一个人的书房”，那是他们的回忆，是一群人的小坚持，那里有一群钟情于声音和阅读的人。
 #+HUGO_CUSTOM_FRONT_MATTER: :description 那里有一群钟情于声音和阅读的人
 #+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/shufang-steal.jpg
+#+HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
 #+HUGO_CUSTOM_FRONT_MATTER: :url /2.0.html
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: 

@@ -2,5 +2,6 @@
 #+HUGO_SECTION: /
 #+TITLE: Hey!
 #+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/shufang.jpg
+#+HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
 #+HUGO_CUSTOM_FRONT_MATTER: :description 若以书而论，每本书都会变成你自己的房间，给你一个庇护，让你安静下来。
 #+HUGO_DRAFT: false

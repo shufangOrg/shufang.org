@@ -5,6 +5,7 @@
 #+HUGO_CUSTOM_FRONT_MATTER: :summary “一个人的书房”是一个网络电台，始发于几个爱书人的“自娱自乐”。我们选择自己喜欢的书，进行原文朗读，不声情并茂，不激情澎湃；不装正经，也不装不正经；不用背景音乐干扰听者对文字的感知与想象。希望回归到文字本身、回归到声音本身，“用声音裸泳”。
 #+HUGO_CUSTOM_FRONT_MATTER: :description “希望回归到文字本身、回归到声音本身。”
 #+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/shufang.jpg
+#+HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
 #+HUGO_CUSTOM_FRONT_MATTER: :url /about.html
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: 
