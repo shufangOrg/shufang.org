@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Clone Org-mode exporter
-        run: git clone https://github.com/kaushalmodi/ox-hugo.git ox-hugo
+        run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
 
       - name: Setup emacs
         uses: purcell/setup-emacs@master
