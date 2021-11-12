@@ -6,7 +6,10 @@ title: 一个人的书房
 theme: ananke
 uglyurls: true
 
+
 Params:
+  background_color_class: bg-near-white
+  cover_dimming_class: bg-near-white
   mainSections:
     - posts
   # PODCAST
