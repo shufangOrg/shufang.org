@@ -14,7 +14,18 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
+      - name: Clone ox-hugo
+        run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
+
+      - name: Set up Emacs
+        uses: purcell/setup-emacs@master
+        with:
+          version: 26.3
+
+      - name: Export Org files to Markdown
+        run: emacs --batch -L ./ox-hugo --load ox-hugo.el --load ./scripts/config.el --execute "(build/export-all)" --kill
+
+      - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.87.0'

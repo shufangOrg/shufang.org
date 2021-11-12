@@ -1,4 +1,3 @@
-#+HUGO_BASE_DIR: ../
 #+TITLE: "老人与海"
 #+DATE: <2021-11-09 Tue 17:44>
 #+HUGO_CUSTOM_FRONT_MATTER: :subtitle 人不是为失败而生的
