@@ -1,4 +1,3 @@
-#+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: podcast
 #+TITLE: "《京都手艺人》第 1 集"
 #+DATE: <2021-10-21 Thu 21:52>
