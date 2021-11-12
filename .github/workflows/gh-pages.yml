@@ -23,7 +23,7 @@ jobs:
           version: 26.3
 
       - name: Export Org file to Markdown
-        run: ls -l; ls -l ../; emacs --batch -L ./ox-hugo --load ox-hugo.el --script ./scripts/config.el --kill
+        run: ls -l; ls -l ../; emacs --batch -L ./ox-hugo --load ox-hugo.el --load ./scripts/config.el --execute "(build/export-all)" --kill
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
