@@ -6,6 +6,6 @@
   (dolist (org-file (directory-files-recursively notes-org-files "\.org$"))
     (with-current-buffer (find-file org-file)
       (message (format "[build] Exporting %s" org-file))
-      (org-hugo-export-wim-to-md :all-subtrees nil nil nil)))
+      (org-hugo-export-wim-to-md)))
 
   (message "Done!"))
