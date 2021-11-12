@@ -1,4 +1,4 @@
-#+HUGO_BASE_DIR: ../
+#+HUGO_BASE_DIR: ../..
 #+HUGO_SECTION: podcast
 #+TITLE: "《老人与海》第 5 集"
 #+DATE: <2021-11-09 Tue 17:34>

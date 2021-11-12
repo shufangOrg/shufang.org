@@ -1,11 +1,12 @@
 (defun build/export-all ()
   "Export all org-files (including nested) under notes-org-files."
 
-(setq notes-org-files "./org/")
+  (setq notes-org-files "./org/")
 
- ;; (dolist (org-file (directory-files-recursively notes-org-files "\.org$"))
-  (dolist (org-file (directory-files notes-org-files nil "\.org$" t))
+  (dolist (org-file (directory-files-recursively notes-org-files "\.org$"))
     (with-current-buffer (find-file org-file)
+;;      (let ((enable-local-variables :all))
+;;	(hack-dir-local-variables-non-file-buffer))
       (message (format "[build] Exporting %s" org-file))
       (org-hugo-export-wim-to-md)))
 
