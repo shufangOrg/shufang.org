@@ -1,5 +1,5 @@
 #+TITLE: 一个人的书房，就是这个人的全部
-#+DATE: 2021-11-16
+#+DATE: 2021-11-15
 #+HUGO_CUSTOM_FRONT_MATTER: :summary 一个人的书就是他的灵魂，一个人的全部藏书就是他灵魂全部的话。
 #+HUGO_CUSTOM_FRONT_MATTER: :url /soul.html
 #+HUGO_AUTO_SET_LASTMOD: t
