@@ -6,6 +6,10 @@ title: 一个人的书房
 theme: ananke
 uglyurls: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 Params:
   background_color_class: bg-near-white
