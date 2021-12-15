@@ -46,3 +46,17 @@
 
   即便如此，我们仍推荐您直接使用上方 shufang.org 的官方订阅地址，因为这是确保第
   一时间收听到书房音频的唯一方法。
+
+  @@html:<p align="center">@@👇@@html:</p>@@
+
+  1. 打开 Apple 内置的播客 Podcasts 应用
+
+     [[/images/podcasts.png]]
+
+  2. 进入“资料库”，点击右上方 ···，选择“通过 URL 添加节目…”
+
+     [[/images/podcasts_1.jpg]]
+
+  3. 输入订阅地址 [[https://shufang.org/podcast.xml]] 后，点击“关注”
+
+     [[/images/podcasts_2.jpg]]

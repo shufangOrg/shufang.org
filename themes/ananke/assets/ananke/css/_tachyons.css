@@ -2876,7 +2876,6 @@ code {
   margin-top: 1.5em;
 }
 .nested-img img {
-  width: 100%;
   max-width: 100%;
   display: block;
 }
