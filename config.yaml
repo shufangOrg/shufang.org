@@ -19,7 +19,7 @@ Params:
   # PODCAST
   baseURL: https://shufang.org
   logo: https://shufang.org/images/podcast-logo.jpg
-  author: 無名
+  author: 一个人的书房
   email: hi@shufang.org
   podcastLanguage: zh-cn
   podcastGenerator: shufang.org
