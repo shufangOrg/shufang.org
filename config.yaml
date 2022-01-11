@@ -32,6 +32,12 @@ Params:
   podcastSummary: >
     “一个人的书房”是一个网络电台，始于 2013 年几个爱书人的“自娱自乐”。我们选择自己喜欢的书，进行原文朗读，不声情并茂，不激情澎湃；不装正经，也不装不正经；不用背景音乐干扰听者对文字的感知与想象。希望回归到文字本身、回归到声音本身，“用声音裸泳”。<br /><br />
     网址：<a href="https://shufang.org">shufang.org</a>
+  # TALKS
+  talksTitle: 一个人的书房 - TALKS
+  talksSubtitle: A collection of talks by writers...
+  talksSummary: >
+    “一个人的书房 - TALKS”是一个网络电台，旨在收集系列作家的演讲和访谈等音频资源。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
 
 menu:
   main:
@@ -49,8 +55,13 @@ outputFormats:
     mediaType: "application/rss+xml"
     baseName: "podcast"
     isPlainText: true
+  talks-xml:
+    mediaType: "application/rss+xml"
+    baseName: "talks"
+    isPlainText: true
 
 outputs:
   home:
     - "html"
     - "podcast-xml"
+    - "talks-xml"

@@ -1,0 +1,18 @@
+#+TITLE: "[朗读者第二季] 作家余华朗读《在细雨中呼喊》"
+#+DATE: <2018-08-04 Sat 21:52>
+#+HUGO_CUSTOM_FRONT_MATTER: :subtitle 记忆中的故乡——海盐南门
+#+HUGO_CUSTOM_FRONT_MATTER: :description 你只有离开了你最熟悉的地方以后，再回来你才知道真正的财富在哪里。
+#+HUGO_CUSTOM_FRONT_MATTER: :summary 你只有离开了你最熟悉的地方以后，再回来你才知道真正的财富在哪里。
+#+HUGO_CUSTOM_FRONT_MATTER: :url /yuhua-2018-cctv.html
+#+HUGO_CUSTOM_FRONT_MATTER: :duration 00:15:59
+#+HUGO_CUSTOM_FRONT_MATTER: :length 17813504
+#+HUGO_CUSTOM_FRONT_MATTER: :external_mp3 yes
+#+HUGO_CUSTOM_FRONT_MATTER: :mp3 https://talks.shufang.org/20180804-yuhua-xiyu-cctv/yuhua.mp3
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: podcast
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+
+https://tv.cctv.com/v/v1/VIDE6JP2zzP2ahaNsS5A2OeX180804.html
+
+音频：[[https://talks.shufang.org/20180804-yuhua-xiyu-cctv/yuhua.mp3][link]]
