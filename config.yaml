@@ -12,6 +12,7 @@ markup:
       unsafe: true
 
 Params:
+  env: production
   background_color_class: bg-near-white
   cover_dimming_class: bg-near-white
   mainSections:
