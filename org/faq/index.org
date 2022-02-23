@@ -1,0 +1,17 @@
+#+HUGO_BASE_DIR: ../..
+#+HUGO_SECTION: faq
+#+TITLE: FAQ
+#+DATE: 2021-07-20
+#+HUGO_CUSTOM_FRONT_MATTER: :summary 一些 FAQ......
+#+HUGO_CUSTOM_FRONT_MATTER: :description 一些 FAQ......
+#+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/shufang-steal.jpg
+#+HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
+#+HUGO_CUSTOM_FRONT_MATTER: :url /faq.html
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: 
+#+HUGO_DRAFT: false
+
+** 为什么用 Static Site Generator 而不用 WordPress？
+
+答：服务器会挂掉，任何一个网站程序都会有一定的生命周期。我们相信分布式存储和纯文本记录会存在更久。
