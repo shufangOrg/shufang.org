@@ -12,6 +12,20 @@
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 
+** 为什么有「一个人的书房 2.0」？
+
+答：所谓的 2.0 不过是一次重新出发。
+
+回望多年的音频和书房产出，散落在各大播客平台，公众号，豆瓣等，慢慢遗失……我们开始尝试将「一个人的书房」所有输出整理并存档在 [[https://shufang.org][shufang.org]]。
+
+关于更多 2.0 的故事可以看这里：
+
+- [[https://shufang.org/2.0.html][shufang.org/2.0.html]]
+
+关于 2.0 的初始过程可以看这里：
+
+- [[https://note.jsntn.com/shufang-2.0.html][note.jsntn.com/shufang-2.0.html]]
+
 ** 为什么用 Static Site Generator 而不用 WordPress？
 
 答：服务器会挂掉，任何一个网站程序都会有一定的生命周期。我们相信分布式存储和纯文本记录会存在更久。
