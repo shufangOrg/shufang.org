@@ -46,6 +46,10 @@ menu:
       name: 关于
       url: /about.html
       weight: -110
+    - identifier: readers
+      name: readers
+      url: /readers.html
+      weight: -100
     - identifier: "2.0"
       name: "2.0"
       url: /2.0.html
