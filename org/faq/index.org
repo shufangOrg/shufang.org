@@ -26,6 +26,18 @@
 
 - [[https://note.jsntn.com/shufang-2.0.html][note.jsntn.com/shufang-2.0.html]]
 
+** 关于 shufang.org
+
+答：选择了 org 后缀意味着我们选择了不以盈利为目的，你也可以从[[https://shufang.org/readers.html][朗读者]]页面看到我们来自各地的朗读者，正是他们始于兴趣的参与才有了现在的「一个人的书房」。
+
 ** 为什么用 Static Site Generator 而不用 WordPress？
 
 答：服务器会挂掉，任何一个网站程序都会有一定的生命周期。我们相信分布式存储和纯文本记录会存在更久。
+
+** 有聊天群组吗？
+
+答：有的，暂时烦请邮件联系 hi@shufang.org 获取加入方式。
+
+** 这里没有评论和留言功能？
+
+答：抱歉，目前还没有。我们正在完善。
