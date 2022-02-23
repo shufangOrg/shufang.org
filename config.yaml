@@ -58,6 +58,10 @@ menu:
       name: FAQ
       url: /faq.html
       weight: -90
+    - identifier: donation
+      name: 捐赠
+      url: /donation.html
+      weight: -80
 
 outputFormats:
   podcast-xml:
