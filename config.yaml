@@ -47,17 +47,17 @@ menu:
       url: /about.html
       weight: -110
     - identifier: readers
-      name: readers
+      name: 朗读者
       url: /readers.html
       weight: -100
     - identifier: "2.0"
       name: "2.0"
       url: /2.0.html
-      weight: -100
+      weight: -90
     - identifier: faq
       name: FAQ
       url: /faq.html
-      weight: -100
+      weight: -90
 
 outputFormats:
   podcast-xml:
