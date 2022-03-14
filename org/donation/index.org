@@ -4,7 +4,7 @@
 #+DATE: 2021-07-20
 #+HUGO_CUSTOM_FRONT_MATTER: :summary 一本好书的价值是不可估量的，我们不敢奢望这 800 多期的读书节目可以像书籍一样永远陪伴着你，却希望在这个喧嚣都市中，你可以一直享受属于自己的静谧的读书时光，那是你的"一个人的书房"。
 #+HUGO_CUSTOM_FRONT_MATTER: :description 一本好书的价值是不可估量的，我们不敢奢望这 800 多期的读书节目可以像书籍一样永远陪伴着你，却希望在这个喧嚣都市中，你可以一直享受属于自己的静谧的读书时光，那是你的"一个人的书房"。
-#+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/shufang.jpg
+#+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/aung-soe-min-f6UX-It1N7g-unsplash.jpg
 #+HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
 #+HUGO_CUSTOM_FRONT_MATTER: :url /donation.html
 #+HUGO_AUTO_SET_LASTMOD: t

@@ -4,7 +4,7 @@
 #+DATE: 2021-07-20
 #+HUGO_CUSTOM_FRONT_MATTER: :summary 一些 FAQ......
 #+HUGO_CUSTOM_FRONT_MATTER: :description 一些 FAQ......
-#+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/shufang-steal.jpg
+#+HUGO_CUSTOM_FRONT_MATTER: :featured_image /images/leone-venter-mTkXSSScrzw-unsplash.jpg
 #+HUGO_CUSTOM_FRONT_MATTER: :omit_header_text true
 #+HUGO_CUSTOM_FRONT_MATTER: :url /faq.html
 #+HUGO_AUTO_SET_LASTMOD: t
