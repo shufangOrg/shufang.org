@@ -9,7 +9,7 @@
 #+HUGO_DRAFT: false
 
 #+BEGIN_QUOTE
-作者: [日] 樱花编辑事务所 编著
+作者：[日] 樱花编辑事务所 编著
 
 朗读者：[[/summer.html][大夏]]
 #+END_QUOTE

@@ -9,7 +9,7 @@
 #+HUGO_DRAFT: false
 
 #+BEGIN_QUOTE
-作者: [美国] 欧内斯特·海明威
+作者：[美国] 欧内斯特·海明威
 
 朗读者：安德烈司机
 #+END_QUOTE
