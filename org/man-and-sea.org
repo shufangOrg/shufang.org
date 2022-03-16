@@ -8,6 +8,8 @@
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 
+[[/images/2021/linkedkeeper0_20210ac4-65e7-445f-b244-e57588b0490a.jpg]]
+
 #+BEGIN_QUOTE
 作者：[美国] 欧内斯特·海明威
 
