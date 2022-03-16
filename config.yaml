@@ -50,6 +50,10 @@ Params:
 
 menu:
   main:
+    - identifier: listen
+      name: 收听
+      url: /listen.html
+      weight: -120
     - identifier: about
       name: 关于
       url: /about.html
