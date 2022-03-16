@@ -19,7 +19,7 @@
 <lastBuildDate>{{ now.Format "Mon, Jan 2, 2006" }}</lastBuildDate>
 <image>
 <link>{{ .Site.Params.baseURL }}</link>
-<url>{{ .Site.Params.LRYHLogo }}</url>
+<url>{{ .Site.Params.logo }}</url>
 <title>{{ .Site.Params.LRYHTitle }}</title>
 </image>
 <generator>{{ .Site.Params.podcastGenerator }}</generator>
@@ -28,7 +28,7 @@
 <itunes:category text="{{ .Site.Params.itunesCategory2 }}" />
 </itunes:category>
 <itunes:explicit>No</itunes:explicit>
-<itunes:image href="{{ .Site.Params.podcastArt }}"/>
+<itunes:image href="{{ .Site.Params.LRYHCover }}"/>
 <itunes:subtitle>{{ .Site.Params.LRYHSubtitle }}</itunes:subtitle>
 <itunes:summary><![CDATA[{{ .Site.Params.LRYHSummary }}]]></itunes:summary>
 <itunes:keywords></itunes:keywords>
@@ -50,7 +50,7 @@
 <itunes:author>{{ .Site.Params.LRYHReader }}</itunes:author>
 <itunes:duration>{{ .Params.duration | string }}</itunes:duration>
 <itunes:subtitle><![CDATA[{{ .Params.subtitle }}]]></itunes:subtitle>
-<itunes:image href="{{ if and (ne .Params.image nil) (ne .Params.image "") }}{{ .Site.Params.baseURL }}{{ .Params.image }}{{ else }}{{ .Site.Params.podcastArt }}{{ end }}" />
+<itunes:image href="{{ if and (ne .Params.image nil) (ne .Params.image "") }}{{ .Site.Params.baseURL }}{{ .Params.image }}{{ else }}{{ .Site.Params.LRYHCover }}{{ end }}" />
 <itunes:keywords>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</itunes:keywords>
 <itunes:summary><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></itunes:summary>
 </item>
