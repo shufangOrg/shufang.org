@@ -2,3 +2,4 @@
 resources/_gen/
 content/
 .DS_Store
+public/
