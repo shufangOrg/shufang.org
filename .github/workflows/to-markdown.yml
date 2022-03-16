@@ -1,0 +1,35 @@
+name: convert to markdown files
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Clone ox-hugo
+        run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
+
+      - name: Set up Emacs
+        uses: purcell/setup-emacs@master
+        with:
+          version: 26.3
+
+      - name: Export Org files to Markdown
+        run: emacs --batch -L ./ox-hugo --load ox-hugo.el --load ./scripts/config.el --execute "(build/export-all)" --kill
+
+      # deploy to markdown branch in local repository
+      - name: deploy markdown branch
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: markdown
+          FOLDER: content
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

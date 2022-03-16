@@ -10,6 +10,8 @@
 #+HUGO_CUSTOM_FRONT_MATTER: :mp3 https://ting.shufang.org/man-and-sea/man-and-sea_03_v1.mp3
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: podcast
+#+HUGO_BOOKS: lryh
+#+HUGO_READERS: siji
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 
