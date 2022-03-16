@@ -30,10 +30,6 @@
 
 “一个人的书房”目前所有的节目均为朗读者志愿录音和制作，并免费分享供收听。
 
-目前“一个人的书房”的主要开销在 shufang.org 域名（NameSilo 每年 10.79 美元，实时价格可见[[https://www.namesilo.com/pricing][这里]]），之后可能会有服务器开销，视网站运行情况而定。
-
-当前 shufang.org 已续费至 2023 年 6 月 2 日（可通过[[https://who.is/whois/shufang.org][这里]]查看实时域名到期时间）。
-
 书房 2.0 的完整代码已开源在这里：
 
 - https://github.com/shufangOrg
@@ -41,6 +37,10 @@
 书房 shufang.org 的维护和更新进度见这里：
 
 - https://github.com/shufangOrg/changelog/issues?q=is%3Aall
+
+目前“一个人的书房”的主要开销在 shufang.org 域名（NameSilo 每年 10.79 美元，实时价格可见[[https://www.namesilo.com/pricing][这里]]），之后可能会有服务器开销，视网站运行情况而定。
+
+当前 shufang.org 已续费至 2023 年 6 月 2 日（可通过[[https://who.is/whois/shufang.org][这里]]查看实时域名到期时间）。
 
 我们将感谢你通过任意数额的捐赠方式来支持 shufang.org 的存在和运行，您的每一笔捐赠和去向将在 [[https://i.shufang.org][i.shufang.org]] 公示。
 
