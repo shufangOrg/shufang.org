@@ -12,24 +12,32 @@
 #+HUGO_CATEGORIES: 
 #+HUGO_DRAFT: false
 
-2016-11 《这位珠海美女把声音阅读玩到全球前十》 珠江晚报
+这位珠海美女把声音阅读玩到全球前十
+
+📰 2016-11 珠江晚报
 
 - [[/attachments/mp.weixin.qq.com_201611.pdf][书房存档]]
 - [[https://web.archive.org/web/20220316112752/https://mp.weixin.qq.com/s/PQGl9VVdppsaN09ljX_H6Q][互联网档案馆存档]]
 - [[https://mp.weixin.qq.com/s/PQGl9VVdppsaN09ljX_H6Q][微信链接]]
 
-2016-04 《用声音传递阅读的价值》TEDx 珠海
+用声音传递阅读的价值
+
+📰 2016-04 TEDx 珠海
 
 - [[/attachments/mp.weixin.qq.com_201604.pdf][书房存档]]
 - [[https://web.archive.org/web/20220316113652/https://mp.weixin.qq.com/s/PjTp2gesSTsWNTwEJiHv6w][互联网档案馆存档]]
 - [[https://mp.weixin.qq.com/s/PjTp2gesSTsWNTwEJiHv6w][微信链接]]
 
-2013-08-06 《一帮珠海爱书人"捣鼓"出了个网络读书电台 4 个月下载量超过 80 万人次读书给你听》 珠海宣传网
+一帮珠海爱书人“捣鼓”出了个网络读书电台 4 个月下载量超过 80 万人次读书给你听
+
+📰 2013-08-06 珠海宣传网
 
 - [[/attachments/web.archive.org_20130806.pdf][书房存档]]
 - [[https://web.archive.org/web/20220316111631/http://webcache.googleusercontent.com/search?q=cache%3AeZ5_zP2AfAgJ%3Awww.zhxc.gov.cn%2Fdwxc%2Fwlsd%2F201308%2Ft20130806_1753803.html+&cd=1&hl=zh-CN&ct=clnk][互联网档案馆存档]]
 
-2013-06-14 《武汉女人创立"一个人的书房"电台》 湖北日报网
+武汉女人创立“一个人的书房”电台
+
+📰 2013-06-14 湖北日报网
 
 - [[/attachments/news.cnhubei.com_20130614.pdf][书房存档]]
 - [[https://web.archive.org/web/20220316115011/http://news.cnhubei.com/ctjb/ctjbsgk/ctjb35/201306/t2601455.shtml][互联网档案馆存档]]
