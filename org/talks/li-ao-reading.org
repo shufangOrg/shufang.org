@@ -7,7 +7,7 @@
 #+HUGO_CUSTOM_FRONT_MATTER: :duration 00:22:32
 #+HUGO_CUSTOM_FRONT_MATTER: :length 22649242
 #+HUGO_CUSTOM_FRONT_MATTER: :external_mp3 yes
-#+HUGO_CUSTOM_FRONT_MATTER: :mp3 https://talks.shufang.org/li-ai-reading/li-ao-reading.mp3
+#+HUGO_CUSTOM_FRONT_MATTER: :mp3 https://talks.shufang.org/li-ao-reading/li-ao-reading.mp3
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: talks
 #+HUGO_CATEGORIES: 
