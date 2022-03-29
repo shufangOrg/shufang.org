@@ -17,14 +17,6 @@ jobs:
       - name: Clone ox-hugo
         run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
 
-      - name: Set up Emacs
-        uses: purcell/setup-emacs@master
-        with:
-          version: 26.3
-
-      - name: Export Org files to Markdown
-        run: emacs --batch -L ./ox-hugo --load ox-hugo.el --load ./scripts/config.el --execute "(build/export-all)" --kill
-
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
