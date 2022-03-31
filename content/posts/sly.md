@@ -6,6 +6,8 @@ draft = false
 subtitle = "77 岁的渡边淳一说：“我还在恋爱。”"
 description = "无论什么样的欢宴，曲终人散之后，留下的必为萧索冷清。盛大的华宴如此，即便是两个人的隐秘旅行，也难逃怅然而归的寂寞空虚。"
 summary = "无论什么样的欢宴，曲终人散之后，留下的必为萧索冷清。盛大的华宴如此，即便是两个人的隐秘旅行，也难逃怅然而归的寂寞空虚。"
+featured_image = "/images/2022/watanabe-junichi.jpg"
+omit_header_text = true
 url = "/sly.html"
 +++
 
