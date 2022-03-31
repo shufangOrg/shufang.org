@@ -8,10 +8,10 @@
   xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
-<title>{{ .Site.Params.ZSJSYDBTitle }}</title>
+<title>{{ .Site.Params.SLYTitle }}</title>
 <link>{{ .Site.Params.baseURL }}</link>
-<description><![CDATA[{{ .Site.Params.ZSJSYDBSummary }}]]></description>
-<copyright>{{ .Site.Params.podcastLicense }} 2012-{{ now.Format "2006"}} {{ .Site.Params.ZSJSYDBTitle }}</copyright>
+<description><![CDATA[{{ .Site.Params.SLYSummary }}]]></description>
+<copyright>{{ .Site.Params.podcastLicense }} 2012-{{ now.Format "2006"}} {{ .Site.Params.SLYTitle }}</copyright>
 <language>{{ .Site.Params.podcastLanguage }}</language>
 <managingEditor>{{ .Site.Params.author }} ({{ .Site.Params.email }})</managingEditor>
 <webMaster>{{ .Site.Params.author }} ({{ .Site.Params.email }})</webMaster>
@@ -20,24 +20,24 @@
 <image>
 <link>{{ .Site.Params.baseURL }}</link>
 <url>{{ .Site.Params.logo }}</url>
-<title>{{ .Site.Params.ZSJSYDBTitle }}</title>
+<title>{{ .Site.Params.SLYTitle }}</title>
 </image>
 <generator>{{ .Site.Params.podcastGenerator }}</generator>
-<itunes:author>{{ .Site.Params.ZSJSYDBReader }}</itunes:author>
+<itunes:author>{{ .Site.Params.SLYReader }}</itunes:author>
 <itunes:category text="{{ .Site.Params.itunesCategory1 }}">
 <itunes:category text="{{ .Site.Params.itunesCategory2 }}" />
 </itunes:category>
 <itunes:explicit>No</itunes:explicit>
-<itunes:image href="{{ .Site.Params.ZSJSYDBCover }}"/>
-<itunes:subtitle>{{ .Site.Params.ZSJSYDBSubtitle }}</itunes:subtitle>
-<itunes:summary><![CDATA[{{ .Site.Params.ZSJSYDBSummary }}]]></itunes:summary>
+<itunes:image href="{{ .Site.Params.SLYCover }}"/>
+<itunes:subtitle>{{ .Site.Params.SLYSubtitle }}</itunes:subtitle>
+<itunes:summary><![CDATA[{{ .Site.Params.SLYSummary }}]]></itunes:summary>
 <itunes:keywords></itunes:keywords>
 <itunes:owner>
-<itunes:name>{{ .Site.Params.ZSJSYDBReader }}</itunes:name>
+<itunes:name>{{ .Site.Params.SLYReader }}</itunes:name>
 <itunes:email>{{ .Site.Params.email }}</itunes:email>
 </itunes:owner>
 {{- range (.Site.RegularPages.ByParam "date").Reverse -}}
-{{- if in .Params.books "zsjsydb" -}}
+{{- if in .Params.books "sly" -}}
 <item>
 <title>{{ .Title }}</title>
 <link>{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}</link>
@@ -47,10 +47,10 @@
 <description><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></description>
 <content:encoded><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></content:encoded>
 <itunes:explicit>No</itunes:explicit>
-<itunes:author>{{ .Site.Params.ZSJSYDBReader }}</itunes:author>
+<itunes:author>{{ .Site.Params.SLYReader }}</itunes:author>
 <itunes:duration>{{ .Params.duration | string }}</itunes:duration>
 <itunes:subtitle><![CDATA[{{ .Params.subtitle }}]]></itunes:subtitle>
-<itunes:image href="{{ if and (ne .Params.image nil) (ne .Params.image "") }}{{ .Site.Params.baseURL }}{{ .Params.image }}{{ else }}{{ .Site.Params.ZSJSYDBCover }}{{ end }}" />
+<itunes:image href="{{ if and (ne .Params.image nil) (ne .Params.image "") }}{{ .Site.Params.baseURL }}{{ .Params.image }}{{ else }}{{ .Site.Params.SLYCover }}{{ end }}" />
 <itunes:keywords>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</itunes:keywords>
 <itunes:summary><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></itunes:summary>
 </item>
