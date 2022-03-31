@@ -55,6 +55,14 @@ Params:
   ZSJSYDBSummary: >
     每天的下午时光，我都会进行一次漫长的散步。在河边平坦开阔的草地上一直向东面走，大约七八公里后就到河分叉的地方。那里的河水又宽又浅，流速很急。和中央卧着一块又一块雪白的大石头，水流在石头的缝隙间重启团团浪花。一靠近河，哗啦啦的水声就猛的漫过了头顶，自言自语的声音都听不见了。<br /><br />
     网址：<a href="https://shufang.org">shufang.org</a>
+  # 失乐园
+  SLYTitle: 失乐园 - 一个人的书房
+  SLYSubtitle: 77 岁的渡边淳一说：“我还在恋爱。”
+  SLYReader: 夏小麦
+  SLYCover: https://shufang.org/images/books/sly.jpg
+  SLYSummary: >
+    无论什么样的欢宴，曲终人散之后，留下的必为萧索冷清。盛大的华宴如此，即便是两个人的隐秘旅行，也难逃怅然而归的寂寞空虚。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
 
 menu:
   main:
@@ -104,6 +112,10 @@ outputFormats:
     mediaType: "application/rss+xml"
     baseName: "zsjsydb"
     isPlainText: true
+  sly-xml:
+    mediaType: "application/rss+xml"
+    baseName: "sly"
+    isPlainText: true
 
 outputs:
   home:
@@ -112,3 +124,4 @@ outputs:
     - "talks-xml"
     - "lryh-xml"
     - "zsjsydb-xml"
+    - "sly-xml"
