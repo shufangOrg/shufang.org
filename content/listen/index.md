@@ -21,8 +21,9 @@ url = "/listen.html"
     To be updated...
 
 3.  单本书源
-    -   《老人与海》 <https://shufang.org/lryh.xml>
-    - 《这世间所有的白》 <https://shufang.org/zsjsydb.xml>
+    - 《老人与海》<https://shufang.org/lryh.xml>
+    - 《失乐园》<https://shufang.org/sly.xml>
+    - 《这世间所有的白》<https://shufang.org/zsjsydb.xml>
 
 4.  系列作家的演讲和访谈等音频资源
 

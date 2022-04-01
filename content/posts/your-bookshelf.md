@@ -12,6 +12,8 @@ url = "/your-bookshelf.html"
 - 《失乐园》https://shufang.org/sly.xml
 - 《老人与海》https://shufang.org/lryh.xml
 
+更多听书源 👉 https://shufang.org/listen.html
+
 接下来你需要做的：
 
 1. 通过任意一个泛用型（或称通用型）播客客户端
