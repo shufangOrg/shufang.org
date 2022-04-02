@@ -18,7 +18,8 @@ jobs:
         id: setup-ffmpeg
         
       - name: Run shell
-        run: sh ./scripts/duration-length.sh
+        run: cat  ./scripts/duration-length.sh
+        run: bash -x ./scripts/duration-length.sh
         shell: bash
 
       # - run: ffprobe -i "https://ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3" -show_entries format=duration -v quiet -of csv="p=0" -sexagesimal
