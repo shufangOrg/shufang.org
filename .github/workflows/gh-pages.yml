@@ -14,6 +14,13 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - uses: FedericoCarboni/setup-ffmpeg@v1
+        id: setup-ffmpeg
+
+      - name: Run shell
+        run: bash -x ./scripts/duration-length.sh
+        shell: bash
+
       - name: Clone ox-hugo
         run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
 
