@@ -18,10 +18,10 @@ jobs:
         id: setup-ffmpeg
         
       # make file runnable, might not be necessary
-      - run: chmod +x "${GITHUB_WORKSPACE}/.scripts/duration-length.sh"
+      - run: chmod +x "${GITHUB_WORKSPACE}/scripts/duration-length.sh"
 
       # run script
-      - run: "${GITHUB_WORKSPACE}/.scripts/duration-length.sh"
+      - run: "${GITHUB_WORKSPACE}/scripts/duration-length.sh"
       
       # - run: ffprobe -i "https://ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3" -show_entries format=duration -v quiet -of csv="p=0" -sexagesimal
       # - run: ffprobe -i "https://ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3" -show_entries format=size -v quiet -of csv="p=0"
