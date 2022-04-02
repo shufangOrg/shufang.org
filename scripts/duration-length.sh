@@ -1,5 +1,5 @@
 file="./scripts/duration-length.txt"
-if [ ! -f "$file" ]
+if [ -f "$file" ]
 then
     for i in $(cat $file); do
         mp3=$(cat "$i" | grep "^mp3 =" | awk -F= '{print $2}')
