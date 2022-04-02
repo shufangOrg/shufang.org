@@ -6,13 +6,21 @@ title: 一个人的书房
 theme: ananke
 uglyurls: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 Params:
+  env: production
+  background_color_class: bg-near-white
+  cover_dimming_class: bg-near-white
   mainSections:
     - posts
   # PODCAST
   baseURL: https://shufang.org
   logo: https://shufang.org/images/podcast-logo.jpg
-  author: 小编
+  author: 一个人的书房
   email: hi@shufang.org
   podcastLanguage: zh-cn
   podcastGenerator: shufang.org
@@ -23,27 +31,97 @@ Params:
   podcastArt: https://shufang.org/images/podcast-art.jpg
   podcastSubtitle: 若以书而论，每本书都会变成你自己的房间，给你一个庇护，让你安静下来。
   podcastSummary: >
-    “一个人的书房”是一个网络电台，始发于几个爱书人的“自娱自乐”。我们选择自己喜欢的书，进行原文朗读，不声情并茂，不激情澎湃；不装正经，也不装不正经；不用背景音乐干扰听者对文字的感知与想象。希望回归到文字本身、回归到声音本身，“用声音裸泳”。<br /><br />
-    一个人的书房：<a href="https://shufang.org">shufang.org</a>
+    “一个人的书房”是一个网络电台，始于 2013 年几个爱书人的“自娱自乐”。我们选择自己喜欢的书，进行原文朗读，不声情并茂，不激情澎湃；不装正经，也不装不正经；不用背景音乐干扰听者对文字的感知与想象。希望回归到文字本身、回归到声音本身，“用声音裸泳”。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
+  # TALKS
+  talksTitle: 一个人的书房 - TALKS
+  talksSubtitle: A collection of talks by writers...
+  talksSummary: >
+    “一个人的书房 - TALKS”是一个网络电台，旨在收集系列作家的演讲和访谈等音频资源。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
+  # The Old Man and The Sea
+  LRYHTitle: 老人与海 - 一个人的书房
+  LRYHSubtitle: 人不是为失败而生的
+  LRYHReader: 安德烈司机
+  LRYHCover: https://shufang.org/images/books/lryh.jpg
+  LRYHSummary: >
+    古巴老渔夫圣地亚哥在连续八十四天没捕到鱼的情况下，终于独自钓上了一条大马林鱼，但这鱼实在大，把他的小船在海上拖了三天才筋疲力尽，被他杀死了绑在小船的一边。在归程中，他再遭到一条鲨鱼的袭击，最后回港时只剩鱼头鱼尾和一条脊骨。而在老圣地亚哥出海的日子里，他的忘年好友一直在海边忠诚地等待，满怀信心地迎接着他的归来。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
+  # 这世间所有的白
+  ZSJSYDBTitle: 这世间所有的白 - 一个人的书房
+  ZSJSYDBSubtitle: 不好不坏的日子
+  ZSJSYDBReader: 子欣
+  ZSJSYDBCover: https://shufang.org/images/books/zsjsydb.jpg
+  ZSJSYDBSummary: >
+    每天的下午时光，我都会进行一次漫长的散步。在河边平坦开阔的草地上一直向东面走，大约七八公里后就到河分叉的地方。那里的河水又宽又浅，流速很急。和中央卧着一块又一块雪白的大石头，水流在石头的缝隙间重启团团浪花。一靠近河，哗啦啦的水声就猛的漫过了头顶，自言自语的声音都听不见了。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
+  # 失乐园
+  SLYTitle: 失乐园 - 一个人的书房
+  SLYSubtitle: 77 岁的渡边淳一说：“我还在恋爱。”
+  SLYReader: 夏小麦
+  SLYCover: https://shufang.org/images/books/sly.jpg
+  SLYSummary: >
+    无论什么样的欢宴，曲终人散之后，留下的必为萧索冷清。盛大的华宴如此，即便是两个人的隐秘旅行，也难逃怅然而归的寂寞空虚。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
 
 menu:
   main:
+    - identifier: listen
+      name: 收听
+      url: /listen.html
+      weight: -120
     - identifier: about
       name: 关于
       url: /about.html
       weight: -110
+    - identifier: readers
+      name: 朗读者
+      url: /readers.html
+      weight: -100
+    - identifier: press
+      name: 媒体报道
+      url: /press.html
+      weight: -90
     - identifier: "2.0"
       name: "2.0"
       url: /2.0.html
-      weight: -100
+      weight: -82
+    - identifier: faq
+      name: FAQ
+      url: /faq.html
+      weight: -81
+    - identifier: donation
+      name: 捐赠
+      url: /donation.html
+      weight: -80
 
 outputFormats:
   podcast-xml:
     mediaType: "application/rss+xml"
     baseName: "podcast"
     isPlainText: true
+  talks-xml:
+    mediaType: "application/rss+xml"
+    baseName: "talks"
+    isPlainText: true
+  lryh-xml:
+    mediaType: "application/rss+xml"
+    baseName: "lryh"
+    isPlainText: true
+  zsjsydb-xml:
+    mediaType: "application/rss+xml"
+    baseName: "zsjsydb"
+    isPlainText: true
+  sly-xml:
+    mediaType: "application/rss+xml"
+    baseName: "sly"
+    isPlainText: true
 
 outputs:
   home:
     - "html"
     - "podcast-xml"
+    - "talks-xml"
+    - "lryh-xml"
+    - "zsjsydb-xml"
+    - "sly-xml"

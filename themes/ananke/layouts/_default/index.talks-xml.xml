@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:atom="http://www.w3.org/2005/Atom/"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>{{ .Site.Params.talksTitle }}</title>
+<link>{{ .Site.Params.baseURL }}</link>
+<description><![CDATA[{{ .Site.Params.talksSummary }}]]></description>
+<copyright>{{ .Site.Params.podcastLicense }} 2012-{{ now.Format "2006"}} {{ .Site.Params.talksTitle }}</copyright>
+<language>{{ .Site.Params.podcastLanguage }}</language>
+<managingEditor>{{ .Site.Params.author }} ({{ .Site.Params.email }})</managingEditor>
+<webMaster>{{ .Site.Params.author }} ({{ .Site.Params.email }})</webMaster>
+<pubDate>{{ now.Format "Mon, Jan 2, 2006 15:04:05 UTC" }}</pubDate>
+<lastBuildDate>{{ now.Format "Mon, Jan 2, 2006" }}</lastBuildDate>
+<image>
+<link>{{ .Site.Params.baseURL }}</link>
+<url>{{ .Site.Params.logo }}</url>
+<title>{{ .Site.Params.talksTitle }}</title>
+</image>
+<generator>{{ .Site.Params.podcastGenerator }}</generator>
+<itunes:author>{{ .Site.Params.author }}</itunes:author>
+<itunes:category text="{{ .Site.Params.itunesCategory1 }}">
+<itunes:category text="{{ .Site.Params.itunesCategory2 }}" />
+</itunes:category>
+<itunes:explicit>No</itunes:explicit>
+<itunes:image href="{{ .Site.Params.podcastArt }}"/>
+<itunes:subtitle>{{ .Site.Params.talksSubtitle }}</itunes:subtitle>
+<itunes:summary><![CDATA[{{ .Site.Params.talksSummary }}]]></itunes:summary>
+<itunes:keywords></itunes:keywords>
+<itunes:owner>
+<itunes:name>{{ .Site.Params.author }}</itunes:name>
+<itunes:email>{{ .Site.Params.email }}</itunes:email>
+</itunes:owner>
+{{- range (.Site.RegularPages.ByParam "date").Reverse -}}
+{{- if in .Params.tags "talks" -}}
+<item>
+<title>{{ .Title }}</title>
+<link>{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}</link>
+<pubDate>{{ .Date.Format "Mon, Jan 2, 2006 15:04:05 UTC" }}</pubDate>
+<guid isPermaLink="true">{{- if or (not (isset .Params "external_mp3")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}</guid>
+<enclosure length="{{ .Params.length | string }}" url="{{- if or (not (isset .Params "external_mp3")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}" type="audio/mpeg"/>
+<description><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></description>
+<content:encoded><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></content:encoded>
+<itunes:explicit>No</itunes:explicit>
+<itunes:author>{{ .Site.Params.author }}</itunes:author>
+<itunes:duration>{{ .Params.duration | string }}</itunes:duration>
+<itunes:subtitle><![CDATA[{{ .Params.subtitle }}]]></itunes:subtitle>
+<itunes:image href="{{ if and (ne .Params.image nil) (ne .Params.image "") }}{{ .Site.Params.baseURL }}{{ .Params.image }}{{ else }}{{ .Site.Params.podcastArt }}{{ end }}" />
+<itunes:keywords>{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}</itunes:keywords>
+<itunes:summary><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></itunes:summary>
+</item>
+{{- end -}}
+{{- end -}}
+</channel>
+</rss>

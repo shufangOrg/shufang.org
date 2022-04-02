@@ -2876,7 +2876,6 @@ code {
   margin-top: 1.5em;
 }
 .nested-img img {
-  width: 100%;
   max-width: 100%;
   display: block;
 }
@@ -7006,4 +7005,27 @@ code {
   section p {
     text-align: left;
   }
+}
+
+
+
+.poster {
+    display: block;
+    height: -moz-calc(100% - 62px);
+    height: -webkit-calc(100% - 62px);
+    height: -o-calc(100% - 62px);
+    height: calc(100% - 62px);
+    overflow: hidden;
+}
+.poster img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    //: ;
+    z-index: 1;
+}
+.hover-black,
+.hover-black:focus,
+.hover-black:hover {
+  color: #000;
 }

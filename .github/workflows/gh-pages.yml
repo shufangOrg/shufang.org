@@ -14,18 +14,10 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Clone Org-mode exporter
+      - name: Clone ox-hugo
         run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
 
-      - name: Setup emacs
-        uses: purcell/setup-emacs@master
-        with:
-          version: 26.3
-
-      - name: Export Org file to Markdown
-        run: emacs --batch -L ./ox-hugo --load ox-hugo.el --load ./scripts/config.el --execute "(build/export-all)" --kill
-
-      - name: Setup Hugo
+      - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.87.0'
@@ -40,3 +32,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: shufang.org
+
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: whoami; cd ${{ secrets.WEBSITE_ABS_PATH }}; git pull
