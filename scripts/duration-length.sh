@@ -1,5 +1,3 @@
-#!/bin/bash
-
 file="./scripts/duration-length.txt"
 if [ ! -f "$file" ]
 then
