@@ -21,7 +21,8 @@ jobs:
         run: |
           chmod +x "${GITHUB_WORKSPACE}/scripts/duration-length.sh"
           "${GITHUB_WORKSPACE}/scripts/duration-length.sh"
-        shell: bash
+        # shell: bash  
+          shell: bash -leo pipefail {0} 
       
       # - run: ffprobe -i "https://ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3" -show_entries format=duration -v quiet -of csv="p=0" -sexagesimal
       # - run: ffprobe -i "https://ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3" -show_entries format=size -v quiet -of csv="p=0"
