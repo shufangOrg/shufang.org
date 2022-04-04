@@ -1,1 +1,4 @@
 ./content/podcast/sly-1.md
+./content/podcast/sly-2.md
+./content/podcast/sly-3.md
+./content/podcast/sly-4.md
