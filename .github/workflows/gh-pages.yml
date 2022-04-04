@@ -21,6 +21,15 @@ jobs:
         run: bash -x ./scripts/duration-length.sh
         shell: bash
 
+      # deploy to duration-length branch in local repository
+      - name: deploy duration-length branch
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: duration-length
+          FOLDER: content
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Clone ox-hugo
         run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
 
