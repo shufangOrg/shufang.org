@@ -6,4 +6,4 @@ customized-slug: test
 draft: false
 summary: TEST
 ---
-This is just a test post.
+This is just a post to test the permalink.
