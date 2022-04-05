@@ -8,7 +8,7 @@ collections:
     label: 'Blog'
     folder: 'content/blog'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{customized-slug}}.html'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.customized-slug}}.html'
     editor:
       preview: false
     fields:
