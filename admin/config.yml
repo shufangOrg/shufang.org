@@ -10,7 +10,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{fields.customized-slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'string' }
@@ -25,7 +25,7 @@ collections:
     create: true
     slug: '{{fields.url}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
