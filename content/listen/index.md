@@ -32,7 +32,7 @@ url = "/listen.html"
 
 ## 收听方式： {#收听方式}
 
--   我们推荐使用泛用型（或称通用型）播客客户端软件，直接添加“一个人的书房”官方订阅地址进行收听，以“汇总源”为例：
+-   我们推荐使用泛用型（或称通用型）播客客户端软件（如 iOS 平台的 [Pocket Casts](https://www.pocketcasts.com) 或 [Overcast](https://overcast.fm) 等，安卓平台的 [Pocket Casts](https://www.pocketcasts.com) 或 [AntennaPod](https://antennapod.org) 等），直接添加“一个人的书房”官方订阅地址进行收听，以“汇总源”为例：
 
     <https://fm.shufang.org>
 
