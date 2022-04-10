@@ -21,6 +21,7 @@ url = "/listen.html"
     To be updated...
 
 3.  单本书源
+    - 《当尼采哭泣》<https://shufang.org/dnckq.xml> 
     - 《老人与海》<https://shufang.org/lryh.xml>
     - 《失乐园》<https://shufang.org/sly.xml>
     - 《这世间所有的白》<https://shufang.org/zsjsydb.xml>
