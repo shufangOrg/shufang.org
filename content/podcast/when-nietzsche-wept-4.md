@@ -12,6 +12,8 @@ duration = "00:25:44"
 length = 12356377
 external_mp3 = "yes"
 mp3 = "https://ting.shufang.org/when-nietzsche-wept/when-nietzsche-wept_04_v1.mp3"
+books = "dnckq"
+readers = "anji"
 +++
 
 关于《当尼采哭泣》这本小说，从情节来看，是一篇高潮迭起的心理推理小说。作者假托
