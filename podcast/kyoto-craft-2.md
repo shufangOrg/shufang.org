@@ -12,6 +12,8 @@ duration = "00:16:03"
 length = 7712768
 external_mp3 = "yes"
 mp3 = "https://ting.shufang.org/kyoto-craft/kyoto-craft_02_v1.mp3"
+books = "jdsyr"
+readers = "daxia"
 +++
 
 作者: [日] 樱花编辑事务所 编著
