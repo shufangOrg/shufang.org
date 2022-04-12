@@ -12,6 +12,8 @@ duration = "00:16:20"
 length = 7852032
 external_mp3 = "yes"
 mp3 = "https://ting.shufang.org/gu-dao-bai-yun/gu-dao-bai-yun_03_v1.mp3"
+books = "gdby"
+readers = "yiwei"
 +++
 
 作者：一行禅师
