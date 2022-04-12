@@ -148,7 +148,7 @@ outputFormats:
     isPlainText: true
   jdsyr-xml:
     mediaType: "application/rss+xml"
-    baseName: "jdsry"
+    baseName: "jdsyr"
     isPlainText: true
   gdby-xml:
     mediaType: "application/rss+xml"
