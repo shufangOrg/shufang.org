@@ -5,6 +5,7 @@ DefaultContentLanguage: zh
 title: 一个人的书房
 theme: ananke
 uglyurls: true
+googleAnalytics: G-W7XJ6ZG7HV
 
 markup:
   goldmark:
