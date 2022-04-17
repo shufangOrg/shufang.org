@@ -1,4 +1,6 @@
 file="./scripts/duration-length.txt"
+# duration-length.txt example
+# https://github.com/shufangOrg/shufang.org/commit/bb08abed58cb35e530988eb44c2683c6327578e1
 if [ -f "$file" ]
 then
     for i in $(cat $file); do
