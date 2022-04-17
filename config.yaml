@@ -88,6 +88,14 @@ Params:
   GDBYSummary: >
     生命只可在目前的一刻找到，但我们很少会真心投入此刻。相反地，我们喜欢追逐过去或憧憬未来。我们常以为自己就是自己，而其实我们一直以来都甚少与自己真正接触。我们的心只忙于追逐昨天的回忆和明天的梦想。唯一去与生命的重新接触，就是回到目前这一刻。<br /><br />
     网址：<a href="https://shufang.org">shufang.org</a>
+  # 俗世奇人
+  SSQRTitle: 俗世奇人 - 一个人的书房
+  SSQRSubtitle: 爱的本质就是生命的相互依赖
+  SSQRReader: 闻达
+  SSQRCover: https://shufang.org/images/books/ssqr.jpg
+  SSQRSummary: >
+    这世上真是嘛人都有：有的对别人下狠手表示厉害，也有人对自己下狠手显威风，有的把伤藏起来，以为耻辱，有的就挂在脸上，成了光荣的标记。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
 
 menu:
   main:
@@ -153,6 +161,10 @@ outputFormats:
     mediaType: "application/rss+xml"
     baseName: "gdby"
     isPlainText: true
+  ssqr-xml:
+    mediaType: "application/rss+xml"
+    baseName: "ssqr"
+    isPlainText: true
 
 outputs:
   home:
@@ -165,3 +177,4 @@ outputs:
     - "dnckq-xml"
     - "jdsyr-xml"
     - "gdby-xml"
+    - "ssqr-xml"

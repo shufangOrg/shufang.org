@@ -1,0 +1,4 @@
+./content/podcast/ssqr-1.md
+./content/podcast/ssqr-2.md
+./content/podcast/ssqr-3.md
+./content/podcast/ssqr-4.md
