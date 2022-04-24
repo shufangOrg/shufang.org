@@ -4,6 +4,9 @@ other = "更多"
 [allTitle]
 other = "所有 {{.Title }}"
 
+[allPosts]
+other = "所有文章"
+
 [recentTitle]
 other = "最近 {{.Title }}"
 
