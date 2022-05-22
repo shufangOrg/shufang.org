@@ -28,3 +28,7 @@
 ./content/podcast/ylzs-2.md
 ./content/podcast/ylzs-3.md
 ./content/podcast/ylzs-4.md
+./content/podcast/zhsg-1.md
+./content/podcast/zhsg-2.md
+./content/podcast/zhsg-3.md
+./content/podcast/zhsg-4.md
