@@ -11,7 +11,7 @@ url = "/zhsg-2.html"
 duration = 
 length = 
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/zhu-hai-shi-guang/sea-time_02_v3"
+mp3 = "https://ting.shufang.org/zhu-hai-shi-guang/sea-time_02_v3.mp3"
 books = "zhsg"
 readers = "xiaoxiong"
 +++
