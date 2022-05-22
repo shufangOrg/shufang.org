@@ -11,7 +11,7 @@ url = "/wangxiaobo-1995.html"
 duration = "00:37:18"
 length = 37539021
 external_mp3 = "yes"
-mp3 = "https://talks.shufang.org/wangxiaobo-1995/wangxiaobo-1995.mp3"
+mp3 = "talks.shufang.org/wangxiaobo-1995/wangxiaobo-1995.mp3"
 +++
 
 “做广播读书节目《孤岛访谈》，采访的第三位嘉宾便是王小波，时间大概是在 1995 年的秋天。此前，我对王小波所知不多。我的采访预案，除去那个广播读书节目的一些技术性规定外，主要来自我阅读《黄金时代》后留下的印象：一个少见的、高智商的作家。”
