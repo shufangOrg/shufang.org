@@ -11,7 +11,7 @@ url = "/li-ao-reading.html"
 duration = "00:22:32"
 length = 22649242
 external_mp3 = "yes"
-mp3 = "https://talks.shufang.org/li-ao-reading/li-ao-reading.mp3"
+mp3 = "talks.shufang.org/li-ao-reading/li-ao-reading.mp3"
 +++
 
 📺<https://youtu.be/yBXATCSzioc>

@@ -11,7 +11,7 @@ url = "/yuhua-2018-cctv.html"
 duration = "00:15:59"
 length = 17813504
 external_mp3 = "yes"
-mp3 = "https://talks.shufang.org/20180804-yuhua-xiyu-cctv/yuhua.mp3"
+mp3 = "talks.shufang.org/20180804-yuhua-xiyu-cctv/yuhua.mp3"
 +++
 
 <https://tv.cctv.com/v/v1/VIDE6JP2zzP2ahaNsS5A2OeX180804.html>
