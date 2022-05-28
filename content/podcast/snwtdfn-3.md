@@ -11,7 +11,7 @@ url = "/snwtdfn-3.html"
 duration = "0:11:23.328000"
 length = 5466649
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/shao-nian-wei-te-de-fan-nao/the-sorrows-of-young-werther_03_v4.mp3"
+mp3 = "ting.shufang.org/shao-nian-wei-te-de-fan-nao/the-sorrows-of-young-werther_03_v4.mp3"
 books = "snwtdfn"
 readers = "yuanyuanliuchang"
 +++

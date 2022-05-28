@@ -11,7 +11,7 @@ url = "/afett-3.html"
 duration = "0:12:31.080000"
 length = 6008665
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/ai-fei-er-tie-ta/eiffel-tower_03_v1.mp3"
+mp3 = "ting.shufang.org/ai-fei-er-tie-ta/eiffel-tower_03_v1.mp3"
 books = "afett"
 readers = "wulian"
 +++

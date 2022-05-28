@@ -11,7 +11,7 @@ url = "/man-and-sea-8.html"
 duration = "00:17:02"
 length = 8177305
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/man-and-sea/man-and-sea_08_v2.mp3"
+mp3 = "ting.shufang.org/man-and-sea/man-and-sea_08_v2.mp3"
 books = "lryh"
 readers = "siji"
 +++

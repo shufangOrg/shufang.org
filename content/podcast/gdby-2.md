@@ -11,7 +11,7 @@ url = "/gdby-2.html"
 duration = "00:16:51"
 length = 8097792
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/gu-dao-bai-yun/gu-dao-bai-yun_02_v2.mp3"
+mp3 = "ting.shufang.org/gu-dao-bai-yun/gu-dao-bai-yun_02_v2.mp3"
 books = "gdby"
 readers = "yiwei"
 +++

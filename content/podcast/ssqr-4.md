@@ -11,7 +11,7 @@ url = "/ssqr-4.html"
 duration = "0:11:33.168000"
 length = 5545369
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/su-shi-qi-ren/worldly-people_04_v2.mp3"
+mp3 = "ting.shufang.org/su-shi-qi-ren/worldly-people_04_v2.mp3"
 books = "ssqr"
 readers = "wenda"
 +++

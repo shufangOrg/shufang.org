@@ -11,7 +11,7 @@ url = "/ylzs-1.html"
 duration = "0:15:51.720000"
 length = 7613785
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/yu-le-zhi-si/amusing-ourselves-to-death_01_v1.mp3"
+mp3 = "ting.shufang.org/yu-le-zhi-si/amusing-ourselves-to-death_01_v1.mp3"
 books = "ylzs"
 readers = "mufeng"
 +++

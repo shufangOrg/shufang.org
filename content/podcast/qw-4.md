@@ -11,7 +11,7 @@ url = "/qw-4.html"
 duration = "0:21:14.424000"
 length = 10195417
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/qi-wang/chess_king_04_v2.mp3"
+mp3 = "ting.shufang.org/qi-wang/chess_king_04_v2.mp3"
 books = "qw"
 readers = "siji"
 +++
