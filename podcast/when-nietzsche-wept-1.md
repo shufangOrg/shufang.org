@@ -11,7 +11,7 @@ url = "/when-nietzsche-wept-1.html"
 duration = "00:17:35"
 length = 8445145
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/when-nietzsche-wept/when-nietzsche-wept_01_v2.mp3"
+mp3 = "ting.shufang.org/when-nietzsche-wept/when-nietzsche-wept_01_v2.mp3"
 books = "dnckq"
 readers = "anji"
 +++

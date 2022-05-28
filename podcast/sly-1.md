@@ -11,7 +11,7 @@ url = "/sly-1.html"
 duration = "0:24:13.920000"
 length = 11631385
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3"
+mp3 = "ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3"
 books = "sly"
 readers = "xiaxiaomai"
 +++

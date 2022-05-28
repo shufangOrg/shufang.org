@@ -11,7 +11,7 @@ url = "/kyoto-craft-3.html"
 duration = "00:15:37"
 length = 7503872
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/kyoto-craft/kyoto-craft_03_v2.mp3"
+mp3 = "ting.shufang.org/kyoto-craft/kyoto-craft_03_v2.mp3"
 books = "jdsyr"
 readers = "daxia"
 +++

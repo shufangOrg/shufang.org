@@ -11,7 +11,7 @@ url = "/yw-3.html"
 duration = "0:25:55.296000"
 length = 12442393
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/you-wei/flavored_03_v1.mp3"
+mp3 = "ting.shufang.org/you-wei/flavored_03_v1.mp3"
 books = "yw"
 readers = "caishan"
 +++

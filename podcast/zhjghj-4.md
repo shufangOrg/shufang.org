@@ -11,7 +11,7 @@ url = "/zhjghj-4.html"
 duration = "0:21:21.120000"
 length = 10248985
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/zui-hao-jin-gui-huan-jiu/zui-hao-jin-gui-huan-jiu_04_v1.mp3"
+mp3 = "ting.shufang.org/zui-hao-jin-gui-huan-jiu/zui-hao-jin-gui-huan-jiu_04_v1.mp3"
 books = "zhjghj"
 readers = "daxia"
 +++

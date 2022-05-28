@@ -11,7 +11,7 @@ url = "/msldzl-2.html"
 duration = "0:16:58.824000"
 length = 8150617
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/mu-si-lin-de-zang-li/the-jade-king_02_v2.mp3"
+mp3 = "ting.shufang.org/mu-si-lin-de-zang-li/the-jade-king_02_v2.mp3"
 books = "msldzl"
 readers = "xiaotuma"
 +++

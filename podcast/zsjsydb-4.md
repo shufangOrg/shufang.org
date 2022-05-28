@@ -11,7 +11,7 @@ url = "/zsjsydb-4.html"
 duration = "00:28:01"
 length = 13459456
 external_mp3 = "yes"
-mp3 = "https://ting.shufang.org/all-of-the-white-in-the-world/all-of-the-white-in-the-world_04-v1.mp3"
+mp3 = "ting.shufang.org/all-of-the-white-in-the-world/all-of-the-white-in-the-world_04-v1.mp3"
 books = "zsjsydb"
 readers = "zixin"
 +++
