@@ -2,3 +2,11 @@
 ./content/podcast/qwdy-2.md
 ./content/podcast/qwdy-3.md
 ./content/podcast/qwdy-4.md
+./content/podcast/xyxqe-1.md
+./content/podcast/xyxqe-2.md
+./content/podcast/xyxqe-3.md
+./content/podcast/xyxqe-4.md
+./content/podcast/ylzlyld-1.md
+./content/podcast/ylzlyld-2.md
+./content/podcast/ylzlyld-3.md
+./content/podcast/ylzlyld-4.md
