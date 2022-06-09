@@ -15,8 +15,8 @@
 <language>{{ .Site.Params.podcastLanguage }}</language>
 <managingEditor>{{ .Site.Params.author }} ({{ .Site.Params.email }})</managingEditor>
 <webMaster>{{ .Site.Params.author }} ({{ .Site.Params.email }})</webMaster>
-<pubDate>{{ now.Format "Mon, Jan 2, 2006 15:04:05 UTC" }}</pubDate>
-<lastBuildDate>{{ now.Format "Mon, Jan 2, 2006" }}</lastBuildDate>
+<pubDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 GMT" }}</pubDate>
+<lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 GMT" }}</lastBuildDate>
 <image>
 <link>{{ .Site.Params.baseURL }}</link>
 <url>{{ .Site.Params.logo }}</url>
@@ -41,7 +41,7 @@
 <item>
 <title>{{ .Title }}</title>
 <link>{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}</link>
-<pubDate>{{ .Date.Format "Mon, 2 Jan 2006 15:04:05 GMT" }}</pubDate>
+<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 GMT" }}</pubDate>
 <guid isPermaLink="true">{{- if or (not (isset .Params "external_mp3")) (ne
 .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Site.Params.mp3HTTPPrefix }}{{ .Params.mp3 | string }}</guid>
 <enclosure length="{{ .Params.length | string }}" url="{{ .Site.Params.statsPrefix }}{{- if or (not (isset .Params "external_mp3")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}" type="audio/mpeg"/>
