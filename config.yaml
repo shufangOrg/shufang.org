@@ -21,6 +21,7 @@ Params:
     - blog
   # PODCAST
   statsPrefix: https://dts.podtrac.com/redirect.mp3/
+  mp3HTTPPrefix: https://
   baseURL: https://shufang.org
   logo: https://shufang.org/images/podcast-logo.jpg
   author: 一个人的书房
