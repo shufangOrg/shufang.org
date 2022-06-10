@@ -10,3 +10,11 @@
 ./content/podcast/ylzlyld-2.md
 ./content/podcast/ylzlyld-3.md
 ./content/podcast/ylzlyld-4.md
+./content/podcast/zhdcjam-1.md
+./content/podcast/zhdcjam-2.md
+./content/podcast/zhdcjam-3.md
+./content/podcast/zhdcjam-4.md
+./content/podcast/llwg-1.md
+./content/podcast/llwg-2.md
+./content/podcast/llwg-3.md
+./content/podcast/llwg-4.md
