@@ -18,3 +18,11 @@
 ./content/podcast/llwg-2.md
 ./content/podcast/llwg-3.md
 ./content/podcast/llwg-4.md
+./content/podcast/bwrs-1.md
+./content/podcast/bwrs-2.md
+./content/podcast/bwrs-3.md
+./content/podcast/bwrs-4.md
+./content/podcast/clcw-1.md
+./content/podcast/clcw-2.md
+./content/podcast/clcw-3.md
+./content/podcast/clcw-4.md
