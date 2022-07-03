@@ -11,7 +11,7 @@ url = "/linxi-to-yangqianhua.html"
 duration = "00:05:27"
 length = 2625536
 external_mp3 = "yes"
-mp3 = "syyj.shufang.org/linxi-to-yangqianhua_v1.mp3"
+mp3 = "ting-syyj.shufang.org/linxi-to-yangqianhua_v1.mp3"
 +++
 
 > 我只希望你，继续做一个怀揣少女心的女人。记着，有事就找我，当然没事找我会更好。虽然我不是志明，我是林夕。  
