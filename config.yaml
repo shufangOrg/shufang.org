@@ -43,6 +43,12 @@ Params:
   talksSummary: >
     “一个人的书房 - TALKS”是一个网络电台，旨在收集系列作家的演讲和访谈等音频资源。<br /><br />
     网址：<a href="https://shufang.org">shufang.org</a>
+  # 声音邮局
+  syyjTitle: 声音邮局
+  syyjSubtitle: 重拾那些遗落的信件，让文字化作声音。
+  syyjSummary: >
+    “声音邮局”——重拾那些遗落的信件，让文字化作声音。陪你一起回到那个时刻，那个瞬间，一同感动、大笑或者流泪……<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
   # The Old Man and The Sea
   LRYHTitle: 老人与海 - 一个人的书房
   LRYHSubtitle: 人不是为失败而生的
@@ -140,6 +146,10 @@ outputFormats:
     mediaType: "application/rss+xml"
     baseName: "talks"
     isPlainText: true
+  syyj-xml:
+    mediaType: "application/rss+xml"
+    baseName: "syyj"
+    isPlainText: true
   lryh-xml:
     mediaType: "application/rss+xml"
     baseName: "lryh"
@@ -174,6 +184,7 @@ outputs:
     - "html"
     - "podcast-xml"
     - "talks-xml"
+    - "syyj-xml"
     - "lryh-xml"
     - "zsjsydb-xml"
     - "sly-xml"
