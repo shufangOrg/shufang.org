@@ -11,6 +11,9 @@ markup:
     renderer:
       unsafe: true
 
+permalinks:
+  posts: /:slug.html
+
 Params:
   env: production
   background_color_class: bg-near-white
