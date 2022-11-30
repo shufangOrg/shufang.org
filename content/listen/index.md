@@ -37,7 +37,7 @@ url = "/listen.html"
 
 5. 系列作家的演讲和访谈等音频资源
 
-   一个人的书房 - TALKS <https://shufang.org/talks.xml>
+   作家说 <https://shufang.org/talks.xml>
 
 
 ## 收听方式： {#收听方式}
