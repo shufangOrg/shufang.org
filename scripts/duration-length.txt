@@ -2,3 +2,4 @@
 ./content/podcast/6d27fdldz-2.md
 ./content/podcast/6d27fdldz-3.md
 ./content/podcast/6d27fdldz-4.md
+./content/podcast/10-years-trailer.md
