@@ -46,9 +46,7 @@
 <enclosure length="{{ .Params.length | string }}" url="{{ .Site.Params.statsPrefix }}{{- if or (not (isset .Params "external_mp3")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}" type="audio/mpeg"/>
 <description><![CDATA[{{ .Params.description }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>]]></description>
 
-<content:encoded>{{ `<![CDATA[` | safeHTML }}{{ .Summary }}{{ `]]>` | safeHTML }}
-<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>
-</content:encoded>
+<content:encoded>{{ `<![CDATA[` | safeHTML }}{{ .Content  | safeHTML | truncate 3900 }}<br /><br />{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>{{ `]]>` | safeHTML }}</content:encoded>
 
 <itunes:explicit>No</itunes:explicit>
 <itunes:author>{{ .Site.Params.author }}</itunes:author>
