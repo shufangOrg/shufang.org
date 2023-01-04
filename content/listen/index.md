@@ -10,45 +10,55 @@ omit_header_text = true
 url = "/listen.html"
 +++
 
-## 收听源地址 {#收听源地址}
+## 书房节目列表
 
-目前「一个人的书房」支持多种源进行收听（通过源地址的订阅收听方法见下方），包括：
+目前“一个人的书房”推出的节目及多种订阅源包括：
 
-1. 汇总源 <https://fm.shufang.org>
+- 一个人的书房
 
-2. 朗读者源
+  订阅源 <https://fm.shufang.org>
 
-   To be updated...
+- 朗读者源
 
-3. 单本书源
-   - 《当尼采哭泣》<https://shufang.org/dnckq.xml>
-   - 《故道白云》<https://shufang.org/gdby.xml>
-   - 《京都手艺人》<https://shufang.org/jdsyr.xml>
-   - 《老人与海》<https://shufang.org/lryh.xml>
-   - 《失乐园》<https://shufang.org/sly.xml>
-   - 《俗世奇人》<https://shufang.org/ssqr.xml>
-   - 《这世间所有的白》<https://shufang.org/zsjsydb.xml>
+  待更新……
 
-4. 声音邮局
+- 单本书源
+ 
+  待更新……
+  
+  👉 [使用单本订阅源打造属于自己的听书架](https://shufang.org/your-bookshelf.html)
 
-   重拾那些遗落的信件，让文字化作声音。陪你一起回到那个时刻，那个瞬间，一同感动、大笑或者流泪……
+- 声音邮局
 
-   订阅源 <https://syyj.shufang.org>
+  重拾那些遗落的信件，让文字化作声音。陪你一起回到那个时刻，那个瞬间，一同感动、大笑或者流泪……
 
-5. 系列作家的演讲和访谈等音频资源
+  订阅源 <https://syyj.shufang.org>
 
-   作家说 <https://shufang.org/talks.xml>
+- 作家说
+ 
+  系列作家的演讲和访谈等音频资源
 
+  订阅源 <https://shufang.org/talks.xml>
 
-## 收听方式： {#收听方式}
+如何通过订阅源地址收听？请继续阅读下方“推荐收听方式”👇 
 
-- 我们推荐使用泛用型（或称通用型）播客客户端软件（如 iOS 平台的 [Pocket Casts](https://www.pocketcasts.com) 或 [Overcast](https://overcast.fm) 等，安卓平台的 [Pocket Casts](https://www.pocketcasts.com) 或 [AntennaPod](https://antennapod.org) 等），直接添加“一个人的书房”官方订阅地址进行收听，以“汇总源”为例：
+## 推荐收听方式
+
+- 泛用型播客客户端（iOS/安卓）
+ 
+  我们推荐使用泛用型（或称通用型）播客客户端软件（如 iOS 平台的 [Pocket Casts](https://www.pocketcasts.com) 或 [Overcast](https://overcast.fm) 等，安卓平台的 [Pocket Casts](https://www.pocketcasts.com) 或 [AntennaPod](https://antennapod.org) 等），直接添加“一个人的书房”官方订阅地址进行收听，例如：
 
   <https://fm.shufang.org>
 
-  您可能也可以在众多播客平台通过搜索“一个人的书房”找到我们，即便如此，我们仍推荐您直接使用上方 shufang.org 的官方订阅地址，因为这是确保第一时间收听到书房音频的唯一方法。
+  注：您可能也可以在众多客户端或三方托管平台通过搜索“一个人的书房”找到我们，即便如此，我们仍推荐您直接使用上方来自 shufang.org 的官方节目订阅源地址，因为这是确保第一时间收听到书房音频的唯一方法。
 
-- iOS 用户也可以使用 Apple 内置的紫色图标的播客 Podcasts 订阅“一个人的书房”，方法如下：
+- 「小宇宙」应用（iOS/安卓）
+
+  搜索“一个人的书房”进行收听。
+
+- Podcasts（iOS）
+ 
+  iOS 用户也可以使用 Apple 内置的紫色图标的播客 Podcasts 订阅“一个人的书房”，方法如下：
 
   1. 打开 Apple 内置的播客 Podcasts 应用
 
