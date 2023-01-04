@@ -12,11 +12,9 @@ url = "/listen.html"
 
 ## 书房节目列表
 
-目前“一个人的书房”推出的节目及多种订阅源包括：
+目前“一个人的书房”推出的节目源包括：
 
-- 一个人的书房
-
-  订阅源 <https://fm.shufang.org>
+- 一个人的书房 <https://fm.shufang.org>
 
 - 朗读者源
 
@@ -26,21 +24,17 @@ url = "/listen.html"
  
   待更新……
   
-  👉 [使用单本订阅源打造属于自己的听书架](https://shufang.org/your-bookshelf.html)
+  推荐阅读 👉 [使用单本书源打造属于自己的听书架](https://shufang.org/your-bookshelf.html)
 
-- 声音邮局
+- 声音邮局 <https://syyj.shufang.org>
 
   重拾那些遗落的信件，让文字化作声音。陪你一起回到那个时刻，那个瞬间，一同感动、大笑或者流泪……
 
-  订阅源 <https://syyj.shufang.org>
-
-- 作家说
+- 作家说 <https://shufang.org/talks.xml>
  
   系列作家的演讲和访谈等音频资源
 
-  订阅源 <https://shufang.org/talks.xml>
-
-如何通过订阅源地址收听？请继续阅读下方“推荐收听方式”👇 
+如何通过源地址收听？请继续阅读下方“推荐收听方式”👇 
 
 ## 推荐收听方式
 
