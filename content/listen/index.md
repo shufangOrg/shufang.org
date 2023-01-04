@@ -62,6 +62,6 @@ url = "/listen.html"
 
      {{< figure src="/images/podcasts_1.jpg" >}}
 
-  3. 输入订阅地址 <https://fm.shufang.org> 后，点击“关注”
+  3. 输入订阅地址如 <https://fm.shufang.org> 后，点击“关注”
 
      {{< figure src="/images/podcasts_2.jpg" >}}
