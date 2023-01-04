@@ -5,6 +5,8 @@ DefaultContentLanguage: zh
 title: 一个人的书房
 theme: ananke
 uglyurls: true
+hasCJKLanguage: true
+summaryLength: 4000
 
 markup:
   goldmark:
