@@ -12,7 +12,7 @@ url = "/your-bookshelf.html"
 - 《失乐园》https://shufang.org/sly.xml
 - 《老人与海》https://shufang.org/lryh.xml
 
-所有单本源列表，请访问 👉 https://shufang.org/book-rss.html
+完整单本源列表，请访问 👉 https://shufang.org/book-rss.html
 
 如何通过单本源收听？请访问 👉 https://shufang.org/listen.html
 
