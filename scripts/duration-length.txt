@@ -1,1 +1,1 @@
-./content/podcast/10-years.md
+./content/blog/10-years.md
