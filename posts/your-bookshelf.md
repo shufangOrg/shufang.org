@@ -7,12 +7,14 @@ summary = "属于自己的听书架，这里只有你喜欢的有声书，便于
 url = "/your-bookshelf.html"
 +++
 
-我们精心制作了每一集音频，并为每本书生成单本源地址。地址大部分即书名的拼音首字母 + xml 后缀，例如：
+我们精心制作了每一集音频，并为每本书生成单本源，订阅地址大部分即书名的拼音首字母 + xml 后缀，例如：
 
 - 《失乐园》https://shufang.org/sly.xml
 - 《老人与海》https://shufang.org/lryh.xml
 
-更多听书源 👉 https://shufang.org/listen.html
+所有单本源列表，请访问 👉 https://shufang.org/book-rss.html
+
+如何通过单本源收听？请访问 👉 https://shufang.org/listen.html
 
 接下来你需要做的：
 
