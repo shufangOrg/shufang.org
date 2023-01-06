@@ -40,8 +40,12 @@
 {{- if in .Params.books "zsjsydb" -}}
 <item>
 <itunes:author>{{ .Site.Params.ZSJSYDBReader }}</itunes:author>
-<itunes:image href="{{ if and (ne .Params.image nil) (ne .Params.image "") }}{{ .Site.Params.baseURL }}{{ .Params.image }}{{ else }}{{ .Site.Params.ZSJSYDBCover }}{{ end }}" />
-{{- partial "single-book-rss-content.html" . -}}
+<itunes:image href="{{- if and (ne .Params.image nil) (ne .Params.image "") -}}
+  {{ .Site.Params.baseURL }}{{ .Params.image }}
+  {{ else }}
+  {{- .Site.Params.ZSJSYDBCover -}}
+  {{- end -}}" />
+{{- partial "single-book-rss-content.xml" . -}}
 </item>
 {{- end -}}
 {{- end -}}
