@@ -13,6 +13,7 @@ length = 74358456
 external_mp3 = "yes"
 mp3 = "ting-2023.shufang.org/10-years.mp3"
 readers = "all"
+toc = true
 +++
 
 <p style="text-align: center;">
