@@ -9,8 +9,7 @@ summary = "“在生命的重要时刻，我们却对发生在自己身上的事
 url = "/mysndqhzl.html"
 +++
 
-> 作者：[巴西] 保罗·柯艾略
->
+> 作者：[巴西] 保罗·柯艾略  
 > 朗读者：小光
 
 > “什么是世界上最大的谎言？”在全然的惊讶下，男孩脱口问。  
@@ -19,10 +18,28 @@ url = "/mysndqhzl.html"
 
 牧羊少年圣地亚哥接连两次做了同一个梦，梦见埃及金字塔附近藏有一批宝藏。少年卖掉羊群，历尽千辛万苦一路向南，跨海来到非洲，穿越“死亡之海”撒哈拉大沙漠……期间奇遇不断，在一位炼金术士的指引下，他终于到达金字塔前，悟出了宝藏的真正所在……（简介来源：豆瓣）
 
-[《牧羊少年奇幻之旅》第 01 集](./mysndqhzl-1.html)
+## 线上收听
 
-[《牧羊少年奇幻之旅》第 02 集](./mysndqhzl-2.html)
+第 01 集
 
-[《牧羊少年奇幻之旅》第 03 集](./mysndqhzl-3.html)
+<audio controls=”“>
+<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_01_v2.mp3“ type=”audio/mpeg“>
+<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_01_v2.mp3“></audio>
 
-[《牧羊少年奇幻之旅》第 04 集](./mysndqhzl-4.html)
+第 02 集
+
+<audio controls=”“>
+<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_02_v2.mp3“ type=”audio/mpeg“>
+<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_02_v2.mp3“></audio>
+
+第 03 集
+
+<audio controls=”“>
+<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_03_v2.mp3“ type=”audio/mpeg“>
+<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_03_v2.mp3“></audio>
+
+第 04 集
+
+<audio controls=”“>
+<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_04_v2.mp3“ type=”audio/mpeg“>
+<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_04_v2.mp3“></audio>
