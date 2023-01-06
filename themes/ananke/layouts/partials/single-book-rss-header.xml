@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:atom="http://www.w3.org/2005/Atom/"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<link>{{ .Site.Params.baseURL }}</link>
+<language>{{ .Site.Params.podcastLanguage }}</language>
+<managingEditor>{{ .Site.Params.author }} ({{ .Site.Params.email }})</managingEditor>
+<webMaster>{{ .Site.Params.author }} ({{ .Site.Params.email }})</webMaster>
+<pubDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 GMT" }}</pubDate>
+<lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 GMT" }}</lastBuildDate>
+<generator>{{ .Site.Params.podcastGenerator }}</generator>

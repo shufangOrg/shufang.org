@@ -1,0 +1,5 @@
+<itunes:category text="{{ .Site.Params.itunesCategory1 }}">
+<itunes:category text="{{ .Site.Params.itunesCategory2 }}" />
+</itunes:category>
+<itunes:explicit>No</itunes:explicit>
+<itunes:keywords></itunes:keywords>
