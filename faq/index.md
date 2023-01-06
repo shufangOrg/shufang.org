@@ -30,7 +30,7 @@ url = "/faq.html"
 
 书房 shufang.org 的维护和更新进度见这里：
 
--   <https://github.com/shufangOrg/changelog/issues?q=is%3Aall>
+-   [https://github.com/shufangOrg/changelog](https://github.com/shufangOrg/changelog/issues?q=is%3Aall)
 
 
 ## 关于 shufang.org {#关于-shufang-dot-org}

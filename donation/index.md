@@ -34,7 +34,7 @@ url = "/donation.html"
 
 书房 shufang.org 的维护和更新进度见这里：
 
--   <https://github.com/shufangOrg/changelog/issues?q=is%3Aall>
+-   [https://github.com/shufangOrg/changelog](https://github.com/shufangOrg/changelog/issues?q=is%3Aall)
 
 目前“一个人的书房”的主要开销在 shufang.org 域名（NameSilo 每年 10.79 美元，实时价格可见[这里](https://www.namesilo.com/pricing)），之后可能会有服务器开销，视网站运行情况而定。
 
