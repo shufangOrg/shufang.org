@@ -20,26 +20,10 @@ url = "/mysndqhzl.html"
 
 ## 线上收听
 
-第 01 集
+[《牧羊少年奇幻之旅》第 01 集](./mysndqhzl-1.html)
 
-<audio controls=”“>
-<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_01_v2.mp3“ type=”audio/mpeg“>
-<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_01_v2.mp3“></audio>
+[《牧羊少年奇幻之旅》第 02 集](./mysndqhzl-2.html)
 
-第 02 集
+[《牧羊少年奇幻之旅》第 03 集](./mysndqhzl-3.html)
 
-<audio controls=”“>
-<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_02_v2.mp3“ type=”audio/mpeg“>
-<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_02_v2.mp3“></audio>
-
-第 03 集
-
-<audio controls=”“>
-<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_03_v2.mp3“ type=”audio/mpeg“>
-<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_03_v2.mp3“></audio>
-
-第 04 集
-
-<audio controls=”“>
-<source src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_04_v2.mp3“ type=”audio/mpeg“>
-<embed src=”//ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_04_v2.mp3“></audio>
+[《牧羊少年奇幻之旅》第 04 集](./mysndqhzl-4.html)
