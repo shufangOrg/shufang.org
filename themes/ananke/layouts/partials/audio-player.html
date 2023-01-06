@@ -1,0 +1,3 @@
+<audio controls="">
+<source src="{{ .Site.Params.statsPrefix }}{{- if or (not (isset .Params "external_mp3")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}" type="audio/mpeg">
+<embed src="{{ .Site.Params.statsPrefix }}{{- if or (not (isset .Params "external_mp3")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}"></audio>
