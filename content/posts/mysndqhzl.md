@@ -7,7 +7,7 @@ subtitle = "沙丘会随风改变形状"
 description = "“在生命的重要时刻，我们却对发生在自己身上的事物无能为力，只能听天由命——这就是世界上最大的谎言。”"
 summary = "“在生命的重要时刻，我们却对发生在自己身上的事物无能为力，只能听天由命——这就是世界上最大的谎言。”"
 url = "/mysndqhzl.html"
-episodes_amount = 6
+episodes_amount = 4
 episodes_base_url = "mysndqhzl"
 +++
 
