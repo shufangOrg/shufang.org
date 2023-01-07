@@ -5,7 +5,7 @@
 {{ end }}
 
 {{ range $num := (seq .Params.episodes_amount) }}
-{{ . }}    
+<li>第 {{ . }} 集</li>
 {{ else }}
 <!-- This is only evaluated if it is empty -->
 {{ end }}
