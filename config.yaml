@@ -126,10 +126,6 @@ menu:
       name: 媒体报道
       url: /press.html
       weight: -90
-    - identifier: "2.0"
-      name: "2.0"
-      url: /2.0.html
-      weight: -82
     - identifier: faq
       name: FAQ
       url: /faq.html
