@@ -9,6 +9,8 @@ summary = "古巴老渔夫圣地亚哥在连续八十四天没捕到鱼的情况
 featured_image = "/images/2021/linkedkeeper0_20210ac4-65e7-445f-b244-e57588b0490a.jpg"
 omit_header_text = true
 url = "/man-and-sea.html"
+episodes_amount = 11
+episodes_base_url = "man-and-sea"
 +++
 
 > 作者：[美国] 欧内斯特·海明威  
@@ -45,31 +47,3 @@ url = "/man-and-sea.html"
 推荐阅读 👉 [使用单本书源打造属于自己的听书架](https://shufang.org/your-bookshelf.html)
 
 更多单本源列表，请访问 👉 https://shufang.org/book-rss.html
-
-## 线上收听
-
-[《老人与海》第 01 集](./man-and-sea-1.html)
-
-[《老人与海》第 02 集](./man-and-sea-2.html)
-
-[《老人与海》第 03 集](./man-and-sea-3.html)
-
-[《老人与海》第 04 集](./man-and-sea-4.html)
-
-[《老人与海》第 05 集](./man-and-sea-5.html)
-
-[《老人与海》第 06 集](./man-and-sea-6.html)
-
-[《老人与海》第 07 集](./man-and-sea-7.html)
-
-[《老人与海》第 08 集](./man-and-sea-8.html)
-
-[《老人与海》第 09 集](./man-and-sea-9.html)
-
-[《老人与海》第 10 集](./man-and-sea-10.html)
-
-[《老人与海》第 11 集](./man-and-sea-11.html)
-
-[《老人与海》第 12 集](./man-and-sea-12.html)
-
-[《老人与海》第 13 集](./man-and-sea-13.html)
