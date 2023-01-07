@@ -14,6 +14,8 @@ external_mp3 = "yes"
 mp3 = "ting-2022.shufang.org/mu-yang-shao-nian-de-qi-huan-zhi-lv/the-alchemist_02_v2.mp3"
 books = "mysndqhzl"
 readers = "xiaoguang"
+episodes_amount = 4
+episodes_base_url = "mysndqhzl"
 +++
 
 > 作者：[巴西] 保罗·柯艾略  
