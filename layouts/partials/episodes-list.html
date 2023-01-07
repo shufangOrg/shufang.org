@@ -10,8 +10,9 @@
 {{ $episode_url := (printf "%s/%s" $.Site.Params.baseURL $.Params.episodes_base_url) }}
 
 {{ range $num := (seq .Params.episodes_amount) }}
+{{$base := (partial $episode_url .) }}
 <li>
-<a href="{{ partial $episode_url . }}-{{ . }}.html">第 {{ . }} 集</a>
+<a href="{{ print $base "-" }}{{ . }}{{ print ".html" }}">第 {{ . }} 集</a>
 </li>
 {{ else }}
 <!-- This is only evaluated if it is empty -->
