@@ -1,3 +1,26 @@
+<!-- this is used to list the book rss list
+
+the official document and reference:
+- https://gohugo.io/content-management/shortcodes/
+- https://gohugo.io/templates/shortcode-templates/
+- https://randomgeekery.org/post/2020/06/csv-and-data-tables-in-hugo/
+
+usage example:
+{{< book-rss >}}
+书名, 订阅源
+当尼采哭泣, https://shufang.org/dnckq.xml
+故道白云, https://shufang.org/gdby.xml
+京都手艺人, https://shufang.org/jdsyr.xml
+老人与海, https://shufang.org/lryh.xml
+失乐园, https://shufang.org/sly.xml
+俗世奇人, https://shufang.org/ssqr.xml
+这世间所有的白, https://shufang.org/zsjsydb.xml
+{{< /book-rss >}}
+
+output page example:
+- https://shufang.org/book-rss.html
+-->
+
 {{ $rows := .Inner | transform.Unmarshal }}
 
 <table>
