@@ -7,7 +7,7 @@
 {{/* reference
 - https://discourse.gohugo.io/t/string-variable-concatenation-to-build-path-for-partial/701/8
 */}}
-{{ $episode_url := (partial (printf "%s/%s" $.Site.Params.baseURL $.Params.episodes_base_url)) }}
+{{ $episode_url := (partial (printf "%s%s" $.Site.Params.baseURL $.Params.episodes_base_url)) }}
 
 {{ range $num := (seq .Params.episodes_amount) }}
 <li>
