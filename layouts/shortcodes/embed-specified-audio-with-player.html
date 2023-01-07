@@ -1,4 +1,4 @@
-<!-- this is used to embed specified audio(with full url) with player
+{{/* this is used to embed specified audio(with full url) with player
 
 the official document and reference:
 - https://gohugo.io/content-management/shortcodes/
@@ -6,7 +6,7 @@ the official document and reference:
 
 usage:
 {{< embed-specified-audio-with-player https://ting-2022.shufang.org/10-years-trailer.mp3 >}}
--->
+*/}}
 
 <audio controls="">
 <source src="{{ $.Page.Site.Params.statsPrefix }}{{ .Get 1 }}" type="audio/mpeg">

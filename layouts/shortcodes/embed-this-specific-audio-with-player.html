@@ -1,4 +1,4 @@
-<!-- this is used to embed the current page audio(no need to specify) with player 
+{{/* this is used to embed the current page audio(no need to specify) with player 
 
 the official document and reference:
 - https://gohugo.io/content-management/shortcodes/
@@ -9,7 +9,7 @@ usage:
 
 output example:
 - https://shufang.org/10-years-trailer.html
--->
+*/}}
 
 <audio controls="">
 <source src="{{ $.Page.Site.Params.statsPrefix }}{{- if or (not (isset $.Page.Params "external_mp3")) (ne $.Page.Params.external_mp3 "yes") -}}{{ $.Page.Site.Params.baseURL | string }}{{- end -}}{{ $.Page.Params.mp3 | string }}" type="audio/mpeg">
