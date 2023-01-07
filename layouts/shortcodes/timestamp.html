@@ -1,0 +1,25 @@
+{{/* this is used to list the episode timestamp
+
+the official document and reference:
+- https://gohugo.io/content-management/shortcodes/
+- https://gohugo.io/templates/shortcode-templates/
+- https://randomgeekery.org/post/2020/06/csv-and-data-tables-in-hugo/
+
+usage example:
+{{< timestamp >}}
+00:00, 开始
+01:00, 预告
+{{< /timestamp >}}
+*/}}
+
+{{ $rows := .Inner | transform.Unmarshal }}
+
+<h2>时间点</h2>
+
+<table>
+  {{ range $rows }}
+    <tr>
+      {{ range . }} <td>{{ . }}</td> {{ end }}
+    </tr>
+  {{ end }}
+</table>
