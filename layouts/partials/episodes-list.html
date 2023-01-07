@@ -4,9 +4,11 @@
 <h2>专辑列表</h2>
 {{ end }}
 
+{{/* $episode_url := (partial (printf "%s%s" $.Site.Params.baseURL $.Params.episodes_base_url) */}}
+
 {{ range $num := (seq .Params.episodes_amount) }}
 <li>
-<a href="./{{ .Params.episodes_base_url }}-{{ . }}.html">第 {{ . }} 集</a>
+<a href="-{{ . }}.html">第 {{ . }} 集</a>
 </li>
 {{ else }}
 <!-- This is only evaluated if it is empty -->
