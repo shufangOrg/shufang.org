@@ -9,7 +9,7 @@ summary = "古巴老渔夫圣地亚哥在连续八十四天没捕到鱼的情况
 featured_image = "/images/2021/linkedkeeper0_20210ac4-65e7-445f-b244-e57588b0490a.jpg"
 omit_header_text = true
 url = "/man-and-sea.html"
-episodes_amount = 11
+episodes_amount = 13
 episodes_base_url = "man-and-sea"
 +++
 
