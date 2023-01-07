@@ -14,6 +14,8 @@ external_mp3 = "yes"
 mp3 = "ting-2022.shufang.org/wo-cheng-ren-bu-ceng-li-jing-cang-sang/cangsang_jiangfangzhou_01_v2.mp3"
 books = "wcrbcljcs"
 readers = "wenxi"
+episodes_amount = 4
+episodes_base_url = "wcrbcljcs"
 +++
 
 > 作者：蒋方舟  
