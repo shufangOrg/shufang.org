@@ -21,9 +21,9 @@ TIMESTAMP, INTRODUCTION <- this `TIMESTAMP` is a longer length to hold the place
 <h2>时间点</h2>
 
 <table>
-  {{ range $rows }}
-    <tr>
-      {{ range . }} <td>{{ . }}</td> {{ end }}
-    </tr>
-  {{ end }}
+{{ range $rows }}
+<tr>
+{{ range . }}<td>{{ . }}</td>{{ end }}
+</tr>
+{{ end }}
 </table>
