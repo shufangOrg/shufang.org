@@ -7,11 +7,11 @@
 {{/* reference
 - https://discourse.gohugo.io/t/string-variable-concatenation-to-build-path-for-partial/701/8
 */}}
-{{ $episode_url := (partial (printf "%s%s" $.Site.Params.baseURL $.Params.episodes_base_url)) }}
+{{ $episode_url := (printf "%s/%s" $.Site.Params.baseURL $.Params.episodes_base_url) }}
 
 {{ range $num := (seq .Params.episodes_amount) }}
 <li>
-<a href="{{ $episode_url }}-{{ . }}.html">第 {{ . }} 集</a>
+<a href="{{ partial $episode_url . }}-{{ . }}.html">第 {{ . }} 集</a>
 </li>
 {{ else }}
 <!-- This is only evaluated if it is empty -->
