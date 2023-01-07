@@ -23,9 +23,7 @@ toc = true
 准备好了吗？<br />
 </p>
 
-<audio controls="">
-<source src="//ting-2023.shufang.org/10-years.mp3" type="audio/mpeg">
-<embed src="//ting-2023.shufang.org/10-years.mp3"></audio>
+{{< embed-this-specific-audio-with-player >}}
 
 > 若以书而论，每本书都会变成你自己的房间，给你一个庇护，让你安静下来。  
 > —— 弗吉尼亚・伍尔夫《一个人的房间》
