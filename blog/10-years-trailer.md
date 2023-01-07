@@ -29,9 +29,7 @@ readers = "all"
 
 在我们不曾相伴的日子里，这个世界发生了太多的变化，相信很多小伙伴也进入了新的人生阶段，但也许总有些什么是不变的。感谢我们曾经一起走过的日子，让我们在这个冬天重新遇见，迎接下一个春天。
 
-<audio controls="">
-<source src="//ting-2022.shufang.org/10-years-trailer.mp3" type="audio/mpeg">
-<embed src="//ting-2022.shufang.org/10-years-trailer.mp3"></audio>
+{{< embed-this-specific-audio-with-player >}}
 
 录音：段静、闻达、夏小麦、麦子、子欣、安德烈司机、海璐、牧风、花儿、大夏、紫晓、淼淼、图玛、夏利、一条大河、小旭、优迈
 
