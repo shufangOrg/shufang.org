@@ -7,7 +7,7 @@ the official document and reference:
 
 usage example:
 {{< timestamp >}}
-00000, intro <- this `00000` is mandatory length to hold the place of following lines
+TIMESTAMP, INTRODUCTION <- this `TIMESTAMP` is a longer length to hold the place for following lines
 00:00, 开始
 01:00, 预告
 {{< /timestamp >}}
@@ -16,7 +16,7 @@ usage example:
 {{ $rows := .Inner | transform.Unmarshal }}
 
 {{/* `after` lets me skip past it when building the data rows */}}
-{{ $rows = after 1 $rows }}
+{{/* $rows = after 1 $rows */}}
 
 <h2>时间点</h2>
 
