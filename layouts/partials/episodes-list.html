@@ -1,6 +1,10 @@
 {{/* this is the episodes list of specified book */}}
 
-{{- if .Params.episodes_list -}}
+{{ if .Params.episodes_amount }}
 <h2>专辑列表</h2>
-
-{{- end -}}
+{{ end }}
+{{ range .Params.episodes_amount }}
+<li><a href="{{ .Site.Params.baseURL }}/{{ .Params.episodes_base_url }}-{{ . }}.html">第 {{ . }} 集</a></li>    
+{{ else }}
+<!-- This is only evaluated if it is empty -->
+{{ end }}
