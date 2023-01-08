@@ -12,7 +12,7 @@ reader: xiaxiaomai
 list_books: true
 ---
 
-{{< figure src=”/images/xiaxiaomai.jpg“ >}}
+{{< figure src="/images/xiaxiaomai.jpg" >}}
 
 > 自我介绍哈，嗯，介绍介绍我自己。  
 > 夏小麦，性别女，爱好男。。如果是帅帅的女生。。其实我也蛮喜欢。。。  
