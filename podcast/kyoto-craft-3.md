@@ -13,13 +13,12 @@ length = 7503872
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/kyoto-craft/kyoto-craft_03_v2.mp3"
 books = "jdsyr"
-readers = "daxia"
+author_name = "[日] 樱花编辑事务所 编著"
+reader = "daxia"
+reader_name = "大夏"
 episodes_amount = 4
 episodes_base_url = "kyoto-craft"
 +++
-
-> 作者：[日] 樱花编辑事务所 编著  
-> 朗读者：[大夏](/summer.html)
 
 京都，世界首屈一指的手工艺之城。
 
