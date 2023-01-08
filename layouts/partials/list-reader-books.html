@@ -1,10 +1,12 @@
 {{ if .Params.list_books }}
-{{ range where .Site.Pages "Params.category" "readers" }}
-{{ range where .Site.Pages "Params.reader" .Params.reader }}
+
+{{ $readersEpisodes := where .Site.Pages "Section" "posts" }}
+{{ $readersEpisodes | range where .Site.Pages "Params.reader" .Params.reader }}
 <h2>朗读作品</h2>
 <li>
 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 </li>
 {{ end }}
 {{ end }}
+
 {{ end }}
