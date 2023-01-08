@@ -14,6 +14,8 @@ external_mp3 = "yes"
 mp3 = "ting-2022.shufang.org/6-dian-27-fen-de-lang-du-zhe/reader-of-6.27_02_v1.mp3"
 books = "6d27fdldz"
 readers = "wenda"
+episodes_amount = 4
+episodes_base_url = "6d27fdldz"
 +++
 
 > 作者：让-保尔・迪迪耶洛朗  
