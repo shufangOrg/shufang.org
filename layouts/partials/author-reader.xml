@@ -1,0 +1,13 @@
+{{/* this is used to display the author and reader information on single page */}}
+
+{{ if .Params.reader_name }}
+{{ $url := print .Site.Params.baseURL "/" .Params.reader ".html" }}
+
+<blockquote>
+<p>作者：{{- .Params.author_name -}}
+<br>
+朗读者：<a href="{{- $url -}}">{{- .Params.reader_name -}}</a>
+</p>
+</blockquote>
+
+{{ end }}
