@@ -5,8 +5,8 @@
 {{/* reference
 - https://stackoverflow.com/a/71562439
 */}}
-{{ $readersEpisodes := where .Site.RegularPages "Section" "posts" }}
-{{ $episodes := where $readersEpisodes "Params.reader" "eq" $reader }}
+{{ $allPosts := where .Site.RegularPages "Section" "posts" }}
+{{ $episodes := where $allPosts "Params.reader" "eq" $reader }}
 
 {{ range $episodes }}
 <li>
