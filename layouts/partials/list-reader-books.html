@@ -1,11 +1,12 @@
 {{ if .Params.list_books }}
+{{ $reader := .Params.reader }}
 <h2>朗读作品</h2>
 
 {{/* reference
 - https://stackoverflow.com/a/71562439
 */}}
 {{ $readersEpisodes := where .Site.RegularPages "Section" "posts" }}
-{{ $episodes := where $readersEpisodes "Params.reader" "eq" .Params.reader }}
+{{ $episodes := where $readersEpisodes "Params.reader" "eq" $reader }}
 
 {{ range $episodes }}
 <li>
