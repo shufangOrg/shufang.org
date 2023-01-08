@@ -5,7 +5,7 @@ lastmod: 2022-03-27T08:21:11.000Z
 title: 大夏·与书房的故事
 date: 2015-04-29
 url: /daxia.html
-customized-slug: summer
+customized-slug: daxia
 description: 嘿，我，终于，“下手”了。已经处在脑袋里面乱糟糟的状态很久，作为一个将近一年没有新的“作品”的朗读者，实在无颜辜负肩负此次催稿任务的子欣妹子，几次在手机上戳了几句话之后又删掉，就这样拖拖拖直接拖到截稿日期之外。今天看到小伙伴们的故事，终于决定不管写成啥样都交了吧。:P
 category: readers
 reader: daxia

@@ -6,7 +6,7 @@ title: 夏小麦·与书房的故事
 date: 2015-04-30
 url: /xiaxiaomai.html
 customized-slug: xiaxiaomai
-description: 
+description: 在夕阳西下时，沐浴在蒲干佛塔群的阴影中；感受一次土耳其的火星飞行；看看斯里兰卡是不是真的像爱丽丝的仙境一般迷人。然后，把我在那颗寂寞的午夜失去了的灵魂，找回来。
 category: readers
 reader: xiaxiaomai
 list_books: true
