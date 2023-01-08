@@ -13,12 +13,12 @@ length = 12435481
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/zui-hao-jin-gui-huan-jiu/zui-hao-jin-gui-huan-jiu_03_v1.mp3"
 books = "zhjghj"
-readers = "daxia"
+author_name = 傅真
+reader = daxia
+reader_name = 大夏
+episodes_amount = 4
+episodes_base_url = zhjghj
 +++
-
-> 作者：傅真
->
-> 朗读者：大夏
 
 惊觉迷失在世俗标准与别人世界里的傅真，决心用一场间隔年寻找自我。她与丈夫毛铭基辞掉令人羡慕的工作，从英国飞往墨西哥，由北至南游历了拉丁美洲数十个国家。
 
@@ -33,11 +33,3 @@ readers = "daxia"
 
 > “因为世界就在那里，所以他们不得不去。在世界显现的那一面之下，激情和好奇心会揭示它更为深沉、繁茂的一面，不过它需要你拥有对时间和人生不一样的解读能力。幸运的是，傅真刚好都有。让所谓时间，所谓职业规划暂停一下，不是为了去度假，而是为了回家。”  
 > ——和菜头
-
-[《最好金龟换酒》第 01 集](./zhjghj-1.html)
-
-[《最好金龟换酒》第 02 集](./zhjghj-2.html)
-
-[《最好金龟换酒》第 03 集](./zhjghj-3.html)
-
-[《最好金龟换酒》第 04 集](./zhjghj-4.html)
