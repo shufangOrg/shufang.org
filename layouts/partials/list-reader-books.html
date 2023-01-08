@@ -1,7 +1,7 @@
 {{ if .Params.list_books }}
 
 {{ $readersEpisodes := where .Site.Pages "Section" "posts" }}
-{{ $episodes := $readersEpisodes | intersect (where .Site.Pages "Params.reader" "eq" .Params.reader) }}
+{{ $episodes := $readersEpisodes | union (where .Site.Pages "Params.reader" "eq" .Params.reader) }}
 
 {{ range $episodes }}
 <h2>朗读作品</h2>
