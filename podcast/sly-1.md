@@ -13,11 +13,11 @@ length = 11631385
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3"
 books = "sly"
-readers = "xiaxiaomai"
+author_name = "渡边淳一"
+reader = "xiaxiaomai"
+reader_name = "夏小麦"
+episodes_amount = 4
+episodes_base_url = "sly"
 +++
 
-作者：渡边淳一
-
-朗读者：夏小麦
-
-音频：[link](https://ting.shufang.org/shitsurakuen/lost-paradise_01-v2.mp3)
+本书讲述的是一场悲剧性的婚外恋，从一个侧面反映了都市生活和当代日本人的种种心态。作品情节生动曲折，真切感人，文字优美。本书在日本出版后曾长期雄踞畅销书排行榜榜首，改编成同名电影和电视剧上演后家喻户晓。
