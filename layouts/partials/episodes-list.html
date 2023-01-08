@@ -12,7 +12,7 @@ episodes_base_url = "mysndqhzl"
 {{/* reference
 - https://discourse.gohugo.io/t/concatenate-variable-in-hugo/8819/2
 */}}
-{{ $episode_url := print $.Site.Params.baseURL "/" $.Params.episodes_base_url "-" }}
+{{ $episode_url := print .Site.Params.baseURL "/" .Params.episodes_base_url "-" }}
 
 {{ range $num := (seq .Params.episodes_amount) }}
 <li>
