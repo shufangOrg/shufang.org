@@ -6,7 +6,7 @@
 - https://stackoverflow.com/a/71562439
 */}}
 {{ $allPosts := where .Site.RegularPages "Section" "blog" }}
-{{ $readersCategory := where .Site.RegularPages "Params.category" "ne" "readers" }}
+{{ $readersCategory := where $allPosts "Params.category" "ne" "readers" }}
 {{ $episodes := where $readersCategory "Params.reader" "eq" $reader }}
 
 {{ range $episodes }}
