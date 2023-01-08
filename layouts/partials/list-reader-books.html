@@ -1,5 +1,5 @@
 {{ if .Params.list_books }}
-{{ range where .Site.Pages "Section" "readers" }}
+{{ range where .Site.Pages "Params.category" "readers" }}
 {{ range where .Site.Pages "Params.reader" .Params.reader }}
 <h2>朗读作品</h2>
 <li>
