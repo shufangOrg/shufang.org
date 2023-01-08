@@ -1,0 +1,17 @@
+{{ if .Params.list_blog_posts }}
+{{ $reader := .Params.reader }}
+<h2>博客文章</h2>
+
+{{/* reference
+- https://stackoverflow.com/a/71562439
+*/}}
+{{ $allPosts := where .Site.RegularPages "Section" "blog" }}
+{{ $episodes := where $allPosts "Params.reader" "eq" $reader }}
+
+{{ range $episodes }}
+<li>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</li>
+{{ end }}
+
+{{ end }}
