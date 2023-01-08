@@ -13,11 +13,11 @@ length = 10248985
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/zui-hao-jin-gui-huan-jiu/zui-hao-jin-gui-huan-jiu_04_v1.mp3"
 books = "zhjghj"
-author_name = 傅真
-reader = daxia
-reader_name = 大夏
+author_name = "傅真"
+reader = "daxia"
+reader_name = "大夏"
 episodes_amount = 4
-episodes_base_url = zhjghj
+episodes_base_url = "zhjghj"
 +++
 
 惊觉迷失在世俗标准与别人世界里的傅真，决心用一场间隔年寻找自我。她与丈夫毛铭基辞掉令人羡慕的工作，从英国飞往墨西哥，由北至南游历了拉丁美洲数十个国家。
