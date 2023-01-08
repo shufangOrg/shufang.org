@@ -10,6 +10,7 @@ description:
 category: readers
 reader: xiaxiaomai
 list_books: true
+list_blog_posts: true
 ---
 
 {{< figure src="/images/xiaxiaomai.jpg" >}}
