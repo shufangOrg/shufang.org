@@ -47,7 +47,9 @@ url = "/faq.html"
 
 以上，我们推荐您使用泛用型播客客户端直接订阅收听「一个人的书房」，并可以使用我们为每本书特别生成的单本订阅源打造属于您自己的听书架，详情请访问 👉 https://shufang.org/your-bookshelf.html
 
+{{< blockquote >}}
 一篇来自「少数派」的文章助你快速了解泛用型播客客户端，使用方法及多平台应用推荐 👉 https://sspai.com/post/57960
+{{< /blockquote >}}
 
 ## 为什么用 Static Site Generator 而不用 WordPress？
 
