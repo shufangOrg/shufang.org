@@ -7,6 +7,9 @@ other = "所有 {{.Title }}"
 [allPosts]
 other = "所有文章"
 
+[allEpisodes]
+other = "所有声音"
+
 [recentTitle]
 other = "最近 {{.Title }}"
 
