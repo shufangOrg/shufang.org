@@ -21,6 +21,8 @@ Params:
   mainSections:
     - books
     - blog
+  custom_css:
+    - custom.css
   # PODCAST
   statsPrefix: https://dts.podtrac.com/redirect.mp3/
   mp3HTTPPrefix: https://

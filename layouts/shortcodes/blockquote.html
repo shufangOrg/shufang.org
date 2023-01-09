@@ -1,0 +1,12 @@
+{{/* this is used for customizing the `blockquote` style
+
+usage example:
+{{< blockquote >}}
+若以书而论，每本书都会变成你自己的房间，给你一个庇护，让你安静下来。  
+—— 弗吉尼亚・伍尔夫《一个人的房间》
+{{< /blockquote >}}
+*/}}
+
+<blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
+{{ .Inner | markdownify }}
+</blockquote>
