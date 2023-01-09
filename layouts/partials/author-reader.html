@@ -3,7 +3,7 @@
 {{ if .Params.reader_name }}
 {{ $url := print .Site.Params.baseURL "/" .Params.reader ".html" }}
 
-<blockquote>
+<blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
 <p>作者：{{- .Params.author_name -}}
 <br>
 朗读者：<a href="{{- $url -}}">{{- .Params.reader_name -}}</a>
