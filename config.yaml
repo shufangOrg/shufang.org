@@ -19,7 +19,7 @@ Params:
   cover_dimming_class: bg-near-white
   recent_posts_number: 7
   mainSections:
-    - posts
+    - books
     - blog
   # PODCAST
   statsPrefix: https://dts.podtrac.com/redirect.mp3/

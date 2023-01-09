@@ -5,11 +5,10 @@
 {{/* reference
 - https://stackoverflow.com/a/71562439
 */}}
-{{ $allPosts := where .Site.RegularPages "Section" "blog" }}
-{{ $readersCategory := where $allPosts "Params.category" "ne" "readers" }}
-{{ $episodes := where $readersCategory "Params.reader" "eq" $reader }}
+{{ $allBlogPosts := where .Site.RegularPages "Section" "blog" }}
+{{ $posts := where $allBlogPosts "Params.reader" "eq" $reader }}
 
-{{ range $episodes }}
+{{ range $posts }}
 <li>
 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 </li>
