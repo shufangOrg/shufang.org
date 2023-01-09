@@ -10,7 +10,7 @@ omit_header_text = true
 url = "/faq.html"
 +++
 
-## 为什么有「一个人的书房 2.0」？ {#为什么有-一个人的书房-2-dot-0}
+## 为什么有「一个人的书房 2.0」？
 
 答：所谓的 2.0 不过是一次重新出发。
 
@@ -18,25 +18,24 @@ url = "/faq.html"
 
 关于更多 2.0 的故事可以看这里：
 
--   [shufang.org/2.0.html](https://shufang.org/2.0.html)
+- [我们的回忆](https://shufang.org/2.0.html)
+- [割裂生活中的栖息地](https://shufang.org/blog/2022-04-25-1950.html)
 
 关于 2.0 的初始过程可以看这里：
 
--   [note.jsntn.com/shufang-2.0.html](https://note.jsntn.com/shufang-2.0.html)
+- [note.jsntn.com/shufang-2.0.html](https://note.jsntn.com/shufang-2.0.html)
 
 书房 2.0 的完整代码已开源在这里：
 
--   <https://github.com/shufangOrg>
+- <https://github.com/shufangOrg>
 
 书房 shufang.org 的维护和更新进度见这里：
 
--   [https://github.com/shufangOrg/changelog](https://github.com/shufangOrg/changelog/issues?q=is%3Aall)
+- [https://github.com/shufangOrg/changelog](https://github.com/shufangOrg/changelog/issues?q=is%3Aall)
 
-
-## 关于 shufang.org {#关于-shufang-dot-org}
+## 关于 shufang.org
 
 答：选择了 org 后缀意味着我们选择了不以盈利为目的，你也可以从[朗读者](https://shufang.org/readers.html)页面看到我们来自各地的朗读者，正是他们始于兴趣的参与才有了现在的「一个人的书房」。
-
 
 ## 为什么推荐泛用型（或称通用型）播客客户端？
 
@@ -50,12 +49,10 @@ url = "/faq.html"
 
 一篇来自「少数派」的文章助你快速了解泛用型播客客户端，使用方法及多平台应用推荐 👉 https://sspai.com/post/57960
 
-
-## 为什么用 Static Site Generator 而不用 WordPress？ {#为什么用-static-site-generator-而不用-wordpress}
+## 为什么用 Static Site Generator 而不用 WordPress？
 
 答：服务器会挂掉，任何一个网站程序都会有一定的生命周期。我们相信分布式存储和纯文本记录会存在更久。
 
-
-## 有聊天群组吗？ {#有聊天群组吗}
+## 有聊天群组吗？
 
 答：有的，暂时烦请邮件联系 hi@shufang.org 获取加入方式。
