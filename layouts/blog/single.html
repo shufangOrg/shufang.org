@@ -11,14 +11,23 @@
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>
+
+      {{/* the $url is the URL to the blog author, it is used in the following codes */}}
+      {{ $url := print .Site.Params.baseURL "/" .Params.reader ".html" }}
+
       {{ with .Params.author }}
       <p class="tracked">
           By <strong>
+
+	  {{/* the $url variable is defined above */}}
+	  <a href="{{- $url -}}">
+
           {{ if reflect.IsSlice . }}
               {{ delimit . ", " | markdownify }}
           {{else}}
               {{ . | markdownify }}
           {{ end }}
+	  </a>
           </strong>
       </p>
       {{ end }}
