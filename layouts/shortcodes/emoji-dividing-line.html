@@ -4,11 +4,13 @@ usage example:
 {{< emoji-dividing-line seedling >}}
 */}}
 
-{{ if eq .Get 1 "seedling" }}
+{{ $emoji := .Get 1 }}
+
+{{ if eq $emoji "seedling" }}
 <p style="text-align: center;">
 - 🌱 -
 </p>
-{{ else if eq .Get 1 "heart" }}
+{{ else if eq $emoji "heart" }}
 <p style="text-align: center;">
 - ❤️ -
 </p>
