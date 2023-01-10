@@ -37,8 +37,14 @@ other = "需要电子邮件地址。"
 [send]
 other = "发送"
 
+[taxonomyPodcastPageList]
+other = "标签为「播客」的页面如下"
+
+[taxonomySYYJPageList]
+other = "标签为「声音邮局」的页面如下"
+
 [taxonomyPageList]
-other = "标签为“{{ .Title }}”的页面如下"
+other = "标签为「{{ .Title }}」的页面如下"
 
 [via]
 other = "原文链接："

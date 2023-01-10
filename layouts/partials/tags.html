@@ -2,6 +2,7 @@
   {{ range .Params.tags }}
    <li class="list">
      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+{{/* use Chinese instead of the original display with tag value */}}
 {{ if eq . "podcast" }}
 {{ i18n "podcast" }}
 {{ else if eq . "syyj" }}
