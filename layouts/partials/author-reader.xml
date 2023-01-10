@@ -9,7 +9,6 @@
 <br />
 {{ end }}
 <p>朗读者：<a href="{{- $url -}}">{{- .Params.reader_name -}}</a>
-</p>
 </blockquote>
 
 {{ end }}
