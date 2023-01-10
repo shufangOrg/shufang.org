@@ -27,6 +27,10 @@ url = "/about.html"
 - 微博：一个人的书房电台
 - 微信公众号：一个人的书房
 
+<p style="text-align: center;">
+- 🌱 -
+</p>
+
 {{< figure src="/images/apple-podcasts-2015.jpg" >}}
 
 {{< figure src="/images/shufang-2017.jpg" >}}
