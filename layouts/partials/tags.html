@@ -1,0 +1,15 @@
+<ul class="pa0">
+  {{ range .Params.tags }}
+   <li class="list">
+     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+{{ if eq . "podcast" }}
+{{ i18n "podcast" }}
+{{ else if eq . "syyj" }}
+{{ i18n "syyj" }}
+{{ else }}
+{{/* no output */}}
+{{ end }}
+     </a>
+   </li>
+  {{ end }}
+</ul>
