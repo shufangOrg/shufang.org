@@ -15,6 +15,7 @@ length: 2625536
 external_mp3: "yes"
 mp3: "ting-syyj.shufang.org/linxi-to-yangqianhua_v1.mp3"
 reader: "wenda"
+reader_name: "闻达"
 ---
 
 {{< blockquote >}}
