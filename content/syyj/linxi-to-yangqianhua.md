@@ -1,18 +1,20 @@
-+++
-title = "林夕写给杨千嬅的一封信"
-date = 2017-05-04T12:49:00+00:00
-lastmod = 2017-05-04T12:49:00+00:00
-tags = ["syyj"]
-draft = false
-subtitle = "我当千嬅是我身上的一块肉"
-description = "我只希望你，继续做一个怀揣少女心的女人。记着，有事就找我，当然没事找我会更好。虽然我不是志明，我是林夕。"
-summary = "我只希望你，继续做一个怀揣少女心的女人。记着，有事就找我，当然没事找我会更好。虽然我不是志明，我是林夕。"
-url = "/linxi-to-yangqianhua.html"
-duration = "00:05:27"
-length = 2625536
-external_mp3 = "yes"
-mp3 = "ting-syyj.shufang.org/linxi-to-yangqianhua_v1.mp3"
-+++
+---
+title: "林夕写给杨千嬅的一封信"
+date: 2017-05-04T12:49:00+00:00
+lastmod: 2017-05-04T12:49:00+00:00
+tags:
+- syyj
+- podcast
+draft: false
+subtitle: "我当千嬅是我身上的一块肉"
+description: "我只希望你，继续做一个怀揣少女心的女人。记着，有事就找我，当然没事找我会更好。虽然我不是志明，我是林夕。"
+summary: "我只希望你，继续做一个怀揣少女心的女人。记着，有事就找我，当然没事找我会更好。虽然我不是志明，我是林夕。"
+url: "/linxi-to-yangqianhua.html"
+duration: "00:05:27"
+length: 2625536
+external_mp3: "yes"
+mp3: "ting-syyj.shufang.org/linxi-to-yangqianhua_v1.mp3"
+---
 
 > 我只希望你，继续做一个怀揣少女心的女人。记着，有事就找我，当然没事找我会更好。虽然我不是志明，我是林夕。  
 > ——林夕写给杨千嬅的一封信

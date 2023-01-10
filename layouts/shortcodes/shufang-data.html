@@ -1,0 +1,59 @@
+{{ $allBooks := where .Site.RegularPages "Section" "books" }}
+
+{{ $allEpisodesAboutReadingBook := where .Site.RegularPages "Section" "podcast" }}
+{{ $allSYYJ := .Site.Taxonomies.tags.syyj }}
+{{ $allWithPodcastTag := .Site.Taxonomies.tags.podcast }}
+{{ $otherEpisodes := sub (sub (len $allWithPodcastTag) (len $allSYYJ)) (len $allEpisodesAboutReadingBook) }}
+
+
+
+{{/*
+{{ $duration := slice }}
+{{ range .Site.Taxonomies.tags.podcast }}
+{{ $duration = $duration | append .Params.duration }}
+{{ end }}
+{{ len $duration }}
+
+{{ range $duration }}
+{{ . }}
+{{ end }}
+
+{{ $total := 0 }}
+{{ range $duration }}
+{{ $times := split . ":" }}
+{{ $hours := 0 }}
+{{ $minutes := 0 }}
+{{ $seconds := 0 }}
+{{ if (eq (strings.TrimLeft "0" (index $times 0) ) "") }}
+{{ $hours = int "0" }}
+{{ else }}
+{{ $hours = int (strings.TrimLeft "0" (index $times 0)) }}
+{{ end }}
+{{ if (eq (strings.TrimLeft "0" (index $times 1) ) "") }}
+{{ $minutes = int "0" }}
+{{ else }}
+{{ $minutes = int (strings.TrimLeft "0" (index $times 1)) }}
+{{ end }}
+{{ if (eq (strings.TrimLeft "0" (index $times 2) ) "") }}
+{{ $seconds = int "0" }}
+{{ else }}
+{{ $seconds = int (strings.TrimLeft "0" (index $times 2)) }}
+{{ end }}
+{{ $convHours := mul $hours 3600 }}
+{{ $convMinutes := mul $minutes 60 }}
+{{ $totalSeconds := add (add $convMinutes $convHours) $seconds }}
+{{ $total = add $total $totalSeconds }}
+{{ end }}
+{{ $totalHours := int (math.Floor (div $total 3600)) }}
+{{ $totalMinutes := int (math.Floor (div $total 60)) }}
+{{ $totalSeconds := int (mod $total 60) }}
+<p>{{ printf "%02d" $totalHours }}:{{ printf "%02d" $totalMinutes }}:{{printf "%02d" $totalSeconds }}</p>
+*/}}
+
+<blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
+目前书房官网共存档 {{ len $allWithPodcastTag }} 集音频节目，其中：
+<li><a href="https://shufang.org/books.html">朗读图书</a> {{ len $allBooks }} 本累计 {{ len $allEpisodesAboutReadingBook }} 集
+<li>声音邮局 {{ len $allSYYJ }} 集
+<li>其他类节目 {{ $otherEpisodes }} 集
+<!--<li>所有节目的时长总计 x 小时 -->
+</blockquote>
