@@ -22,6 +22,11 @@ url = "/about.html"
 2016/09/28
 </p>
 
+## 更多书房的故事
+
+- [请回答：你的，我的，我们的房间 ——“一个人的书房” 十周年特别企划](https://shufang.org/10-years.html)
+- [媒体报道](https://shufang.org/press.html)
+
 ## 关注书房
 
 - 微博：一个人的书房电台
