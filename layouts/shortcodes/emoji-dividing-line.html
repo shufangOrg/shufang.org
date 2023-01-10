@@ -1,9 +1,17 @@
 {{/* the dividing line with emoji
 
 usage example:
-{{< emoji-dividing-line `🌱` >}}
+{{< emoji-dividing-line seedling >}}
 */}}
 
+{{ if eq .Get 1 "seedling" }}
 <p style="text-align: center;">
-- {{ .Get 1 }} -
+- 🌱 -
 </p>
+{{ else if eq .Get 1 "heart" }}
+<p style="text-align: center;">
+- ❤️ -
+</p>
+{{ else }}
+{{/* no output */}}
+{{ end }}
