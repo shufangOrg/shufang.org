@@ -43,6 +43,9 @@ other = "标签为「播客」的页面如下"
 [taxonomySYYJPageList]
 other = "标签为「声音邮局」的页面如下"
 
+[taxonomyTalksPageList]
+other = "标签为「作家说」的页面如下"
+
 [taxonomyPageList]
 other = "标签为「{{ .Title }}」的页面如下"
 
@@ -57,3 +60,9 @@ other = "声音邮局"
 
 [blog]
 other = "博客"
+
+[readers]
+other = "朗读者"
+
+[talks]
+other = "作家说"
