@@ -4,7 +4,7 @@ usage example:
 {{< emoji-dividing-line seedling >}}
 */}}
 
-{{ $emoji := .Get 1 }}
+{{ $emoji := default "seedling" (.Get 0) }}
 
 {{ if eq $emoji "seedling" }}
 <p style="text-align: center;">
