@@ -22,7 +22,7 @@ episodes */}}
 {{/* check if there are incomplete .Params.duration */}}
 {{ $i := $allWithPodcastTag }}
 {{ range .Site.Taxonomies.tags.podcast }}
-{{ if isset .Params "duration" }}
+{{ with .Params.duration }}
 {{ $i := $i }}
 {{ else }}
 {{ $i := sub $i 1 }}
