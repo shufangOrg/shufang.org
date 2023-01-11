@@ -25,6 +25,9 @@ reference:
 {{/* create a empty `$duration` */}}
 {{ $duration := slice }}
 
+{{/* if the .Params.duration is not empty then... */}}
+{{ with .Params.duration }}
+
 {{/* create a slice with all the posts(with `podcast` tag) duration */}}
 {{ range .Site.Taxonomies.tags.podcast }}
 {{ $duration = $duration | append .Params.duration }}
@@ -95,3 +98,7 @@ and also the floating value will be returned if 3600 is replaced by 3600.00 :)
 <li>其他节目 {{ $otherEpisodes }} 集
 <li>所有节目的时长总计 {{ printf "%.2f" $totalHours }} 小时
 </blockquote>
+
+{{ else }}
+{{/* no output if .Params.duration is empty */}}
+{{ end }}

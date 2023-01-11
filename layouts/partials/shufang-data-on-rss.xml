@@ -1,11 +1,5 @@
-{{/* this is used to list the amount of books and all the episodes
-
-usage example:
-{{< shufang-data >}}
-
-reference:
-- https://discourse.gohugo.io/t/add-time-durations-in-frontmatter/39569/3
-*/}}
+{{/* this is partial xml template used to list the amount of books and all the
+episodes */}}
 
 {{/* all the pages in books folder */}}
 {{ $allBooks := where .Site.RegularPages "Section" "books" }}
@@ -24,6 +18,9 @@ reference:
 
 {{/* create a empty `$duration` */}}
 {{ $duration := slice }}
+
+{{/* if the .Params.duration is not empty then... */}}
+{{ with .Params.duration }}
 
 {{/* create a slice with all the posts(with `podcast` tag) duration */}}
 {{ range .Site.Taxonomies.tags.podcast }}
@@ -104,3 +101,7 @@ and also the floating value will be returned if 3600 is replaced by 3600.00 :)
 <li>微信：一个人的书房</li>
 </ul>
 </blockquote>
+
+{{ else }}
+{{/* no output if .Params.duration is empty */}}
+{{ end }}
