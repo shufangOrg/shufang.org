@@ -30,7 +30,7 @@ url = "/about.html"
 ## 关注书房
 
 - 微博：一个人的书房电台
-- 微信公众号：一个人的书房
+- 微信：一个人的书房
 
 <p style="text-align: center;">
 - 🌱 -
