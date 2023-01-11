@@ -47,18 +47,18 @@
 
 <description>{{ `<![CDATA[` | safeHTML }}
 {{- partial "author-reader.xml" . -}}
-{{ .Content  | safeHTML | truncate 3900 }}
-{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{.Title }}</a>{{ `]]>` | safeHTML }}
+{{ .Content | safeHTML | truncate 3900 }}
+{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>
 <br />
 {{- partial "shufang-data-on-rss.xml" . -}}
-</description>
+{{ `]]>` | safeHTML }}</description>
 <content:encoded>{{ `<![CDATA[` | safeHTML }}
 {{- partial "author-reader.xml" . -}}
-{{ .Content  | safeHTML | truncate 3900 }}
-{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{.Title }}</a>{{ `]]>` | safeHTML }}
+{{ .Content | safeHTML | truncate 3900 }}
+{{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>
 <br />
 {{- partial "shufang-data-on-rss.xml" . -}}
-</content:encoded>
+{{ `]]>` | safeHTML }}</content:encoded>
 
 <itunes:explicit>No</itunes:explicit>
 <itunes:author>{{ .Site.Params.author }}</itunes:author>
