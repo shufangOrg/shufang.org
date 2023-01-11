@@ -61,13 +61,13 @@ removed, are null; it outputs 0 if they are and the number without the leading
 {{ else }}
 {{ $minutes = int (strings.TrimLeft "0" (index $times 1)) }}
 {{ end }}
-{{/* to be fixed...
 {{ if (eq (strings.TrimLeft "0" (index $times 2) ) "") }}
 {{ $seconds = int "0" }}
 {{ else }}
-{{ $seconds = int (strings.TrimLeft "0" (index $times 2)) }}
+{{/* use `float` not `int` here as there are seconds like 37.896750 which comes
+from duration = "0:51:37.896750" */}}
+{{ $seconds = float (strings.TrimLeft "0" (index $times 2)) }}
 {{ end }}
-*/}}
 
 {{/* convert the hours and minutes to seconds… */}}
 {{ $convHours := mul $hours 3600 }}
