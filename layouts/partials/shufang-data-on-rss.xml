@@ -20,6 +20,7 @@ episodes */}}
 {{ $duration := slice }}
 
 {{/* if the .Params.duration is not empty then... */}}
+{{ range .Site.Taxonomies.tags.podcast }}
 {{ with .Params.duration }}
 
 {{/* create a slice with all the posts(with `podcast` tag) duration */}}
@@ -103,5 +104,6 @@ and also the floating value will be returned if 3600 is replaced by 3600.00 :)
 </blockquote>
 
 {{ else }}
-{{/* no output if .Params.duration is empty */}}
+{{ warnf "Even some of .Params.duration are incomplete, but the pipeline continues to build..." }}
+{{ end }}
 {{ end }}
