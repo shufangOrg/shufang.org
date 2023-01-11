@@ -3,17 +3,7 @@
     <span class="f6 db">
     {{/* humanize .Section */}}
 {{/* use Chinese instead of the original display of tag value */}}
-{{ if eq .Section "podcast" }}
-{{ i18n "podcast" }}
-{{ else if eq .Section "syyj" }}
-{{ i18n "syyj" }}
-{{ else if eq .Section "blog" }}
-{{ i18n "blog" }}
-{{ else if eq .Section "readers" }}
-{{ i18n "readers" }}
-{{ else }}
-{{/* no output */}}
-{{ end }}
+{{ i18n .Section }}
     </span>
     <h1 class="f3 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">

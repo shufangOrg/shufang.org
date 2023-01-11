@@ -3,23 +3,11 @@
     <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
       <p>
 {{/* use Chinese instead of the original display with tag value */}}
-{{ if eq .Title "podcast" }}
-{{i18n "taxonomyPodcastPageList" .}}
-
-{{ else if eq .Title "syyj" }}
-{{i18n "taxonomySYYJPageList" .}}
-
-{{ else if eq .Title "talks" }}
-{{i18n "taxonomyTalksPageList" .}}
-
-{{ else }}
-{{i18n "taxonomyPageList" .}}
-
-{{ end }}
+{{ i18n ( print "taxonomy" ( humanize .Title ) "PageList" ) . }}
       </p>
     </div>
   </article>
-  <div class="mw8 center">    
+  <div class="mw8 center">
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range  .Pages }}
         <div class="relative w-100  mb4 bg-white">
