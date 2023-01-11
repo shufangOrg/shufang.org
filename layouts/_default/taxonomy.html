@@ -5,10 +5,16 @@
 {{/* use Chinese instead of the original display with tag value */}}
 {{ if eq .Title "podcast" }}
 {{i18n "taxonomyPodcastPageList" .}}
+
 {{ else if eq .Title "syyj" }}
 {{i18n "taxonomySYYJPageList" .}}
+
+{{ else if eq .Title "talks" }}
+{{i18n "taxonomyTalksPageList" .}}
+
 {{ else }}
 {{i18n "taxonomyPageList" .}}
+
 {{ end }}
       </p>
     </div>
