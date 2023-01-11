@@ -27,6 +27,7 @@ episodes */}}
 {{ else }}
 {{ $i := sub $i 1 }}
 {{ end }}
+{{ end }}
 
 {{ if eq $allWithPodcastTag $i }}
 
