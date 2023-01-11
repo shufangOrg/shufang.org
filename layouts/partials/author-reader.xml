@@ -4,11 +4,12 @@
 {{ $url := print .Site.Params.baseURL "/" .Params.reader ".html" }}
 
 <blockquote>
+<p>
 {{ if isset .Params "author_name" }}
-<p>作者：{{- .Params.author_name -}}
+作者：{{- .Params.author_name -}}
 <br />
 {{ end }}
-<p>朗读者：<a href="{{- $url -}}">{{- .Params.reader_name -}}</a>
+朗读者：<a href="{{- $url -}}">{{- .Params.reader_name -}}</a>
 </blockquote>
 
 {{ end }}
