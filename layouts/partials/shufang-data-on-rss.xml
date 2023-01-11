@@ -19,18 +19,6 @@ episodes */}}
 {{/* create a empty `$duration` */}}
 {{ $duration := slice }}
 
-{{/* check if there are incomplete .Params.duration */}}
-{{ $i := $allWithPodcastTag }}
-{{ range .Site.Taxonomies.tags.podcast }}
-{{ with .Params.duration }}
-{{ $i := $i }}
-{{ else }}
-{{ $i := sub $i 1 }}
-{{ end }}
-{{ end }}
-
-{{ if eq $allWithPodcastTag $i }}
-
 {{/* create a slice with all the posts(with `podcast` tag) duration */}}
 {{ range .Site.Taxonomies.tags.podcast }}
 {{ $duration = $duration | append .Params.duration }}
@@ -110,7 +98,3 @@ and also the floating value will be returned if 3600 is replaced by 3600.00 :)
 <li>微信：一个人的书房</li>
 </ul>
 </blockquote>
-
-{{ else }}
-{{/* skip */}}
-{{ end }}

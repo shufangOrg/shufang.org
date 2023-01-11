@@ -1,0 +1,4 @@
+./content/podcast/czl-1.md
+./content/podcast/czl-2.md
+./content/podcast/czl-3.md
+./content/podcast/czl-4.md
