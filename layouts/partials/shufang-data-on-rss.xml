@@ -104,6 +104,6 @@ and also the floating value will be returned if 3600 is replaced by 3600.00 :)
 </blockquote>
 
 {{ else }}
-{{ warnf "Even some of .Params.duration are incomplete, but the pipeline continues to build..." }}
+{{ warnf "Even some of .Params.duration are incomplete(%q), but the pipeline continues to build..." .Path }}
 {{ end }}
 {{ end }}
