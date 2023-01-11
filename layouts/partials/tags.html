@@ -1,16 +1,32 @@
 <ul class="pa0">
   {{ range .Params.tags }}
-   <li class="list">
-     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+
 {{/* use Chinese instead of the original display with tag value */}}
+
 {{ if eq . "podcast" }}
+<li class="list">
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
 {{ i18n "podcast" }}
+</a>
+</li>
+
 {{ else if eq . "syyj" }}
+<li class="list">
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
 {{ i18n "syyj" }}
+</a>
+</li>
+
+{{ else if eq . "talks" }}
+<li class="list">
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}.html" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+{{ i18n "talks" }}
+</a>
+</li>
+
 {{ else }}
 {{/* no output */}}
 {{ end }}
-     </a>
-   </li>
+
   {{ end }}
 </ul>
