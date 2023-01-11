@@ -1,12 +1,18 @@
 +++
-title = "茶之路"
-date = 2023-01-09T18:51:00+00:00
-lastmod = 2023-01-09T18:51:00+00:00
+title = "《茶之路》第 2 集"
+date = 2023-01-07T18:51:00+00:00
+lastmod = 2023-01-07T18:51:00+00:00
 draft = false
+tags = ["podcast"]
 subtitle = "寻找茶的源头"
 description = "贡茶要抢在清明之前送到宫中，春分即须开采。中唐时期的风流人物，如颜真卿、杜牧，都曾在这两地为官，参与督造，至今顾渚山中仍留下不少摩崖石刻。"
 summary = "贡茶要抢在清明之前送到宫中，春分即须开采。中唐时期的风流人物，如颜真卿、杜牧，都曾在这两地为官，参与督造，至今顾渚山中仍留下不少摩崖石刻。"
-url = "/czl.html"
+url = "/czl-2.html"
+duration = 
+length = 
+external_mp3 = "yes"
+mp3 = "ting-2022.shufang.org/cha-zhi-lu/tea-road_02_v2.mp3"
+books = "czl"
 author_name = "茶小隐"
 reader = "wenxi"
 reader_name = "闻溪"
