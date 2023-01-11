@@ -1,0 +1,102 @@
+{{/* this is used to list the amount of books and all the episodes
+
+usage example:
+{{< shufang-data >}}
+
+reference:
+- https://discourse.gohugo.io/t/add-time-durations-in-frontmatter/39569/3
+*/}}
+
+{{/* all the pages in books folder */}}
+{{ $allBooks := where .Site.RegularPages "Section" "books" }}
+
+{{/* all the pages in podcast folder */}}
+{{ $allEpisodesAboutReadingBook := where .Site.RegularPages "Section" "podcast" }}
+
+{{/* all the pages with `syyj` tag */}}
+{{ $allSYYJ := .Site.Taxonomies.tags.syyj }}
+
+{{/* all the pages with `podcast` tag */}}
+{{ $allWithPodcastTag := .Site.Taxonomies.tags.podcast }}
+
+{{/* the rest episodes(SUBTRACT `syyj` and pages in podcast folder FROM all pages with `podcast` tag */}}
+{{ $otherEpisodes := sub (sub (len $allWithPodcastTag) (len $allSYYJ)) (len $allEpisodesAboutReadingBook) }}
+
+{{/* create a empty `$duration` */}}
+{{ $duration := slice }}
+
+{{/* create a slice with all the posts(with `podcast` tag) duration */}}
+{{ range .Site.Taxonomies.tags.podcast }}
+{{ $duration = $duration | append .Params.duration }}
+{{ end }}
+
+{{/* testing purpose
+{{ len $duration }}
+{{ range $duration }}
+{{ . }}
+{{ end }}
+*/}}
+
+{{/* initial `$total` variable with 0 value */}}
+{{ $total := 0 }}
+
+{{/* start range the `$duration` */}}
+{{ range $duration }}
+
+{{ $times := split . ":" }}
+{{ $hours := 0 }}
+{{ $minutes := 0 }}
+{{ $seconds := 0 }}
+
+{{/* a few if else statements to check if these values, with the leading 0s
+removed, are null; it outputs 0 if they are and the number without the leading
+0s if they are not */}}
+{{ if (eq (strings.TrimLeft "0" (index $times 0) ) "") }}
+{{ $hours = int "0" }}
+{{ else }}
+{{ $hours = int (strings.TrimLeft "0" (index $times 0)) }}
+{{ end }}
+{{ if (eq (strings.TrimLeft "0" (index $times 1) ) "") }}
+{{ $minutes = int "0" }}
+{{ else }}
+{{ $minutes = int (strings.TrimLeft "0" (index $times 1)) }}
+{{ end }}
+{{ if (eq (strings.TrimLeft "0" (index $times 2) ) "") }}
+{{ $seconds = int "0" }}
+{{ else }}
+{{/* use `float` not `int` here as there are seconds like 37.896750 which comes
+from duration = "0:51:37.896750" */}}
+{{ $seconds = float (strings.TrimLeft "0" (index $times 2)) }}
+{{ end }}
+
+{{/* convert the hours and minutes to seconds… */}}
+{{ $convHours := mul $hours 3600 }}
+{{ $convMinutes := mul $minutes 60 }}
+
+{{/* add these converted-hours and converted-minutes and the seconds values
+together */}}
+{{ $totalSeconds := add (add $convMinutes $convHours) $seconds }}
+
+{{/* add this to `$total` */}}
+{{ $total = add $total $totalSeconds }}
+
+{{ end }}
+{{/* end of ranging the `$duration` */}}
+
+{{/* convert the `$total` back to individual time units - which is hour here.
+and also the floating value will be returned if 3600 is replaced by 3600.00 :)
+*/}}
+{{ $totalHours := div $total 3600.00 }}
+
+<blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
+<h2>附：一些数据</h2>
+截至当前（{{ now.Format "2006/01/02"}}），书房官网共存档 {{ len $allWithPodcastTag }} 集音频节目，其中：
+<li><a href="https://shufang.org/books.html">朗读图书</a> {{ len $allBooks }} 本累计 {{ len $allEpisodesAboutReadingBook }} 集</li>
+<li><a href="https://shufang.org/syyj.html">声音邮局</a> {{ len $allSYYJ }} 集</li>
+<li>其他类节目 {{ $otherEpisodes }} 集</li>
+<li>所有节目的时长总计 {{ printf "%.2f" $totalHours }} 小时</li>
+如果你喜欢我们的节目，欢迎向身边的爱书人推荐。
+<li>官网：<a href="https://shufang.org">https://shufang.org</a></li>
+<li>微博：一个人的书房电台</li>
+<li>微信公众号：一个人的书房</li>
+</blockquote>
