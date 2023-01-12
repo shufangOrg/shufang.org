@@ -1,12 +1,17 @@
+{{/* this is used to list all the posts from a reader */}}
+
 {{ if .Params.list_blog_posts }}
 {{ $reader := .Params.reader }}
-<h2>博客文章</h2>
 
 {{/* reference
 - https://stackoverflow.com/a/71562439
 */}}
 {{ $allBlogPosts := where .Site.RegularPages "Section" "blog" }}
 {{ $posts := where $allBlogPosts "Params.reader" "eq" $reader }}
+
+{{ if ge (len $posts) 1 }}
+<h2>博客文章</h2>
+{{ end }}
 
 {{ range $posts }}
 <ul><li>
