@@ -6,7 +6,7 @@
 - https://stackoverflow.com/a/71562439
 */}}
 {{ $allBooks := where .Site.RegularPages "Section" "podcast" }}
-{{ $allEpisodes = $allBooks | union (where .Site.RegularPages "Section" "syyj") }}
+{{ $allEpisodes := $allBooks | union (where .Site.RegularPages "Section" "syyj") }}
 {{ $episodes := where $allEpisodes "Params.reader" "eq" $reader }}
 
 {{ range $episodes }}
