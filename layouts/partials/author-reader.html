@@ -1,4 +1,4 @@
-{{/* this is used to display the author and reader information on single page */}}
+{{/* this is used to display the author, translator and reader information on single page */}}
 
 {{ if isset .Params "reader_name" }}
 {{ $url := print .Site.Params.baseURL "/" .Params.reader ".html" }}
@@ -7,6 +7,10 @@
 <p>
 {{ if isset .Params "author_name" }}
 作者：{{- .Params.author_name -}}
+<br />
+{{ end }}
+{{ if isset .Params "translator_name" }}
+译者：{{- .Params.translator_name -}}
 <br />
 {{ end }}
 朗读者：<a href="{{- $url -}}">{{- .Params.reader_name -}}</a>
