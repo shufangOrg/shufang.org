@@ -9,9 +9,9 @@
 {{ $episodes := where $allBooks "Params.reader" "eq" $reader }}
 
 {{ range $episodes }}
-<li>
+<ul><li>
 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</li>
+</li></ul>
 {{ end }}
 
 {{ end }}

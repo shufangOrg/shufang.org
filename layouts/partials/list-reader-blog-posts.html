@@ -9,9 +9,9 @@
 {{ $posts := where $allBlogPosts "Params.reader" "eq" $reader }}
 
 {{ range $posts }}
-<li>
+<ul><li>
 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</li>
+</li></ul>
 {{ end }}
 
 {{ end }}
