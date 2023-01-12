@@ -13,21 +13,12 @@ length = 5698201
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/ai-fei-er-tie-ta/eiffel-tower_01_v1.mp3"
 books = "afett"
-readers = "wulian"
+author_name = "[法] 罗兰·巴尔特"
+translator_name = "李幼蒸"
+reader = "wulian"
+reader_name = "吴理岸"
+episodes_amount = 4
+episodes_base_url = "afett"
 +++
 
-> 作者：[法] 罗兰·巴尔特
->
-> 译者: 李幼蒸
->
-> 朗读者：吴理岸
-
 这本小册子是罗兰· 巴尔特最为脍炙人口的分析性抒情散文之一，文字优美，内容深刻，对埃菲尔铁塔的现代化空间和巴黎的历史性时间，穿插描绘，互为衬托。作者还从结构观点阐释了埃菲尔铁塔的技术美学，读后不免令人对此世界纪念碑产生无限遐思。本书出版以来，读者赞赏不绝，后由著名摄影师配以大量历史图片和文字说明，遂使其成为一部有关埃菲尔铁塔的历史美学文献。
-
-[《埃菲尔铁塔》第 01 集](./afett-1.html)
-
-[《埃菲尔铁塔》第 02 集](./afett-2.html)
-
-[《埃菲尔铁塔》第 03 集](./afett-3.html)
-
-[《埃菲尔铁塔》第 04 集](./afett-4.html)
