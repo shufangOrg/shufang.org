@@ -2,7 +2,7 @@
 draft: false
 summary: 有那么多大大小小的电台，偏偏遇见了你们。
 lastmod: 2022-03-27T08:21:11.000Z
-title: 大夏·与书房的故事
+title: 大夏・与书房的故事
 date: 2015-04-29
 url: /daxia.html
 customized-slug: daxia
