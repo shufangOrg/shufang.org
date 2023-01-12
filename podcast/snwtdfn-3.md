@@ -14,18 +14,11 @@ external_mp3 = "yes"
 mp3 = "ting.shufang.org/shao-nian-wei-te-de-fan-nao/the-sorrows-of-young-werther_03_v4.mp3"
 books = "snwtdfn"
 readers = "yuanyuanliuchang"
+episodes_amount = 4
+episodes_base_url = "snwtdfn"
 +++
 
-> 作者：歌德
->
+> 作者：歌德  
 > 朗读者：源远流长
 
 《少年维特的烦恼》（德語：Die Leiden des jungen Werthers）是第一部让歌德在德国几乎一夜成名的小说。本书于 1774 年秋天在莱比锡书籍展览会上面世，并在那里成了畅销书。它是歌德作品中被他的同时代人阅读得最多的一本。《少年维特的烦恼》中的主人公——他的行为仅仅取决于他的感觉——是感伤主义的代表性人物。
-
-[《少年维特的烦恼》第 01 集](./snwtdfn-1.html)
-
-[《少年维特的烦恼》第 02 集](./snwtdfn-2.html)
-
-[《少年维特的烦恼》第 03 集](./snwtdfn-3.html)
-
-[《少年维特的烦恼》第 04 集](./snwtdfn-4.html)
