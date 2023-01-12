@@ -2,7 +2,7 @@
 draft: false
 summary: 把我在那颗寂寞的午夜失去了的灵魂，找回来
 lastmod: 2015-04-30T22:03:11.000Z
-title: 夏小麦·与书房的故事
+title: 夏小麦・与书房的故事
 date: 2015-04-30
 url: /xiaxiaomai.html
 customized-slug: xiaxiaomai
