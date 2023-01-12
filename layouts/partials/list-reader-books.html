@@ -1,3 +1,5 @@
+{{/* this is used to list all the books and syyj-episodes from a reader */}}
+
 {{ if .Params.list_books }}
 {{ $reader := .Params.reader }}
 <h2>朗读作品</h2>
@@ -5,7 +7,7 @@
 {{/* reference
 - https://stackoverflow.com/a/71562439
 */}}
-{{ $allBooks := where .Site.RegularPages "Section" "podcast" }}
+{{ $allBooks := where .Site.RegularPages "Section" "books" }}
 {{ $allEpisodes := $allBooks | union (where .Site.RegularPages "Section" "syyj") }}
 {{ $episodes := where $allEpisodes "Params.reader" "eq" $reader }}
 
