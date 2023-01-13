@@ -1,5 +1,5 @@
 baseURL: https://shufang.org # this is needed for relURL in podcast.xml
-                            # refer to https://gohugo.io/functions/relurl/
+                             # refer to https://gohugo.io/functions/relurl/
 DefaultContentLanguage: zh
 # languageCode: en-us
 title: 一个人的书房
@@ -7,6 +7,8 @@ theme: ananke
 uglyurls: true
 hasCJKLanguage: true
 summaryLength: 4000
+paginate: 6 # setting the number of posts per page, and Hugo defaults to 10
+            # posts per page
 
 markup:
   goldmark:
