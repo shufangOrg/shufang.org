@@ -11,6 +11,7 @@ category: readers
 reader: siji
 list_books: true
 list_blog_posts: false
+list_episodes: true
 number: 210
 ---
 
