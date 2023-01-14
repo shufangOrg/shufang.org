@@ -24,7 +24,7 @@
 
           {{ if reflect.IsSlice . }}
               {{ delimit . ", " | markdownify }}
-          {{else}}
+          {{ else }}
               {{ . | markdownify }}
           {{ end }}
 	  </a>
