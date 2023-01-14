@@ -11,6 +11,7 @@ category: founder
 reader: olive
 list_books: false
 list_blog_posts: true
+list_episodes: true
 number: 1
 ---
 
