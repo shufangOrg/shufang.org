@@ -1,20 +1,38 @@
-+++
-title = "请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划"
-date = 2023-01-05
-lastmod = 2023-01-05T19:30:00.000Z
-draft = false
-tags = ["podcast"]
-subtitle = "请回答：你的，我的，我们的房间"
-description = "邀请你参与一段有关声音的旅程，准备好了吗？❤️"
-summary = "邀请你参与一段有关声音的旅程，准备好了吗？❤️"
-url = "/10-years.html"
-duration = "0:51:37.896750"
-length = 74358456
-external_mp3 = "yes"
-mp3 = "ting-2023.shufang.org/10-years.mp3"
-readers = "all"
-toc = true
-+++
+---
+title: 请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划"
+date: 2023-01-05
+lastmod: 2023-01-05T19:30:00.000Z
+draft: false
+tags:
+- podcast
+subtitle: 请回答：你的，我的，我们的房间
+description: 邀请你参与一段有关声音的旅程，准备好了吗？❤️
+summary: 邀请你参与一段有关声音的旅程，准备好了吗？❤️
+url: /10-years.html
+duration: 0:51:37.896750
+length: 74358456
+external_mp3: yes
+mp3: ting-2023.shufang.org/10-years.mp3
+readers:
+- olive
+- wenda
+- xiaxiaomai
+- maizi
+- zixin
+- siji
+- hailu
+- mufeng
+- huaer
+- daxia
+- zixiao
+- miaomiao
+- tuma
+- xiali
+- yitiaodahai
+- xiaoxu
+- youmai 
+toc: true
+---
 
 <p style="text-align: center;">
 嘿，你好呀<br />
