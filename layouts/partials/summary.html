@@ -3,7 +3,11 @@
     <span class="f6 db">
     {{/* humanize .Section */}}
 {{/* use Chinese instead of the original display of tag value */}}
+{{ if eq .Params.category "founder" }}
+{{ i18n "founder" }}
+{{ else }}
 {{ i18n .Section }}
+{{ end }}
     </span>
     <h1 class="f3 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
