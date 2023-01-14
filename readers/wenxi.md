@@ -11,6 +11,7 @@ category: readers
 reader: wenxi
 list_books: true
 list_blog_posts: false
+number: 420
 ---
 
 待更新……

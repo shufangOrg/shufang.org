@@ -11,6 +11,7 @@ category: readers
 reader: xizi
 list_books: true
 list_blog_posts: false
+number: 50
 ---
 
 待更新……

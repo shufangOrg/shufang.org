@@ -11,6 +11,7 @@ category: founder
 reader: olive
 list_books: false
 list_blog_posts: true
+number: 1
 ---
 
 待更新……

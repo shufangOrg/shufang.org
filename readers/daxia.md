@@ -10,6 +10,7 @@ description: 嘿，我，终于，“下手”了。已经处在脑袋里面乱�
 category: readers
 reader: daxia
 list_books: true
+number: 40
 ---
 
 {{< figure src="/images/summer.jpg" >}}

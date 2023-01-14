@@ -11,6 +11,7 @@ category: readers
 reader: zixin
 list_books: true
 list_blog_posts: false
+number: 90
 ---
 
 待更新……
