@@ -5,14 +5,14 @@
 <audio controls="">
 <source src="{{- .Site.Params.statsPrefix -}}
 {{- with .Params.external_mp3 -}}
-{{- if eq . "yes" -}}
+{{- if ne . "yes" -}}
 {{- $.Site.Params.baseURL | string -}}
 {{- end -}}
 {{- end -}}
 {{- .Params.mp3 | string -}}" type="audio/mpeg">
 <embed src="{{ .Site.Params.statsPrefix }}
 {{- with .Params.external_mp3 -}} 
-{{- if eq . "yes" -}}
+{{- if ne . "yes" -}}
 {{- $.Site.Params.baseURL | string -}}
 {{- end -}}
 {{- end -}}
