@@ -1,0 +1,23 @@
+{{/* this is used to list all the episodes(except books and syyj-episodes) from a reader */}}
+
+{{ if .Params.list_episodes }}
+{{ $reader := .Params.reader }}
+
+{{/* reference
+- https://stackoverflow.com/a/71562439
+*/}}
+{{ $allBlogEpisodes := where .Site.RegularPages "Section" "blog" }}
+{{ $allBlogEpisodesWithPodcastTag := where $allBlogEpisodes "Params.tags" "in" "podcast" }}
+{{ $episodes := where $allBlogEpisodesWithPodcastTag "Params.readers" "in" $reader }}
+
+{{ if ge (len $episodes) 1 }}
+<h2>相关节目</h2>
+{{ end }}
+
+{{ range $episodes }}
+<ul><li>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</li></ul>
+{{ end }}
+
+{{ end }}
