@@ -12,12 +12,13 @@
 
 {{ if ge (len $episodes) 1 }}
 <h2>相关节目</h2>
-{{ end }}
 
 {{ range $episodes }}
 <ul><li>
 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 </li></ul>
+{{ end }}
+
 {{ end }}
 
 {{ end }}

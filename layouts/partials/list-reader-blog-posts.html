@@ -11,12 +11,13 @@
 
 {{ if ge (len $posts) 1 }}
 <h2>博客文章</h2>
-{{ end }}
 
 {{ range $posts }}
 <ul><li>
 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 </li></ul>
+{{ end }}
+
 {{ end }}
 
 {{ end }}
