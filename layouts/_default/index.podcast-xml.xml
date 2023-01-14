@@ -43,7 +43,7 @@
 <link>{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}</link>
 <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 GMT" }}</pubDate>
 <guid isPermaLink="true">{{ .Site.Params.mp3HTTPPrefix }}{{ .Params.mp3 | string }}</guid>
-<enclosure length="{{ .Params.length | string }}" url="{{ .Site.Params.statsPrefix }{{ .Params.mp3 | string }}" type="audio/mpeg"/>
+<enclosure length="{{ .Params.length | string }}" url="{{ .Site.Params.statsPrefix }}{{ .Params.mp3 | string }}" type="audio/mpeg"/>
 
 <description>{{ `<![CDATA[` | safeHTML }}
 {{- partial "author-reader.xml" . -}}
