@@ -12,7 +12,7 @@
 {{- .Params.mp3 | string -}}" type="audio/mpeg">
 <embed src="{{ .Site.Params.statsPrefix }}
 {{- with .Params.external_mp3 -}} 
-{{- if . "yes" -}}
+{{- if eq . "yes" -}}
 {{- $.Site.Params.baseURL | string -}}
 {{- end -}}
 {{- end -}}
