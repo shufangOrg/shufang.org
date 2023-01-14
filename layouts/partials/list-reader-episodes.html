@@ -1,6 +1,6 @@
 {{/* this is used to list all the episodes(except books and syyj-episodes) from a reader */}}
 
-{{ if .Params.list_episodes }}
+{{ if (.Params.list_episodes | default true) }}
 {{ $reader := .Params.reader }}
 
 {{/* reference
