@@ -8,15 +8,15 @@
 
 <blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
 <p>
-{{ with .Params.author_name }}
+{{ with $.Params.author_name }}
 作者：{{- . -}}
 <br />
 {{ end }}
-{{ with .Params.translator_name }}
+{{ with $.Params.translator_name }}
 译者：{{- . -}}
 <br />
 {{ end }}
-朗读者：<a href="{{- $url -}}">{{- .Params.reader_name -}}</a>
+朗读者：<a href="{{- $url -}}">{{- $.Params.reader_name -}}</a>
 </blockquote>
 
 {{ end }}   
