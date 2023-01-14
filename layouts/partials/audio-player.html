@@ -2,5 +2,5 @@
 
 <h2>线上收听</h2>
 <audio controls="">
-<source src="{{ .Site.Params.statsPrefix }}{{- if or (not (with .Params.external_mp3)) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}" type="audio/mpeg">
-<embed src="{{ .Site.Params.statsPrefix }}{{- if or (not (with .Params.external_mp3)) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}"></audio>
+<source src="{{ .Site.Params.statsPrefix }}{{- if or (ne .Params.external_mp3 "true")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}" type="audio/mpeg">
+<embed src="{{ .Site.Params.statsPrefix }}{{- if or (ne .Params.external_mp3 "true")) (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}"></audio>
