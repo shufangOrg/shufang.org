@@ -11,6 +11,7 @@ category: readers
 reader: 
 list_books: true
 list_blog_posts: true
+list_episodes: true
 number: 
 ---
 
