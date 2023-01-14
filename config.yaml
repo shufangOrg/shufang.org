@@ -25,9 +25,6 @@ Params:
     - blog
   custom_css:
     - custom.css
-  list_books: true
-  list_blog_posts: true
-  list_episodes: true 
   # PODCAST
   statsPrefix: https://dts.podtrac.com/redirect.mp3/
   mp3HTTPPrefix: https://
