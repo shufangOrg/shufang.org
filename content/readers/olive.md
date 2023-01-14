@@ -9,8 +9,8 @@ customized-slug: olive
 description: 待更新……
 category: founder
 reader: olive
-list_books: true
-list_blog_posts: false
+list_books: false
+list_blog_posts: true
 ---
 
 待更新……
