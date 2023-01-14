@@ -1,15 +1,15 @@
 {{/* this is used to display the author, translator and reader information on single page */}}
 
-{{ if gt (len .Params.reader_name) 0 }}
+{{ if (and (isset .Params "reader_name") (gt (len .Params.reader_name) 0)) }}
 {{ $url := print .Site.Params.baseURL "/" .Params.reader ".html" }}
 
 <blockquote class="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
 <p>
-{{ if gt (len .Params.author_name) 0 }}
+{{ if (and (isset .Params "author_name") (gt (len .Params.author_name) 0)) }}
 作者：{{- .Params.author_name -}}
 <br />
 {{ end }}
-{{ if gt (len .Params.translator_name) 0 }}
+{{ if (and (isset .Params "translator_name") (gt (len .Params.translator_name) 0)) }}
 译者：{{- .Params.translator_name -}}
 <br />
 {{ end }}
