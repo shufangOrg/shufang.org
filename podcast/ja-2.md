@@ -1,12 +1,19 @@
 ---
-title: 简・爱
-date: 2023-01-10
-lastmod: 2023-01-10
+title: 《简・爱》第 2 集
+date: 2023-01-11
+lastmod: 2023-01-11
+tags:
+- podcast
 draft: false
 subtitle: 我想你会喜欢爱尔兰的
 description: 我右侧，绯红色窗幔的皱褶挡住了我的视线；左侧，明亮的玻璃窗庇护着我，使我既免受十一月阴沉天气的侵害，又不与外面的世界隔绝。
 summary: 我右侧，绯红色窗幔的皱褶挡住了我的视线；左侧，明亮的玻璃窗庇护着我，使我既免受十一月阴沉天气的侵害，又不与外面的世界隔绝。
-url: /ja.html
+url: /ja-2.html
+duration: "0:22:50.488125"
+length: 10963931
+external_mp3: yes
+mp3: ting-2023.shufang.org/jian-ai/jane_eyre_02_v1.1.mp3
+books: ja
 author_name: 夏洛蒂・勃朗特
 translator_name: 
 reader: xizi
