@@ -11,6 +11,7 @@ category: readers
 reader: wenda
 list_books: true
 list_blog_posts: false
+number: 250
 ---
 
 待更新……

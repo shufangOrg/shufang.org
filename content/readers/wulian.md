@@ -11,6 +11,7 @@ category: readers
 reader: wulian
 list_books: true
 list_blog_posts: false
+number: 380
 ---
 
 待更新……

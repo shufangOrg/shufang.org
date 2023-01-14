@@ -11,6 +11,7 @@ category: readers
 reader: xiaxiaomai
 list_books: true
 list_blog_posts: true
+number: 200
 ---
 
 {{< figure src="/images/xiaxiaomai.jpg" >}}
