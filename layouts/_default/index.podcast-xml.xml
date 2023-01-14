@@ -42,8 +42,8 @@
 <title>{{ .Title }}</title>
 <link>{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}</link>
 <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 GMT" }}</pubDate>
-<guid isPermaLink="true">{{- if or (ne .Params.external_mp3 "true") (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Site.Params.mp3HTTPPrefix }}{{ .Params.mp3 | string }}</guid>
-<enclosure length="{{ .Params.length | string }}" url="{{ .Site.Params.statsPrefix }}{{- if or (ne .Params.external_mp3 "true") (ne .Params.external_mp3 "yes") -}}{{ .Site.Params.baseURL | string }}{{- end -}}{{ .Params.mp3 | string }}" type="audio/mpeg"/>
+<guid isPermaLink="true">{{ .Site.Params.mp3HTTPPrefix }}{{ .Params.mp3 | string }}</guid>
+<enclosure length="{{ .Params.length | string }}" url="{{ .Site.Params.statsPrefix }{{ .Params.mp3 | string }}" type="audio/mpeg"/>
 
 <description>{{ `<![CDATA[` | safeHTML }}
 {{- partial "author-reader.xml" . -}}
