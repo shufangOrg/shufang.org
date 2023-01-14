@@ -18,7 +18,7 @@ author_name: 夏洛蒂・勃朗特
 translator_name: 
 reader: xizi
 reader_name: 西子
-episodes_amount: 1
+episodes_amount: 38
 episodes_base_url: ja
 ---
 
