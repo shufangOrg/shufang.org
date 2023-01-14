@@ -14,7 +14,7 @@ length:
 external_mp3: yes
 mp3: ting-2023.shufang.org/jian-ai/jane_eyre_01_v6.mp3
 books: ja
-author_name: 夏洛蒂·勃朗特
+author_name: 夏洛蒂・勃朗特
 translator_name: 
 reader: xizi
 reader_name: 西子
