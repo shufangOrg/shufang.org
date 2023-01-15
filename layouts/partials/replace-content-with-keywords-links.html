@@ -12,15 +12,20 @@ reference:
 
 {{ $url := "static/csv/keywords-links.csv" }}.
 {{ $sep := "," }}
+
+{{/* start - range the CSV keywords */}}
 {{ range $i, $r := getCSV $sep $url }}
-{{ index $r 0 }}
-{{ index $r 1 }}
+
+{{ $keyword := index $r 0 }}
+{{ $link := index $r 1 }}
+
+{{ $newWithLink := print "<a href='" + $link + "'>" + $keyword + "</a>" }}
+
+{{- if (strings.Contains $Content $keyword) -}}
+{{ $Content = replace $Content $keyword $newWithLink }}
 {{ end }}
 
-{{ range $topics }}
-{{- if (strings.Contains $Content .) -}}
-{{ $Content = replace $Content . "<a href='$Permalink'>.</a>" }}
-{{ end }}
+{{/* end - range the CSV keywords */}}
 {{ end }}
 
 {{ $Content | safeHTML }}
