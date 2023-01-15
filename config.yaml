@@ -9,6 +9,7 @@ hasCJKLanguage: true
 summaryLength: 4000
 paginate: 6 # setting the number of posts per page, and Hugo defaults to 10
             # posts per page
+timeZone: Asia/Shanghai 
 
 markup:
   goldmark:
