@@ -1,19 +1,37 @@
-+++
-title = "十周年特别企划・预告篇"
-date = 2022-12-30
-lastmod = 2022-12-30T16:30:11.000Z
-draft = false
-tags = ["podcast"]
-subtitle = "请回答：你的，我的，我们的房间"
-description = "请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划・预告篇"
-summary = "请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划・预告篇"
-url = "/10-years-trailer.html"
-duration = "0:00:33.705000"
+---
+title: 十周年特别企划・预告篇
+date: 2022-12-30
+lastmod: 2022-12-30T16:30:11.000Z
+draft: false
+tags:
+- podcast
+subtitle: 请回答：你的，我的，我们的房间
+description: 请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划・预告篇
+summary: 请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划・预告篇
+url: /10-years-trailer.html
+duration： 0:00:33.705000
 length = 817382
-external_mp3 = "yes"
-mp3 = "ting-2022.shufang.org/10-years-trailer.mp3"
-readers = "all"
-+++
+external_mp3: yes
+mp3: ting-2022.shufang.org/10-years-trailer.mp3
+readers:
+- olive
+- wenda
+- xiaxiaomai
+- maizi
+- zixin
+- siji
+- hailu
+- mufeng
+- huaer
+- daxia
+- zixiao
+- miaomiao
+- tuma
+- xiali
+- yitiaodahai
+- xiaoxu
+- youmai
+---
 
 {{< blockquote >}}
 若以书而论，每本书都会变成你自己的房间，给你一个庇护，让你安静下来。  
