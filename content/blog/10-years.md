@@ -3,6 +3,8 @@ title: 请回答：你的，我的，我们的房间 ——「一个人的书房
 date: 2023-01-05
 lastmod: 2023-01-05T19:30:00.000Z
 draft: false
+author: 大夏
+reader: daxia
 tags:
 - podcast
 subtitle: 请回答：你的，我的，我们的房间
