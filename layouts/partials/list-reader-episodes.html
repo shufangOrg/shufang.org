@@ -1,15 +1,32 @@
 {{/* this is used to list all the episodes(except books and syyj-episodes) from a reader */}}
 
-{{ if .Params.list_episodes }}
 {{ $reader := .Params.reader }}
+
+{{/* start - if `list_episodes` is true */}}
+{{ if .Params.list_episodes }}
 
 {{/* reference
 - https://stackoverflow.com/a/71562439
 */}}
 {{ $allBlogEpisodes := where .Site.RegularPages "Section" "blog" }}
-{{ $allBlogEpisodesWithPodcastTag := where $allBlogEpisodes "Params.tags" "in" "podcast" }}
-{{ $episodes := where $allBlogEpisodesWithPodcastTag "Params.readers" "in" $reader }}
 
+{{/* this is used to create the posts slice in `blog` section with `podcast` tag */}}
+{{ $allBlogEpisodesWithPodcastTag := slice }}
+{{ range $allBlogEpisodes }}
+{{ if in .Params.tags "podcast" }}
+{{ $allBlogEpisodesWithPodcastTag = $allBlogEpisodesWithPodcastTag | append . }}
+{{ end }}
+{{ end }}
+
+{{/* this is used to create the posts slice in `blog` section with `podcast` and spcified `$reader` tag */}}
+{{ $episodes := slice }}
+{{ range $allBlogEpisodesWithPodcastTag }}
+{{ if in .Params.readers $reader }}
+{{ $episodes = $episodes | append . }}
+{{ end }}
+{{ end }}
+
+{{/* start - if the listed $episodes are >= 1 */}}
 {{ if ge (len $episodes) 1 }}
 <h2>相关节目</h2>
 
@@ -19,6 +36,8 @@
 </li></ul>
 {{ end }}
 
+{{/* end - if the listed $episodes are >= 1 */}}
 {{ end }}
 
+{{/* end - if `list_episodes` is true */}}
 {{ end }}
