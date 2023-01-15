@@ -9,7 +9,7 @@ subtitle: 请回答：你的，我的，我们的房间
 description: 请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划・预告篇
 summary: 请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划・预告篇
 url: /10-years-trailer.html
-duration： 0:00:33.705000
+duration: 0:00:33.705000
 length = 817382
 external_mp3: yes
 mp3: ting-2022.shufang.org/10-years-trailer.mp3
