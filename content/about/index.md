@@ -35,7 +35,7 @@ url = "/about.html"
 
 ## 电子邮箱
 
-- <p>hi@<span class="displaynone">null</span>shufang.org</p>
+- <p class="email"></p>
 
 <p style="text-align: center;">
 - 🌱 -
