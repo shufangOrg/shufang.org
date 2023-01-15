@@ -33,10 +33,6 @@ url = "/about.html"
 - 微博：一个人的书房电台
 - 微信：一个人的书房
 
-## 电子邮箱
-
-- <p class="email"></p>
-
 <p style="text-align: center;">
 - 🌱 -
 </p>
