@@ -27,11 +27,18 @@ url = "/about.html"
 - [请回答：你的，我的，我们的房间 ——「一个人的书房」十周年特别企划](https://shufang.org/10-years.html)
 - [媒体报道](https://shufang.org/press.html)
 - [常见问题](https://shufang.org/faq.html)
-  
+
 ## 关注书房
 
 - 微博：一个人的书房电台
 - 微信：一个人的书房
+
+## 电子邮箱
+
+<style type=”text/css“>
+p span.displaynone { display:none; }
+</style>
+- hi@<span class=”displaynone“>null</span>shufang.org
 
 <p style="text-align: center;">
 - 🌱 -
