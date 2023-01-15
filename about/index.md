@@ -35,9 +35,6 @@ url = "/about.html"
 
 ## 电子邮箱
 
-<style type="text/css">
-p span.displaynone { display:none; }
-</style>
 - hi@<span class="displaynone">null</span>shufang.org
 
 <p style="text-align: center;">
