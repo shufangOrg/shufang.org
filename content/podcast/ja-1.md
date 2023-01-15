@@ -9,8 +9,8 @@ subtitle: 我想你会喜欢爱尔兰的
 description: 我右侧，绯红色窗幔的皱褶挡住了我的视线；左侧，明亮的玻璃窗庇护着我，使我既免受十一月阴沉天气的侵害，又不与外面的世界隔绝。
 summary: 我右侧，绯红色窗幔的皱褶挡住了我的视线；左侧，明亮的玻璃窗庇护着我，使我既免受十一月阴沉天气的侵害，又不与外面的世界隔绝。
 url: /ja-1.html
-duration: 
-length: 
+duration: "0:15:09.330438"
+length: 14549312
 external_mp3: yes
 mp3: ting-2023.shufang.org/jian-ai/jane_eyre_01_v6.mp3
 books: ja
