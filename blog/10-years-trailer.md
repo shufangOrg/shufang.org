@@ -3,6 +3,8 @@ title: 十周年特别企划・预告篇
 date: 2022-12-30
 lastmod: 2022-12-30T16:30:11.000Z
 draft: false
+author: 大夏
+reader: daxia
 tags:
 - podcast
 subtitle: 请回答：你的，我的，我们的房间
