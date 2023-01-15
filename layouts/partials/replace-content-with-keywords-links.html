@@ -19,7 +19,7 @@ reference:
 {{ $keyword := index $r 0 }}
 {{ $link := index $r 1 }}
 
-{{ $newWithLink := print "<a href='" + $link + "'>" + $keyword + "</a>" }}
+{{ $newWithLink := print "<a href='" $link "'>" $keyword "</a>" }}
 
 {{- if (strings.Contains $Content $keyword) -}}
 {{ $Content = replace $Content $keyword $newWithLink }}
