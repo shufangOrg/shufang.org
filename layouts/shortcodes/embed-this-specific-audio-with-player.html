@@ -12,5 +12,5 @@ output example:
 */}}
 
 <audio controls="">
-<source src="{{ $.Page.Site.Params.statsPrefix }}{{- if or (not (isset $.Page.Params "external_mp3")) (ne $.Page.Params.external_mp3 "yes") -}}{{ $.Page.Site.Params.baseURL | string }}{{- end -}}{{ $.Page.Params.mp3 | string }}" type="audio/mpeg">
-<embed src="{{ $.Page.Site.Params.statsPrefix }}{{- if or (not (isset $.Page.Params "external_mp3")) (ne $.Page.Params.external_mp3 "yes") -}}{{ $.Page.Site.Params.baseURL | string }}{{- end -}}{{ $.Page.Params.mp3 | string }}"></audio>
+<source src="{{ $.Page.Site.Params.statsPrefix }}{{ $.Page.Params.mp3 | string }}" type="audio/mpeg">
+<embed src="{{ $.Page.Site.Params.statsPrefix }}{{ $.Page.Params.mp3 | string }}"></audio>
