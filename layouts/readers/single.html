@@ -41,7 +41,10 @@
       {{ end }}
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f5 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-	{{- .Content -}}
+
+	{{/* - .Content - */}}
+{{- partial "replace-content-with-keywords-links.html" . -}}
+
 	{{- partial "list-reader-books.html" . -}}
 	{{- partial "list-reader-episodes.html" . -}}
 	{{- partial "list-reader-blog-posts.html" . -}}
