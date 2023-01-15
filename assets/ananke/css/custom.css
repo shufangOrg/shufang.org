@@ -35,10 +35,8 @@
 /* }}
 the blockquote style */
 
-p.email:after {
 /* mail anti-spam
+to be fixed...
 reference:
 - https://jsntn.com/internet/anti-spam.html
 */
-content: "hi\40shufang.org";
-}
