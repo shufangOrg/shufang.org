@@ -13,11 +13,16 @@ length = 15892480
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/all-of-the-white-in-the-world/all-of-the-white-in-the-world_02-v1.mp3"
 books = "zsjsydb"
-readers = "zixin"
+author_name = "李娟"
+translator_name =
+reader = "zixin"
+reader_name = "子欣"
+episodes_amount: 4
+episodes_base_url = "zsjsydb"
 +++
 
-作者：李娟
+李娟是长期生活在新疆阿勒泰少数民族地区的作家，她的散文生动地呈现了当地少数民族居民的原始生存状态、民风民俗、地貌风情，以及民族大融合的和谐情景，真实地反映了面对恶劣的生存环境，人们坚强乐观、尊重自然、勤劳善良、热情好客的美好品德。
 
-朗读者：子欣
+李娟以其文章的题材独特新鲜，语言清新活泼，风格个性鲜明，被誉为“阿勒泰的精灵”，深受文学界的好评和普通大众读者的欢迎，本书以精选集的形式对李娟 12 年来的创作轨迹作了全面展示。
 
-音频：[link](https://ting.shufang.org/all-of-the-white-in-the-world/all-of-the-white-in-the-world%5F02-v1.mp3)
+本书入编的 50 多篇散文，是作者 2001-2012 年间所创作的比较优秀的作品，其突出特点，就是作者以其从小并长期生活在新疆阿勒泰少数民族地区的生活底蕴，通过朴实有趣的语言文字，对民情风俗、地貌气候、民族融合等进行了原生态的文学记写。文章排序按照成文时间先后，由远及近，形成了内容的历史感，也展示了作者创作能力变化的轨迹。
