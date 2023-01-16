@@ -33,7 +33,7 @@ url = "/about.html"
 - 微博：一个人的书房电台
 - 微信：一个人的书房
 
-## 电子邮箱
+## 联系书房
 
 - hi@<span class="displaynone">null</span>shufang.org
 
