@@ -42,7 +42,7 @@ url = "/donation.html"
 
 我们将感谢你通过任意数额的捐赠方式来支持 shufang.org 的存在和运行，您的每一笔捐赠和去向将在 [i.shufang.org](https://i.shufang.org) 公示。
 
-捐赠途径：支付宝 hi@shufang.org
+捐赠途径：支付宝 hi@<span class="displaynone">null</span>shufang.org
 
 （目前该支付宝账号由我（朗读者：[麦子](//jsntn.com/about.html)）在维护，我有全职的工作。所有捐赠将全部公开并透明公示，并 100% 用于「一个人的书房」开销。如若有对我本人的捐赠，我将表示感激和谢绝。）
 
