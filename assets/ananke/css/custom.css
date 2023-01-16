@@ -36,7 +36,7 @@
 the blockquote style */
 
 /* mail anti-spam
-to be fixed...
 reference:
 - https://jsntn.com/internet/anti-spam.html
 */
+span.displaynone { display: none; }
