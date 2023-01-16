@@ -91,7 +91,6 @@ and also the floating value will be returned if 3600 is replaced by 3600.00 :)
 <li>其他节目 {{ $otherEpisodes }} 集</li>
 <li>所有节目的时长总计 {{ printf "%.2f" $totalHours }} 小时</li>
 </ul>
-<p>目前网站的所有节目均为志愿录音和制作，并免费分享供收听。</p>
 <p>如果你喜欢我们的节目，欢迎向身边的爱书人推荐。</p>
 <ul>
 <li>官网：<a href="https://shufang.org">https://shufang.org</a></li>
