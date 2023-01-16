@@ -1,0 +1,29 @@
+{{/* this is used to replace the keywords in content with links
+
+reference:
+- https://discourse.gohugo.io/t/replace-function-when-applied-to-content-displays-html-tags-instead-of-rendering-them/37717
+- https://gohugo.io/templates/data-templates/
+- https://github.com/gohugoio/hugo/issues/1150
+*/}}
+
+{{ $Content := .Content }}
+
+{{ $url := "static/csv/keywords-links.csv" }}
+{{ $sep := "," }}
+
+{{/* start - range the CSV keywords */}}
+{{ range $i, $r := getCSV $sep $url }}
+
+{{ $keyword := index $r 0 }}
+{{ $link := index $r 1 }}
+
+{{- $newWithLink := print "<a href=\"" $link "\">" $keyword "</a>" -}}
+
+{{- if (strings.Contains $Content $keyword) -}}
+{{- $Content = replace $Content $keyword $newWithLink -}}
+{{ end }}
+
+{{/* end - range the CSV keywords */}}
+{{ end }}
+
+{{ $Content | safeHTML }}
