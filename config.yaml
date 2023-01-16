@@ -136,7 +136,7 @@ menu:
       url: /syyj.html
       weight: -81
     - identifier: donation
-      name: 捐赠
+      name: 捐助
       url: /donation.html
       weight: -80
 
