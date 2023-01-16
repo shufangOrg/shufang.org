@@ -30,4 +30,4 @@ https://gohugo.io/templates/rss/#reference-your-rss-feed-in-head
 {{/* end - range the CSV keywords */}}
 {{ end }}
 
-{{ $Content | safeHTML }}
+{{- $Content | safeHTML | truncate 3900 -}}

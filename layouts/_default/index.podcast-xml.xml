@@ -48,7 +48,6 @@
 <description>{{ `<![CDATA[` | safeHTML }}
 {{- partial "author-reader.xml" . -}}
 {{/* - .Content | safeHTML | truncate 3900 - */}}
-{{/* to be fixed: partial template with truncate 3900, and for rss feed only */}}
 {{- partial "replace-content-with-keywords-links.xml" . -}}
 {{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>
 <br />
@@ -57,7 +56,6 @@
 <content:encoded>{{ `<![CDATA[` | safeHTML }}
 {{- partial "author-reader.xml" . -}}
 {{/* - .Content | safeHTML | truncate 3900 - */}}
-{{/* to be fixed: partial template with truncate 3900, and for rss feed only */}}
 {{- partial "replace-content-with-keywords-links.xml" . -}}
 {{ i18n "via" }}<a href="{{ .Site.Params.baseURL }}{{ .Permalink | relURL }}">{{ .Title }}</a>
 <br />
