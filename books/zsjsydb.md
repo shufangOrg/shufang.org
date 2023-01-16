@@ -10,7 +10,7 @@ url = "/zsjsydb.html"
 author_name = "李娟"
 reader = "zixin"
 reader_name = "子欣"
-episodes_amount: 4
+episodes_amount = 4
 episodes_base_url = "zsjsydb"
 +++
 
