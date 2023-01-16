@@ -1,2 +1,0 @@
-./content/podcast/ja-6.md
-./content/podcast/ja-7.md
