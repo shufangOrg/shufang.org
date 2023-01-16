@@ -14,7 +14,6 @@ external_mp3 = "yes"
 mp3 = "ting.shufang.org/all-of-the-white-in-the-world/all-of-the-white-in-the-world_01-v1.mp3"
 books = "zsjsydb"
 author_name = "李娟"
-translator_name =
 reader = "zixin"
 reader_name = "子欣"
 episodes_amount: 4
