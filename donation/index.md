@@ -1,5 +1,5 @@
 +++
-title = "捐赠"
+title = "捐助"
 date = 2021-07-20
 lastmod = 2022-03-27T08:21:08+00:00
 draft = false
