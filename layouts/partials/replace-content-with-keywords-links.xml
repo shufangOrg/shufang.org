@@ -17,7 +17,11 @@ reference:
 {{ $keyword := index $r 0 }}
 {{ $link := index $r 1 }}
 
-{{- $newWithLink := print "<a href=\"" $link "\">" $keyword "</a>" -}}
+{{/* reference:
+https://discourse.gohugo.io/t/hugo-templating-quotes-within-quotes/11661/4
+https://gohugo.io/templates/rss/#reference-your-rss-feed-in-head
+*/}}
+{{- $newWithLink := printf `<a href="%s">%s</a>` $link $keyword -}}
 
 {{- if (strings.Contains $Content $keyword) -}}
 {{- $Content = replace $Content $keyword $newWithLink -}}
