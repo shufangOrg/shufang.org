@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  <article class="cf ph3 ph5-l pv3 pv4-l f5 center measure-wide lh-copy mid-gray">
     {{ .Content }}
   </article>
   {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
@@ -24,12 +24,26 @@
 
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 
+{{/* start - show the sticky posts */}}
+{{ $allBlogPosts := where .Site.RegularPages "Section" "blog" }}
+{{ range $allBlogPosts }}
+{{ if .Params.sticky_post }}
+{{ partial "summary-with-image.html" . }}
+{{ end }}
+{{ end }}
+{{/* end - show the sticky posts */}}
+
       <section class="w-100 mw8">
         {{/* Range through the first $n_posts items of the section */}}
         {{ range (first $n_posts $section) }}
-          <div class="relative w-100 mb4">
-            {{ partial "summary-with-image.html" . }}
-          </div>
+	  {{/* start - exclude the sticky posts */}}
+	  {{ if .Params.sticky_post }}
+	  {{/* do nothing */}}
+	  {{ else }}
+	  <div class="relative w-100 mb4">
+	      {{ partial "summary-with-image.html" . }}
+	  </div>
+	  {{ end }} {{/* end - exclude the sticky posts */}}
         {{ end }}
       </section>
 

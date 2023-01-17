@@ -72,3 +72,6 @@ other = "作家说"
 
 [books]
 other = "书目"
+
+[sticky]
+other = "置顶"
