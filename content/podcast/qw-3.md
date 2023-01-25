@@ -13,13 +13,12 @@ length = 12424153
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/qi-wang/chess_king_03_v2.mp3"
 books = "qw"
-readers = "siji"
+author_name = "阿城"
+reader = "siji"
+reader_name = "安德烈司机"
 episodes_amount = 6
 episodes_base_url = "qw"
 +++
-
-> 作者: 阿城  
-> 朗读者：安德烈司机
 
 《棋王》收录“三王”小说经典，珍贵文献、星星美展插画、《今天》杂志油印创作谈等一并收入，呈现文字手艺人阿城先生的温度与风度。
 
