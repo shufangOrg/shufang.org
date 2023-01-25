@@ -34,7 +34,7 @@ url = "/about.html"
 
 ## 联系书房
 
-- hi@<span class="displaynone">null</span>shufang.org
+- {{< email >}}
 
 <p style="text-align: center;">
 - 🌱 -

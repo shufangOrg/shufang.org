@@ -57,4 +57,4 @@ url = "/faq.html"
 
 ## 有聊天群组吗？
 
-答：有的，暂时烦请邮件联系 hi@<span class="displaynone">null</span>shufang.org 获取加入方式。
+答：有的，暂时烦请邮件联系 {{< email >}} 获取加入方式。
