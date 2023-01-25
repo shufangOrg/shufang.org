@@ -13,13 +13,12 @@ length = 9280345
 external_mp3 = "yes"
 mp3 = "ting.shufang.org/man-and-sea/man-and-sea_03_v1.mp3"
 books = "lryh"
-readers = "siji"
+author_name = "[美国] 欧内斯特·海明威"
+reader = "siji"
+reader_name = "安德烈司机"
 episodes_amount = 13
 episodes_base_url = "man-and-sea"
 +++
-
-> 作者：[美国] 欧内斯特·海明威  
-> 朗读者：安德烈司机
 
 他眺望着海面，发觉他此刻是多么孤单。但是他可以看见深色的海水深处的彩虹七色，面前伸展着的钓索和那平静的海面上奇妙的波动。由于贸易风的吹刮，这时云块正在积聚起来，他朝前望去，见到一群野鸭在水面上飞，在天空的衬托下，身影刻画得很清楚，然后模糊起来，然后又清楚地刻画出来，于是他明白，一个人在海上是永远不会孤单的。
 
