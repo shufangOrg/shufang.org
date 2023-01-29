@@ -2,3 +2,4 @@
 ./content/podcast/ja-18.md
 ./content/podcast/ja-19.md
 ./content/podcast/ja-20.md
+./content/podcast/ja-21.md
