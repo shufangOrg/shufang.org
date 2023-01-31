@@ -4,3 +4,4 @@
 ./content/podcast/ja-20.md
 ./content/podcast/ja-21.md
 ./content/podcast/ja-22.md
+./content/podcast/ja-23.md
