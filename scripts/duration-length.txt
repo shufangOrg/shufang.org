@@ -7,3 +7,4 @@
 ./content/podcast/ja-23.md
 ./content/podcast/ja-24.md
 ./content/podcast/ja-25.md
+./content/podcast/ja-26.md
