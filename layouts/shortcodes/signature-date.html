@@ -5,5 +5,5 @@ usage example:
 */}}
 
 <p align="right">---- {{ $.Page.Params.reader_name | string }}<br />
-{{ $.Page.Params.date | string }}
+{{ $.Page.Params.date | time.Format ":date_long" }}
 </p>
