@@ -1,0 +1,9 @@
+{{/* this is used to display the signature and date at the end of each reader post
+
+usage example:
+{{< signature-date >}}
+*/}}
+
+<p align="right">---- {{ $.Page.Params.reader_name | string }}<br />
+{{ $.Page.Params.date | string }}
+</p>
