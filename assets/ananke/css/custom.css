@@ -45,9 +45,3 @@ span.displaynone { display: none; }
 .sticky {
     background-color: #408bc9;
 }
-
-/* signature and date in each reader post */
-div.sign-date {
-    position: absolute;
-    right: 0;
-}
