@@ -11,3 +11,4 @@
 ./content/podcast/ja-27.md
 ./content/podcast/ja-28.md
 ./content/podcast/ja-29.md
+./content/podcast/ja-30.md
