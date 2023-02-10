@@ -9,6 +9,7 @@ customized-slug: xiaxiaomai
 description: 在夕阳西下时，沐浴在蒲干佛塔群的阴影中；感受一次土耳其的火星飞行；看看斯里兰卡是不是真的像爱丽丝的仙境一般迷人。然后，把我在那颗寂寞的午夜失去了的灵魂，找回来。
 category: readers
 reader: xiaxiaomai
+reader_name: 夏小麦
 list_books: true
 list_episodes: true
 list_blog_posts: true
@@ -74,6 +75,8 @@ Q: 对书房中除你以外的朗读者说句话，你会对谁说什么？
 
 夏小麦：我想对小雨姐说，是你的声音陪我过了一段艰难的日子，那时候我不浮躁，不急功近利，安安定定每天做自己该做的事情，用一本好书和舒服的声音填补所有空白的时间，才让我有了后来坚持下去的动力。
 {{< /blockquote >}}
+
+{{< signature-date >}}
 
 ## 关注夏小麦 😀 {#follow-xiaxiaomai}
 
