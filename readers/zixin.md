@@ -16,7 +16,7 @@ list_blog_posts: false
 number: 90
 ---
 
-{{< figure src=”/images/zixin_2015.jpg“ >}}
+{{< figure src="/images/zixin_2015.jpg" >}}
 
 {{< blockquote >}}
 做喜欢的事，爱可爱的人。
@@ -55,7 +55,9 @@ number: 90
 总之，我很开心与书房的相遇，也很珍惜读过的每一本书，未来还有很多可能性。边走边瞧吧！
 
 {{< blockquote >}}
-Q:对书房中除你以外的朗读者说句话，你会对谁说什么？
+Q：对书房中除你以外的朗读者说句话，你会对谁说什么？
 
 子欣：只能对一个人说的话，那就小雨姐吧：如果有缘可以相见，一定要给你一个大大大大大的拥抱。
 {{< /blockquote >}}
+
+{{< signature-date >}}
