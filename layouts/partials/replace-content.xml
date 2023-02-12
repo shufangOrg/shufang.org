@@ -1,4 +1,4 @@
-{{/* this is used to replace the keywords in content with links
+{{/* this is used to replace the keywords & characters in content, to implement internal links and for better typesetting
 
 reference:
 - https://discourse.gohugo.io/t/replace-function-when-applied-to-content-displays-html-tags-instead-of-rendering-them/37717
@@ -25,6 +25,24 @@ https://gohugo.io/templates/rss/#reference-your-rss-feed-in-head
 
 {{- if (strings.Contains $Content $keyword) -}}
 {{- $Content = replace $Content $keyword $newWithLink -}}
+{{ end }}
+
+{{/* end - range the CSV keywords */}}
+{{ end }}
+
+{{*/ start the better-typesetting replacement */}}
+
+{{ $url := "static/csv/better-typesetting.csv" }}
+{{ $sep := "," }}
+
+{{/* start - range the CSV keywords */}}
+{{ range $i, $r := getCSV $sep $url }}
+
+{{ $old := index $r 0 }}
+{{ $new := index $r 1 }}
+
+{{- if (strings.Contains $Content $old) -}}
+{{ $Content = replace $Content $old $new }}
 {{ end }}
 
 {{/* end - range the CSV keywords */}}
