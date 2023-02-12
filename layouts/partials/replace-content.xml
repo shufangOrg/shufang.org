@@ -30,7 +30,7 @@ https://gohugo.io/templates/rss/#reference-your-rss-feed-in-head
 {{/* end - range the CSV keywords */}}
 {{ end }}
 
-{{*/ start the better-typesetting replacement */}}
+{{/* start the better-typesetting replacement */}}
 
 {{ $url := "static/csv/better-typesetting.csv" }}
 {{ $sep := "," }}
