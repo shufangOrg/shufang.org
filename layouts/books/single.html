@@ -40,7 +40,10 @@
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f5 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
     {{- partial "author-reader.html" . -}}
-	{{- .Content -}}
+ 
+	{{/* - .Content - */}}
+{{- partial "replace-content.html" . -}}
+	
 	{{- partial "episodes-list.html" . -}}
       {{- partial "section.html" . -}}
       {{- partial "tags.html" . -}}
