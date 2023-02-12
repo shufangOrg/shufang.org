@@ -30,6 +30,8 @@ number: 40
 
 {{< signature-date >}}
 
+{{< emoji-dividing-line pen >}}
+
 ## 关注大夏 😀 {#follow-daxia}
 
 - 微博：趴大夏要更加奔放昂扬

@@ -78,6 +78,8 @@ Q: 对书房中除你以外的朗读者说句话，你会对谁说什么？
 
 {{< signature-date >}}
 
+{{< emoji-dividing-line pen >}}
+
 ## 关注夏小麦 😀 {#follow-xiaxiaomai}
 
 - 微信公众号：赖村 32 号
