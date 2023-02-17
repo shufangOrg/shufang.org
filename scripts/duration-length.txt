@@ -20,3 +20,4 @@
 ./content/podcast/ja-36.md
 ./content/podcast/ja-37.md
 ./content/podcast/ja-38.md
+./content/podcast/shldgs-1.md
