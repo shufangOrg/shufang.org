@@ -23,3 +23,4 @@
 ./content/podcast/shldgs-1.md
 ./content/podcast/shldgs-2.md
 ./content/podcast/shldgs-3.md
+./content/podcast/shldgs-4.md
