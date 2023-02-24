@@ -28,3 +28,4 @@
 ./content/podcast/shldgs-6.md
 ./content/podcast/shldgs-7.md
 ./content/podcast/shldgs-8.md
+./content/podcast/shldgs-9.md
