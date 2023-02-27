@@ -1,0 +1,41 @@
+{{- $rssHeader := partial "single-book-rss-header.xml" . -}}
+{{- htmlUnescape $rssHeader -}}
+
+<title>{{ .Site.Params.JATitle }}</title>
+<description><![CDATA[{{ .Site.Params.JASummary }}]]></description>
+<copyright>{{ .Site.Params.podcastLicense }} 2012-{{ now.Format "2006"}} {{ .Site.Params.JATitle }}</copyright>
+
+<image>
+<link>{{ .Site.Params.baseURL }}</link>
+<url>{{ .Site.Params.logo }}</url>
+<title>{{ .Site.Params.JATitle }}</title>
+</image>
+
+<itunes:author>{{ .Site.Params.JAReader }}</itunes:author>
+<itunes:image href="{{ .Site.Params.JACover }}"/>
+<itunes:subtitle>{{ .Site.Params.JASubtitle }}</itunes:subtitle>
+<itunes:summary><![CDATA[{{ .Site.Params.JASummary }}]]></itunes:summary>
+
+<itunes:owner>
+<itunes:name>{{ .Site.Params.JAReader }}</itunes:name>
+<itunes:email>{{ .Site.Params.email }}</itunes:email>
+</itunes:owner>
+
+{{- partial "single-book-rss-itunes.xml" . -}}
+
+{{- range (.Site.RegularPages.ByParam "date").Reverse -}}
+{{- if in .Params.books "ja" -}}
+<item>
+  <itunes:author>{{ .Site.Params.JAReader }}</itunes:author>
+  <itunes:image href="{{- if and (ne .Params.image nil) (ne .Params.image "") -}}
+    {{ .Site.Params.baseURL }}{{ .Params.image }}
+    {{ else }}
+    {{- .Site.Params.JACover -}}
+    {{- end -}}" />
+    {{- partial "single-book-rss-content.xml" . -}}
+  </item>
+{{- end -}}
+{{- end -}}
+
+</channel>
+</rss>

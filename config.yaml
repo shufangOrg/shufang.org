@@ -112,6 +112,14 @@ Params:
   SSQRSummary: >
     这世上真是嘛人都有：有的对别人下狠手表示厉害，也有人对自己下狠手显威风，有的把伤藏起来，以为耻辱，有的就挂在脸上，成了光荣的标记。<br /><br />
     网址：<a href="https://shufang.org">shufang.org</a>
+  # 简爱
+  JATitle: 简爱 - 一个人的书房
+  JASubtitle: 我想你会喜欢爱尔兰的
+  JAReader: 西子
+  JACover: https://shufang.org/images/books/ja.png
+  JASummary: >
+    我右侧，绯红色窗幔的皱褶挡住了我的视线；左侧，明亮的玻璃窗庇护着我，使我既免受十一月阴沉天气的侵害，又不与外面的世界隔绝。<br /><br />
+    网址：<a href="https://shufang.org">shufang.org</a>
 
 menu:
   main:
@@ -181,6 +189,10 @@ outputFormats:
     mediaType: "application/rss+xml"
     baseName: "ssqr"
     isPlainText: true
+  ja-xml:
+    mediaType: "application/rss+xml"
+    baseName: "ja"
+    isPlainText: true 
 
 outputs:
   home:
@@ -195,3 +207,4 @@ outputs:
     - "jdsyr-xml"
     - "gdby-xml"
     - "ssqr-xml"
+    - "ja-xml" 
