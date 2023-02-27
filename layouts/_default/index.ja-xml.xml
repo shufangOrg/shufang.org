@@ -24,7 +24,7 @@
 {{- partial "single-book-rss-itunes.xml" . -}}
 
 {{- range (.Site.RegularPages.ByParam "date").Reverse -}}
-{{- if in .Params.books "ja" -}}
+{{- if eq .Params.books "ja" -}}
 <item>
   <itunes:author>{{ .Site.Params.JAReader }}</itunes:author>
   <itunes:image href="{{- if and (ne .Params.image nil) (ne .Params.image "") -}}
