@@ -9,8 +9,8 @@ subtitle: “你在想什么？”
 description: “我在想，飞蛾扑火时，一定是极快乐幸福的。”
 summary: “我在想，飞蛾扑火时，一定是极快乐幸福的。”
 url: /shldgs-10.html
-duration: 
-length: 
+duration: "0:17:14.688000"
+length: 8277529
 mp3: ting-2023.shufang.org/story-of-sahala/story_of_sahala_10_v1.mp3
 books: shldgs
 author_name: 三毛
