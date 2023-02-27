@@ -9,12 +9,13 @@ url = "/book-rss.html"
 
 我们精心制作了每一集音频，并为每本书生成单本源，订阅地址大部分即书名的拼音首字母 + xml 后缀，详细列表：
 
-（最近更新于 2023 年 1 月 5 日）
+（最近更新于 2023 年 2 月 27 日）
 
 {{< book-rss >}}
 书名, 订阅源
 当尼采哭泣, https://shufang.org/dnckq.xml
 故道白云, https://shufang.org/gdby.xml
+简爱, https://shufang.org/ja.xml
 京都手艺人, https://shufang.org/jdsyr.xml
 老人与海, https://shufang.org/lryh.xml
 失乐园, https://shufang.org/sly.xml
