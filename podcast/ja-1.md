@@ -11,7 +11,7 @@ summary: 我右侧，绯红色窗幔的皱褶挡住了我的视线；左侧，�
 url: /ja-1.html
 duration: "0:15:09.330438"
 length: 14549312
-external_mp3: yes
+external_mp3: 'yes'
 mp3: ting-2023.shufang.org/jian-ai/jane_eyre_01_v6.mp3
 books: ja
 author_name: 夏洛蒂・勃朗特
