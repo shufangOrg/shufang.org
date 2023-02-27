@@ -11,6 +11,7 @@ summary: “我在想，飞蛾扑火时，一定是极快乐幸福的。”
 url: /shldgs-3.html
 duration: "0:25:16.944000"
 length: 12135577
+external_mp3: "yes"
 mp3: ting-2023.shufang.org/story-of-sahala/story_of_sahala_03_v1.mp3
 books: shldgs
 author_name: 三毛

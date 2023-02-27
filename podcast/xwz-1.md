@@ -11,6 +11,7 @@ summary: 这就好比花一样，要是你喜欢一朵花，而她在一颗星�
 url: /xwz-1.html
 duration: "0:15:29.376000"
 length: 7435033
+external_mp3: "yes"
 mp3: ting-2023.shufang.org/little-prince/little_prince_01_v1.mp3
 books: xwz
 author_name: 圣埃克苏佩里
