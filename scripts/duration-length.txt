@@ -1,3 +1,4 @@
 ./content/podcast/xwz-1.md
 ./content/podcast/xwz-2.md
 ./content/podcast/xwz-3.md
+./content/podcast/xwz-4.md
