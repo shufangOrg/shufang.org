@@ -5,3 +5,4 @@
 ./content/podcast/xwz-5.md
 ./content/podcast/xwz-6.md
 ./content/podcast/xwz-7.md
+./content/podcast/xwz-8.md
