@@ -9,6 +9,7 @@ customized-slug: wenxi
 description: 原来在我自己都不太深刻的记忆里，有个地方，很好保留着我遗留在过去岁月的，稚嫩的声响。
 category: readers
 reader: wenxi
+reader_name: 闻溪
 list_books: true
 list_blog_posts: false
 number: 420
