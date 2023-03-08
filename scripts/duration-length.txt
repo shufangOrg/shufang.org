@@ -7,3 +7,4 @@
 ./content/podcast/xwz-7.md
 ./content/podcast/xwz-8.md
 ./content/podcast/xwz-9.md
+./content/podcast/mgnxxs-1.md
