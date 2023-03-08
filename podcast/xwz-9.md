@@ -9,8 +9,8 @@ subtitle: 每个人眼里的星星都是不一样的
 description: 这就好比花一样，要是你喜欢一朵花，而她在一颗星星上，那你夜里你看着天空就会觉得很美，所有星星都像开满了花。
 summary: 这就好比花一样，要是你喜欢一朵花，而她在一颗星星上，那你夜里你看着天空就会觉得很美，所有星星都像开满了花。
 url: /xwz-9.html
-duration: "0:17:38.760000"
-length: 12705145
+duration: 
+length: 
 external_mp3: "yes"
 mp3: ting-2023.shufang.org/little-prince/little_prince_09_v1.mp3
 books: xwz
