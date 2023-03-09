@@ -9,3 +9,4 @@
 ./content/podcast/xwz-9.md
 ./content/podcast/mgnxxs-1.md
 ./content/podcast/mgnxxs-2.md
+./content/podcast/mgnxxs-3.md
