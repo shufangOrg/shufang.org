@@ -10,3 +10,4 @@
 ./content/podcast/mgnxxs-1.md
 ./content/podcast/mgnxxs-2.md
 ./content/podcast/mgnxxs-3.md
+./content/podcast/mgnxxs-4.md
