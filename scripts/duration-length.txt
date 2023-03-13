@@ -13,3 +13,4 @@
 ./content/podcast/mgnxxs-4.md
 ./content/podcast/hlhz-1.md
 ./content/podcast/hlhz-2.md
+./content/podcast/hlhz-3.md
