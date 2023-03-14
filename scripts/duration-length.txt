@@ -1,16 +1,3 @@
-./content/podcast/xwz-1.md
-./content/podcast/xwz-2.md
-./content/podcast/xwz-3.md
-./content/podcast/xwz-4.md
-./content/podcast/xwz-5.md
-./content/podcast/xwz-6.md
-./content/podcast/xwz-7.md
-./content/podcast/xwz-8.md
-./content/podcast/xwz-9.md
-./content/podcast/mgnxxs-1.md
-./content/podcast/mgnxxs-2.md
-./content/podcast/mgnxxs-3.md
-./content/podcast/mgnxxs-4.md
 ./content/podcast/hlhz-1.md
 ./content/podcast/hlhz-2.md
 ./content/podcast/hlhz-3.md
