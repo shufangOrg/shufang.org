@@ -1,17 +1,23 @@
 +++
-title = "吴哥之美"
+title = "《吴哥之美》第 1 集"
 date = 2023-03-16
 lastmod = 2023-03-16
+tags = ["podcast"]
 draft = false
 subtitle = "他选择了此处作为帝都"
 description = "当初耶轮跋摩一世迁都到这里，登上山顶，四面还是一片未开发的丛林。他选择了此处作为帝都，此后两三百年，从巴肯山开始，吴哥王朝要在这片土地上一点一点织出锦绣。"
 summary = "当初耶轮跋摩一世迁都到这里，登上山顶，四面还是一片未开发的丛林。他选择了此处作为帝都，此后两三百年，从巴肯山开始，吴哥王朝要在这片土地上一点一点织出锦绣。"
-url = "/wgzm.html"
+url = "/wgzm-1.html"
+duration = 
+length = 
+external_mp3 = "yes"
+mp3 = "ting-2022.shufang.org/wu-ge-zhi-mei/the-beauty-of-angkor_01_v1.1.mp3"
 author_name = "蒋勋"
 reader = "mufeng"
 reader_name = "牧风"
 episodes_amount = 4
 episodes_base_url = "wgzm"
+books = "wgzm"
 +++
 
 {{< blockquote >}}
