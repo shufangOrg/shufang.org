@@ -5,3 +5,4 @@
 ./content/podcast/wgzm-1.md
 ./content/podcast/wgzm-2.md
 ./content/podcast/wgzm-3.md
+./content/podcast/wgzm-4.md
