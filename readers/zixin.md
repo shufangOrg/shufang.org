@@ -12,7 +12,7 @@ reader: zixin
 reader_name: 子欣
 list_books: true
 list_episodes: true
-list_blog_posts: false
+list_blog_posts: true
 number: 90
 ---
 
