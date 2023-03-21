@@ -1,17 +1,23 @@
 +++
-title = "造物有灵且美"
-date = 2023-03-20
-lastmod = 2023-03-20
+title = "《造物有灵且美》第 2 集"
+date = 2023-03-21
+lastmod = 2023-03-21
+tags = ["podcast"]
 draft = false
 subtitle = "他从手下的形状里看见了自身"
 description = "有一天晚上，他从手下的形状里看见了自身，知道了不用语言也能表达自我，能通过一件作品将自己与他人相连。之后，他便开始全身心地投入工作。"
 summary = "有一天晚上，他从手下的形状里看见了自身，知道了不用语言也能表达自我，能通过一件作品将自己与他人相连。之后，他便开始全身心地投入工作。"
-url = "/zwylqm.html"
+url = "/zwylqm-2.html"
+duration = 
+length = 
+external_mp3 = "yes"
+mp3 = "ting-2022.shufang.org/zao-wu-you-ling-qie-mei/zao-wu-you-ling_02_v3.mp3"
 author_name = "赤木明登"
 reader = "huaer"
 reader_name = "花儿"
 episodes_amount = 4
 episodes_base_url = "zwylqm"
+books = "zwylqm"
 +++
 
 {{< blockquote >}}
