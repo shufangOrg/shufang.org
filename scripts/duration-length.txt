@@ -8,3 +8,4 @@
 ./content/podcast/wgzm-4.md
 ./content/podcast/zwylqm-1.md
 ./content/podcast/zwylqm-2.md
+./content/podcast/zwylqm-3.md
