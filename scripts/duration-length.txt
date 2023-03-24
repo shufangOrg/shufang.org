@@ -10,3 +10,4 @@
 ./content/podcast/zwylqm-2.md
 ./content/podcast/zwylqm-3.md
 ./content/podcast/zwylqm-4.md
+./content/podcast/glth-4.md

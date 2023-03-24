@@ -1,17 +1,23 @@
 +++
-title = "格林童话"
+title = "《格林童话》第 1 集"
 date = 2024-03-24
 lastmod = 2024-03-24
+tags = ["podcast"]
 draft = false
 subtitle = "我们再也不把你卖给人家了"
 description = "“我们再也不把你卖给人家了，拿世上的全部财富来也不卖！”父亲说着亲热地拥抱、亲吻他们的爱子大拇指。"
 summary = "“我们再也不把你卖给人家了，拿世上的全部财富来也不卖！”父亲说着亲热地拥抱、亲吻他们的爱子大拇指。"
-url = "/glth.html"
+url = "/glth-1.html"
+duration = 
+length = 
+external_mp3 = "yes"
+mp3 = "ting-2022.shufang.org/ge-lin-tong-hua/grimm-fairytales_01_v1.mp3"
 author_name = "格林兄弟"
 reader = "aixiaomo"
 reader_name = "艾小莫"
 episodes_amount = 4
 episodes_base_url = "glth"
+books = "glth"
 +++
 
 {{< blockquote >}}
