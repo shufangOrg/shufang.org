@@ -12,3 +12,4 @@
 ./content/podcast/zwylqm-4.md
 ./content/podcast/glth-1.md
 ./content/podcast/glth-2.md
+./content/podcast/glth-3.md
