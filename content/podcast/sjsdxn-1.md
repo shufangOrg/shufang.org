@@ -1,17 +1,23 @@
 +++
-title = "舌尖上的新年"
+title = "《舌尖上的新年》第 1 集"
 date = 2023-03-28
 lastmod = 2023-03-28
+tags = ["podcast"]
 draft = false
 subtitle = "人们年复一年的期盼过年"
 description = "春节无疑是中国最重要的时间节点。在匆忙和琐碎的现代生活中，人们年复一年的期盼过年。是历史、生命和现实赋予的契机，让我们在久等之后，屠苏成醉饮，欢笑白云窝。"
 summary = "春节无疑是中国最重要的时间节点。在匆忙和琐碎的现代生活中，人们年复一年的期盼过年。是历史、生命和现实赋予的契机，让我们在久等之后，屠苏成醉饮，欢笑白云窝。"
-url = "/sjsdxn.html"
+url = "/sjsdxn-1.html"
+duration = 
+length = 
+external_mp3 = "yes"
+mp3 = "ting-2022.shufang.org/she-jian-shang-de-xin-nian/new-year_01_v1.mp3"
 author_name = "张之常"
 reader = "hailu"
 reader_name = "海璐"
 episodes_amount = 4
 episodes_base_url = "sjsdxn"
+books = "sjsdxn"
 +++
 
 {{< blockquote >}}
