@@ -15,3 +15,4 @@
 ./content/podcast/glth-3.md
 ./content/podcast/glth-4.md
 ./content/podcast/sjsdxn-1.md
+./content/podcast/sjsdxn-2.md
