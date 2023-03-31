@@ -17,3 +17,4 @@
 ./content/podcast/sjsdxn-1.md
 ./content/podcast/sjsdxn-2.md
 ./content/podcast/sjsdxn-3.md
+./content/podcast/sjsdxn-4.md
