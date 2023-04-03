@@ -18,3 +18,6 @@
 ./content/podcast/sjsdxn-2.md
 ./content/podcast/sjsdxn-3.md
 ./content/podcast/sjsdxn-4.md
+./content/podcast/jr-1.md
+./content/podcast/jr-2.md
+./content/podcast/jr-3.md

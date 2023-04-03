@@ -1,17 +1,23 @@
 +++
-title = "匠人"
+title = "《匠人》第 1 集"
 date = 2023-04-01
 lastmod = 2023-04-01
+tags = ["podcast"]
 draft = false
 subtitle = "那时的人们以情相待"
 description = "生活中所需的一切，曾经就在屋前屋后。那时候的日子直接、新鲜、带着手心的温暖。那时的人们以情相待，用心相处。"
 summary = "生活中所需的一切，曾经就在屋前屋后。那时候的日子直接、新鲜、带着手心的温暖。那时的人们以情相待，用心相处。"
-url = "/jr.html"
+url = "/jr-1.html"
+duration = 
+length = 
+external_mp3 = "yes"
+mp3 = "ting-2022.shufang.org/jiang-ren/workman_01_v2.1.mp3"
 author_name = "申赋渔"
 reader = "xiali"
 reader_name = "夏利"
 episodes_amount = 4
 episodes_base_url = "jr"
+books = "jr"
 +++
 
 {{< blockquote >}}
