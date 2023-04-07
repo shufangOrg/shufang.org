@@ -22,3 +22,6 @@
 ./content/podcast/jr-2.md
 ./content/podcast/jr-3.md
 ./content/podcast/jr-4.md
+./content/podcast/lbqdmb-1.md
+./content/podcast/lbqdmb-2.md
+./content/podcast/lbqdmb-3.md
