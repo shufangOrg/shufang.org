@@ -7,3 +7,11 @@ https://github.com/shufangOrg/shufang.org/issues
 
 ## Wiki
 https://github.com/shufangOrg/shufang.org/wiki
+
+## Contributors
+
+<a href="https://github.com/shufangOrg/shufang.org/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=shufangOrg/shufang.org" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
