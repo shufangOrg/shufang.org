@@ -36,9 +36,9 @@ url = "/donation.html"
 
 - [https://github.com/shufangOrg/changelog](https://github.com/shufangOrg/changelog/issues?q=is%3Aall)
 
-目前「一个人的书房」的主要开销在 shufang.org 域名（NameSilo 每年 10.79 美元，实时价格可见[这里](https://www.namesilo.com/pricing)），之后可能会有服务器开销，视网站运行情况而定。
+目前（2023 年 6 月）「一个人的书房」的主要开销在 shufang.org 域名（Cloudflare 每年 10.11 美元），之后可能会有服务器开销，视网站运行情况而定。
 
-当前 shufang.org 已续费至 2023 年 6 月 2 日（可通过[这里](https://who.is/whois/shufang.org)查看实时域名到期时间）。
+当前 shufang.org 已续费至 2025 年 6 月 2 日（可通过[这里](https://who.is/whois/shufang.org)查看实时域名到期时间）。
 
 我们将感谢你通过任意数额的捐赠方式来支持 shufang.org 的存在和运行，您的每一笔捐赠和去向将在 [i.shufang.org](https://i.shufang.org) 公示。
 
