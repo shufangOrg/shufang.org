@@ -1,18 +1,18 @@
 ---
-title: 《梦里花落知多少》——明日又天涯
-date: 2024-07-16
-lastmod: 2024-07-16
+title: 《梦里花落知多少》——迷航之四
+date: 2024-08-01
+lastmod: 2024-08-01
 tags:
 - podcast
 draft: false
 subtitle: 其实人生的聚散本来在乎一念之间
 description: 最爱在晚饭过后，身边坐着我爱的人，他看书或看电视，我坐在一盏台灯下，身上堆着布料，两人有一搭没一搭地说着闲话，将那份对家庭的情爱，一针一针细细地透过指尖，缝进不说一句话的帘子里去。
 summary: 最爱在晚饭过后，身边坐着我爱的人，他看书或看电视，我坐在一盏台灯下，身上堆着布料，两人有一搭没一搭地说着闲话，将那份对家庭的情爱，一针一针细细地透过指尖，缝进不说一句话的帘子里去。
-url: /mlhlzds-1.html
-duration: "0:05:36.431020"
-length: 8082798
+url: /mlhlzds-3.html
+duration: "0:36:45.456000"
+length: 52939315
 external_mp3: 'yes'
-mp3: ting-2024.shufang.org/meng-li-hua-luo-zhi-duo-shao/ming-ri-you-tian-ya.mp3
+mp3: ting-2024.shufang.org/meng-li-hua-luo-zhi-duo-shao/mi-hang-zhi-si.mp3
 books: mlhlzds
 author_name: 三毛
 translator_name: 

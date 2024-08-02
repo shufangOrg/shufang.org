@@ -18,7 +18,7 @@ author_name: 三毛
 translator_name: 
 reader: zixin
 reader_name: 子欣
-episodes_amount: 2
+episodes_amount: 3
 episodes_base_url: mlhlzds
 ---
 
