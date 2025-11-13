@@ -147,6 +147,10 @@ menu:
       name: 捐助
       url: /donation.html
       weight: -80
+    - identifier: search
+      name: 搜索
+      url: /search.html
+      weight: -70
 
 outputFormats:
   podcast-xml:
@@ -192,7 +196,11 @@ outputFormats:
   ja-xml:
     mediaType: "application/rss+xml"
     baseName: "ja"
-    isPlainText: true 
+    isPlainText: true
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "search"
+    isPlainText: true
 
 outputs:
   home:
@@ -207,4 +215,5 @@ outputs:
     - "jdsyr-xml"
     - "gdby-xml"
     - "ssqr-xml"
-    - "ja-xml" 
+    - "ja-xml"
+    - "SearchIndex"
