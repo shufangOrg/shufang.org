@@ -147,6 +147,10 @@ menu:
       name: 捐助
       url: /donation.html
       weight: -80
+    - identifier: ying
+      name: 光影
+      url: //ying.shufang.org
+      weight: -80
 
 outputFormats:
   podcast-xml:
