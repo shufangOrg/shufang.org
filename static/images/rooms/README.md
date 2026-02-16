@@ -5,9 +5,9 @@ This directory contains the background illustrations for reader study room theme
 ## Available Themes
 
 Each room theme should have:
-- A main background image (e.g., `modern.jpg`, `classic.jpg`)
-- Recommended dimensions: 1920x1080px or similar widescreen ratio
-- Format: JPG or PNG with good compression
+- A background image in SVG format (e.g., `modern.svg`, `classic.svg`)
+- SVG format is preferred for scalability and small file size
+- Recommended to design for widescreen aspect ratio (16:9 or similar)
 
 ## Current Themes
 
@@ -18,12 +18,16 @@ Each room theme should have:
 5. **nature** - Study room with natural elements, plants
 6. **vintage** - Vintage/retro style study room
 
-## Placeholder Images
+## Current Implementation
 
-Currently using placeholder images. These should be replaced with actual AI-generated or illustrated room backgrounds as per the design requirements in GitHub Discussion #120.
+The current room themes are implemented as SVG illustrations. These can be replaced with:
+- AI-generated illustrations (as mentioned in GitHub Discussion #120)
+- Hand-drawn artwork
+- Animated SVG or converted to animated formats using AI tools (Pika, Sora)
+- Higher fidelity raster images (JPG/PNG) if needed, though SVG is recommended
 
 ## Adding New Themes
 
 1. Add the background image to this directory
-2. Name it according to the theme (e.g., `theme-name.jpg`)
+2. Name it according to the theme (e.g., `theme-name.svg`)
 3. Update the reader's front matter with `room_theme: theme-name`
