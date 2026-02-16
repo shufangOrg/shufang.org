@@ -5,7 +5,12 @@
 
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+  {{/* Room theme background */}}
+  {{ if .Params.room_theme }}
+  <div class="reader-room-background" style="background-image: url('/images/rooms/{{ .Params.room_theme }}.svg');">
+    <div class="room-overlay"></div>
+  {{ end }}
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 {{ if .Params.room_theme }}reader-room-content{{ end }}">
     <header class="mt4 w-100">
       {{/* partial "social-share.html" . */}}
       <h1 class="f1 athelas mt3 mb1">
@@ -66,4 +71,7 @@
     </aside>
 
   </article>
+  {{ if .Params.room_theme }}
+  </div>
+  {{ end }}
 {{ end }}

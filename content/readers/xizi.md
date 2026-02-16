@@ -12,6 +12,7 @@ reader: xizi
 list_books: true
 list_blog_posts: false
 number: 50
+room_theme: classic
 ---
 
 待更新……

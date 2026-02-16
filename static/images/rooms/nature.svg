@@ -1,0 +1,75 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nature-inspired study room background -->
+  <defs>
+    <linearGradient id="natureGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f5e8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#natureGrad)"/>
+  
+  <!-- Floor -->
+  <rect y="800" width="1920" height="280" fill="#c8b89d"/>
+  
+  <!-- Wooden desk -->
+  <rect x="550" y="650" width="820" height="30" fill="#8b6f47"/>
+  <rect x="570" y="680" width="20" height="120" fill="#8b6f47"/>
+  <rect x="1330" y="680" width="20" height="120" fill="#8b6f47"/>
+  
+  <!-- Natural wood bookshelf -->
+  <rect x="180" y="280" width="350" height="500" fill="#a0826d" opacity="0.8"/>
+  <line x1="180" y1="400" x2="530" y2="400" stroke="#8b6f47" stroke-width="5"/>
+  <line x1="180" y1="520" x2="530" y2="520" stroke="#8b6f47" stroke-width="5"/>
+  <line x1="180" y1="640" x2="530" y2="640" stroke="#8b6f47" stroke-width="5"/>
+  
+  <!-- Books with nature themes -->
+  <rect x="200" y="290" width="38" height="100" fill="#6b8e23"/>
+  <rect x="243" y="290" width="42" height="100" fill="#8b7355"/>
+  <rect x="290" y="290" width="35" height="100" fill="#556b2f"/>
+  <rect x="330" y="290" width="40" height="100" fill="#6b4423"/>
+  <rect x="375" y="290" width="45" height="100" fill="#8fbc8f"/>
+  
+  <!-- Large windows -->
+  <rect x="1350" y="180" width="500" height="520" fill="#b8e6d5" opacity="0.5"/>
+  <line x1="1600" y1="180" x2="1600" y2="700" stroke="#ffffff" stroke-width="8"/>
+  <line x1="1350" y1="440" x2="1850" y2="440" stroke="#ffffff" stroke-width="8"/>
+  
+  <!-- Many plants -->
+  <!-- Large floor plant left -->
+  <ellipse cx="120" cy="780" rx="60" ry="25" fill="#8b6f47"/>
+  <path d="M 120 780 Q 90 730 110 680 Q 130 650 150 680 Q 170 730 120 780" fill="#228b22"/>
+  <path d="M 120 780 Q 150 730 145 680 Q 140 650 130 665 Q 110 700 120 780" fill="#32cd32"/>
+  <path d="M 120 780 Q 80 740 95 700 Q 110 670 125 695 Q 145 725 120 780" fill="#2e8b57"/>
+  
+  <!-- Hanging plant -->
+  <ellipse cx="700" cy="250" rx="40" ry="20" fill="#6b8e23"/>
+  <path d="M 700 270 Q 680 300 690 330" stroke="#228b22" stroke-width="3" fill="none"/>
+  <path d="M 700 270 Q 720 300 710 330" stroke="#228b22" stroke-width="3" fill="none"/>
+  <ellipse cx="690" cy="330" rx="15" ry="20" fill="#32cd32"/>
+  <ellipse cx="710" cy="330" rx="15" ry="20" fill="#3cb371"/>
+  
+  <!-- Desk plant -->
+  <ellipse cx="1250" cy="640" rx="35" ry="15" fill="#8b6f47"/>
+  <path d="M 1250 640 Q 1230 615 1240 590 Q 1250 575 1260 590 Q 1270 615 1250 640" fill="#6b8e23"/>
+  <path d="M 1250 640 Q 1270 615 1265 590 Q 1260 575 1250 583 Q 1240 600 1250 640" fill="#7fa02e"/>
+  
+  <!-- Small plants on shelf -->
+  <ellipse cx="250" cy="515" rx="25" ry="10" fill="#8b6f47"/>
+  <circle cx="250" cy="505" r="18" fill="#90ee90"/>
+  
+  <ellipse cx="450" cy="515" rx="28" ry="12" fill="#8b6f47"/>
+  <path d="M 450 515 Q 435 495 443 480 Q 450 470 457 480 Q 465 495 450 515" fill="#6b8e23"/>
+  
+  <!-- Natural wood chair -->
+  <rect x="880" y="720" width="160" height="15" fill="#8b6f47"/>
+  <rect x="920" y="735" width="80" height="65" fill="#a0826d"/>
+  <rect x="935" y="800" width="50" height="30" fill="#8b6f47"/>
+  
+  <!-- Bamboo mat -->
+  <ellipse cx="960" cy="900" rx="380" ry="110" fill="#d4c5a9" opacity="0.5"/>
+  
+  <!-- Text label -->
+  <text x="960" y="150" font-family="Georgia, serif" font-size="48" fill="#6b8e23" text-anchor="middle" opacity="0.35">Nature Study</text>
+</svg>

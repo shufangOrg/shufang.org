@@ -14,6 +14,7 @@ list_books: true
 list_episodes: true
 list_blog_posts: false
 number: 40
+room_theme: nature
 ---
 
 {{< figure src="/images/summer.jpg" >}}

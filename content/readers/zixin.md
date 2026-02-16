@@ -14,6 +14,7 @@ list_books: true
 list_episodes: true
 list_blog_posts: true
 number: 90
+room_theme: cozy
 ---
 
 {{< figure src="/images/zixin_2015.jpg" >}}

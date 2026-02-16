@@ -1,0 +1,72 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Classic traditional study room background -->
+  <defs>
+    <linearGradient id="classicGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8dcc8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4c5a9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#classicGrad)"/>
+  
+  <!-- Floor -->
+  <rect y="800" width="1920" height="280" fill="#8b6f47"/>
+  
+  <!-- Large bookshelf left -->
+  <rect x="50" y="200" width="450" height="600" fill="#6b4423"/>
+  <line x1="50" y1="350" x2="500" y2="350" stroke="#8b5a3c" stroke-width="6"/>
+  <line x1="50" y1="500" x2="500" y2="500" stroke="#8b5a3c" stroke-width="6"/>
+  <line x1="50" y1="650" x2="500" y2="650" stroke="#8b5a3c" stroke-width="6"/>
+  
+  <!-- Books on left shelf -->
+  <rect x="70" y="210" width="40" height="130" fill="#8b0000"/>
+  <rect x="115" y="210" width="45" height="130" fill="#2f4f4f"/>
+  <rect x="165" y="210" width="38" height="130" fill="#8b6914"/>
+  <rect x="208" y="210" width="42" height="130" fill="#556b2f"/>
+  <rect x="255" y="210" width="50" height="130" fill="#8b4513"/>
+  <rect x="310" y="210" width="35" height="130" fill="#4682b4"/>
+  <rect x="350" y="210" width="48" height="130" fill="#8b7355"/>
+  <rect x="403" y="210" width="42" height="130" fill="#6b4423"/>
+  
+  <!-- Large bookshelf right -->
+  <rect x="1420" y="200" width="450" height="600" fill="#6b4423"/>
+  <line x1="1420" y1="350" x2="1870" y2="350" stroke="#8b5a3c" stroke-width="6"/>
+  <line x1="1420" y1="500" x2="1870" y2="500" stroke="#8b5a3c" stroke-width="6"/>
+  <line x1="1420" y1="650" x2="1870" y2="650" stroke="#8b5a3c" stroke-width="6"/>
+  
+  <!-- Books on right shelf -->
+  <rect x="1440" y="210" width="42" height="130" fill="#8b0000"/>
+  <rect x="1487" y="210" width="38" height="130" fill="#2f4f4f"/>
+  <rect x="1530" y="210" width="45" height="130" fill="#8b6914"/>
+  <rect x="1580" y="210" width="40" height="130" fill="#556b2f"/>
+  <rect x="1625" y="210" width="48" height="130" fill="#8b4513"/>
+  <rect x="1678" y="210" width="35" height="130" fill="#4682b4"/>
+  <rect x="1718" y="210" width="50" height="130" fill="#8b7355"/>
+  <rect x="1773" y="210" width="42" height="130" fill="#6b4423"/>
+  
+  <!-- Ornate desk -->
+  <rect x="550" y="640" width="820" height="40" fill="#6b4423"/>
+  <rect x="550" y="680" width="820" height="15" fill="#8b5a3c"/>
+  <path d="M 580 695 L 570 800 L 620 800 L 610 695 Z" fill="#6b4423"/>
+  <path d="M 1340 695 L 1330 800 L 1380 800 L 1370 695 Z" fill="#6b4423"/>
+  
+  <!-- Classic chair -->
+  <rect x="880" y="720" width="160" height="80" fill="#8b1a1a"/>
+  <rect x="900" y="680" width="120" height="40" fill="#8b1a1a"/>
+  <rect x="935" y="800" width="50" height="30" fill="#6b4423"/>
+  
+  <!-- Chandelier -->
+  <ellipse cx="960" cy="280" rx="100" ry="30" fill="#ffd700" opacity="0.3"/>
+  <circle cx="960" cy="300" r="40" fill="#fff9e6" opacity="0.6"/>
+  
+  <!-- Carpet -->
+  <ellipse cx="960" cy="900" rx="400" ry="120" fill="#8b0000" opacity="0.3"/>
+  
+  <!-- Globe on desk -->
+  <circle cx="700" cy="620" r="35" fill="#4682b4" opacity="0.7"/>
+  <ellipse cx="700" cy="620" rx="35" ry="15" fill="none" stroke="#2f4f4f" stroke-width="2"/>
+  
+  <!-- Text label -->
+  <text x="960" y="150" font-family="serif" font-size="48" fill="#6b4423" text-anchor="middle" opacity="0.4">Classic Study Room</text>
+</svg>

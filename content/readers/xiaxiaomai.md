@@ -14,6 +14,7 @@ list_books: true
 list_episodes: true
 list_blog_posts: true
 number: 200
+room_theme: modern
 ---
 
 {{< figure src="/images/xiaxiaomai.jpg" >}}
