@@ -1,0 +1,51 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimalist clean study room background -->
+  <defs>
+    <linearGradient id="minGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f8f8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#minGrad)"/>
+  
+  <!-- Floor -->
+  <rect y="850" width="1920" height="230" fill="#e8e8e8"/>
+  
+  <!-- Simple desk -->
+  <rect x="600" y="680" width="720" height="25" fill="#ffffff"/>
+  <rect x="600" y="705" width="720" height="8" fill="#e0e0e0"/>
+  <rect x="630" y="713" width="15" height="137" fill="#d0d0d0"/>
+  <rect x="1275" y="713" width="15" height="137" fill="#d0d0d0"/>
+  
+  <!-- Single shelf -->
+  <rect x="250" y="350" width="400" height="15" fill="#e0e0e0"/>
+  <rect x="260" y="365" width="10" height="200" fill="#d0d0d0"/>
+  <rect x="630" y="365" width="10" height="200" fill="#d0d0d0"/>
+  
+  <!-- Minimalist books -->
+  <rect x="280" y="315" width="35" height="35" fill="#b0b0b0"/>
+  <rect x="320" y="315" width="38" height="35" fill="#a0a0a0"/>
+  <rect x="363" y="315" width="32" height="35" fill="#c0c0c0"/>
+  
+  <!-- Simple chair -->
+  <rect x="900" y="750" width="120" height="10" fill="#d0d0d0"/>
+  <rect x="950" y="760" width="20" height="90" fill="#d0d0d0"/>
+  
+  <!-- Large window -->
+  <rect x="1400" y="150" width="420" height="600" fill="#f0f8ff" opacity="0.4"/>
+  <line x1="1610" y1="150" x2="1610" y2="750" stroke="#e0e0e0" stroke-width="3"/>
+  <line x1="1400" y1="450" x2="1820" y2="450" stroke="#e0e0e0" stroke-width="3"/>
+  
+  <!-- Simple lamp -->
+  <circle cx="800" cy="665" r="15" fill="#ffffff" opacity="0.7"/>
+  <rect x="797" y="665" width="6" height="15" fill="#d0d0d0"/>
+  
+  <!-- Small plant -->
+  <ellipse cx="1650" cy="840" rx="25" ry="10" fill="#f0f0f0"/>
+  <path d="M 1650 840 Q 1635 820 1643 805 Q 1650 795 1657 805 Q 1665 820 1650 840" fill="#e0e0e0"/>
+  
+  <!-- Text label -->
+  <text x="960" y="120" font-family="Arial, sans-serif" font-size="42" fill="#b0b0b0" text-anchor="middle" opacity="0.3">Minimalist Space</text>
+</svg>

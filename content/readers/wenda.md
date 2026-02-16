@@ -13,6 +13,7 @@ list_books: true
 list_blog_posts: false
 list_episodes: true
 number: 250
+room_theme: minimalist
 ---
 
 待更新……

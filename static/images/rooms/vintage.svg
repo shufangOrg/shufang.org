@@ -1,0 +1,90 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vintage/retro study room background -->
+  <defs>
+    <linearGradient id="vintageGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d4b8;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="wallpaper" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#f5e6d3"/>
+      <circle cx="20" cy="20" r="3" fill="#d4a574" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background with pattern -->
+  <rect width="1920" height="800" fill="url(#wallpaper)"/>
+  
+  <!-- Floor -->
+  <rect y="800" width="1920" height="280" fill="#8b4513"/>
+  
+  <!-- Vintage wallpaper trim -->
+  <rect y="780" width="1920" height="20" fill="#d4a574"/>
+  
+  <!-- Antique desk -->
+  <rect x="520" y="630" width="880" height="50" fill="#654321"/>
+  <rect x="520" y="680" width="880" height="10" fill="#8b6914"/>
+  <!-- Ornate legs -->
+  <path d="M 560 690 Q 550 750 555 800 L 585 800 Q 580 750 570 690 Z" fill="#654321"/>
+  <path d="M 1360 690 Q 1350 750 1355 800 L 1385 800 Q 1380 750 1370 690 Z" fill="#654321"/>
+  
+  <!-- Vintage typewriter on desk -->
+  <rect x="700" y="600" width="150" height="30" fill="#4a4a4a"/>
+  <rect x="720" y="580" width="110" height="20" fill="#333333"/>
+  <circle cx="740" cy="610" r="8" fill="#e8e8e8"/>
+  <circle cx="760" cy="610" r="8" fill="#e8e8e8"/>
+  <circle cx="780" cy="610" r="8" fill="#e8e8e8"/>
+  <circle cx="800" cy="610" r="8" fill="#e8e8e8"/>
+  
+  <!-- Old books stack -->
+  <rect x="1150" y="600" width="120" height="30" fill="#8b0000"/>
+  <rect x="1160" y="570" width="110" height="30" fill="#654321"/>
+  <rect x="1170" y="540" width="100" height="30" fill="#2f4f4f"/>
+  
+  <!-- Vintage bookshelf -->
+  <rect x="150" y="250" width="380" height="550" fill="#654321"/>
+  <!-- Ornate top -->
+  <path d="M 150 250 L 140 230 L 540 230 L 530 250 Z" fill="#8b6914"/>
+  <line x1="150" y1="400" x2="530" y2="400" stroke="#8b6914" stroke-width="6"/>
+  <line x1="150" y1="550" x2="530" y2="550" stroke="#8b6914" stroke-width="6"/>
+  
+  <!-- Old books on shelf -->
+  <rect x="170" y="260" width="42" height="130" fill="#8b0000"/>
+  <rect x="217" y="260" width="38" height="130" fill="#654321"/>
+  <rect x="260" y="260" width="45" height="130" fill="#2f4f4f"/>
+  <rect x="310" y="260" width="40" height="130" fill="#8b6914"/>
+  <rect x="355" y="260" width="48" height="130" fill="#556b2f"/>
+  <rect x="408" y="260" width="35" height="130" fill="#8b4513"/>
+  <rect x="448" y="260" width="42" height="130" fill="#6b4423"/>
+  
+  <!-- Vintage armchair -->
+  <ellipse cx="1600" cy="750" rx="130" ry="50" fill="#8b1a1a"/>
+  <rect x="1510" y="650" width="180" height="100" fill="#a0252f"/>
+  <ellipse cx="1600" cy="650" rx="90" ry="40" fill="#8b1a1a"/>
+  <!-- Armrests -->
+  <rect x="1490" y="680" width="30" height="80" fill="#654321"/>
+  <rect x="1680" y="680" width="30" height="80" fill="#654321"/>
+  
+  <!-- Old lamp with shade -->
+  <polygon points="900,550 950,550 960,580 890,580" fill="#d4a574" opacity="0.7"/>
+  <circle cx="925" cy="545" r="15" fill="#fff9e6" opacity="0.6"/>
+  <rect x="920" y="580" width="10" height="50" fill="#654321"/>
+  
+  <!-- Vintage radio -->
+  <rect x="1450" y="350" width="100" height="80" fill="#654321"/>
+  <rect x="1460" y="360" width="80" height="50" fill="#8b6914" opacity="0.5"/>
+  <circle cx="1520" cy="410" r="8" fill="#d4a574"/>
+  <circle cx="1480" cy="410" r="8" fill="#d4a574"/>
+  
+  <!-- Persian rug -->
+  <ellipse cx="960" cy="920" rx="420" ry="100" fill="#8b0000" opacity="0.4"/>
+  <ellipse cx="960" cy="920" rx="350" ry="80" fill="#d4a574" opacity="0.3"/>
+  
+  <!-- Ornate clock on wall -->
+  <circle cx="1100" cy="350" r="50" fill="#d4a574" opacity="0.6"/>
+  <circle cx="1100" cy="350" r="40" fill="#f5e6d3"/>
+  <line x1="1100" y1="350" x2="1100" y2="320" stroke="#654321" stroke-width="3"/>
+  <line x1="1100" y1="350" x2="1120" y2="360" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Text label -->
+  <text x="960" y="180" font-family="Georgia, serif" font-size="48" fill="#654321" text-anchor="middle" opacity="0.4">Vintage Study</text>
+</svg>

@@ -13,6 +13,7 @@ list_books: false
 list_blog_posts: true
 list_episodes: true
 number: 1
+room_theme: vintage
 ---
 
 待更新……

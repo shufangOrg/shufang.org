@@ -45,3 +45,72 @@ span.displaynone { display: none; }
 .sticky {
     background-color: #408bc9;
 }
+
+/* Virtual Study Room Themes */
+.reader-room-background {
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2rem 0;
+}
+
+.room-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.75) 0%, 
+        rgba(255, 255, 255, 0.85) 50%, 
+        rgba(255, 255, 255, 0.9) 100%);
+    z-index: 0;
+}
+
+.reader-room-content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 60em) {
+    .reader-room-background {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+    
+    .reader-room-content {
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Animation for smooth transitions */
+.reader-room-background {
+    transition: background-image 0.5s ease-in-out;
+}
+
+.reader-room-content {
+    animation: fadeInContent 0.8s ease-in-out;
+}
+
+@keyframes fadeInContent {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

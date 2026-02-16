@@ -1,0 +1,57 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern minimalist study room background -->
+  <defs>
+    <linearGradient id="modernGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#modernGrad)"/>
+  
+  <!-- Floor -->
+  <rect y="800" width="1920" height="280" fill="#d4c5b0"/>
+  
+  <!-- Wall panels -->
+  <rect x="100" y="200" width="400" height="500" fill="#ffffff" opacity="0.3"/>
+  <rect x="1420" y="200" width="400" height="500" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Desk -->
+  <rect x="600" y="650" width="720" height="30" fill="#8b7355"/>
+  <rect x="620" y="680" width="20" height="120" fill="#8b7355"/>
+  <rect x="1280" y="680" width="20" height="120" fill="#8b7355"/>
+  
+  <!-- Chair -->
+  <ellipse cx="960" cy="750" rx="80" ry="40" fill="#4a4a4a"/>
+  <rect x="930" y="750" width="60" height="30" fill="#4a4a4a"/>
+  
+  <!-- Bookshelf -->
+  <rect x="200" y="300" width="250" height="400" fill="#6b5b4d" opacity="0.7"/>
+  <line x1="200" y1="400" x2="450" y2="400" stroke="#8b7355" stroke-width="4"/>
+  <line x1="200" y1="500" x2="450" y2="500" stroke="#8b7355" stroke-width="4"/>
+  <line x1="200" y1="600" x2="450" y2="600" stroke="#8b7355" stroke-width="4"/>
+  
+  <!-- Books on shelf -->
+  <rect x="220" y="410" width="30" height="80" fill="#c75b39"/>
+  <rect x="255" y="410" width="35" height="80" fill="#4a7c7e"/>
+  <rect x="295" y="410" width="28" height="80" fill="#8b6f47"/>
+  <rect x="328" y="410" width="32" height="80" fill="#6b8e23"/>
+  
+  <!-- Window -->
+  <rect x="1500" y="250" width="280" height="350" fill="#a8d5e2" opacity="0.5"/>
+  <line x1="1640" y1="250" x2="1640" y2="600" stroke="#ffffff" stroke-width="6"/>
+  <line x1="1500" y1="425" x2="1780" y2="425" stroke="#ffffff" stroke-width="6"/>
+  
+  <!-- Lamp -->
+  <circle cx="850" cy="630" r="25" fill="#fff9e6" opacity="0.8"/>
+  <rect x="845" y="630" width="10" height="20" fill="#6b6b6b"/>
+  
+  <!-- Plant -->
+  <ellipse cx="1600" cy="780" rx="40" ry="20" fill="#8b7355"/>
+  <path d="M 1600 780 Q 1580 750 1590 720 Q 1600 700 1610 720 Q 1620 750 1600 780" fill="#6b8e23"/>
+  <path d="M 1600 780 Q 1620 750 1615 720 Q 1610 700 1600 710 Q 1590 730 1600 780" fill="#7fa02e"/>
+  
+  <!-- Text label -->
+  <text x="960" y="150" font-family="Arial, sans-serif" font-size="48" fill="#666" text-anchor="middle" opacity="0.3">Modern Study Room</text>
+</svg>

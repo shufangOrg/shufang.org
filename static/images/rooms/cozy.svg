@@ -1,0 +1,72 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cozy warm reading nook background -->
+  <defs>
+    <linearGradient id="cozyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef5e7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fadbd8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="lampGlow">
+      <stop offset="0%" style="stop-color:#fff9e6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fff9e6;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#cozyGrad)"/>
+  
+  <!-- Floor -->
+  <rect y="800" width="1920" height="280" fill="#d4a574"/>
+  
+  <!-- Cozy nook wall -->
+  <rect x="150" y="250" width="700" height="550" fill="#e8c5b5" opacity="0.6"/>
+  
+  <!-- Reading nook cushions -->
+  <ellipse cx="500" cy="750" rx="250" ry="60" fill="#c75b39"/>
+  <ellipse cx="480" cy="720" rx="200" ry="80" fill="#d4735e"/>
+  
+  <!-- Pillows -->
+  <ellipse cx="400" cy="680" rx="80" ry="60" fill="#e8b4a0"/>
+  <ellipse cx="600" cy="690" rx="70" ry="55" fill="#f5cba7"/>
+  
+  <!-- Small bookshelf -->
+  <rect x="1200" y="400" width="300" height="400" fill="#a67c52"/>
+  <line x1="1200" y1="520" x2="1500" y2="520" stroke="#8b6f47" stroke-width="4"/>
+  <line x1="1200" y1="640" x2="1500" y2="640" stroke="#8b6f47" stroke-width="4"/>
+  
+  <!-- Books -->
+  <rect x="1220" y="410" width="35" height="100" fill="#c75b39"/>
+  <rect x="1260" y="410" width="40" height="100" fill="#6b8e23"/>
+  <rect x="1305" y="410" width="32" height="100" fill="#4a7c7e"/>
+  <rect x="1342" y="410" width="38" height="100" fill="#8b6914"/>
+  
+  <!-- Window with curtains -->
+  <rect x="1550" y="200" width="320" height="400" fill="#b8d4e8" opacity="0.5"/>
+  <path d="M 1550 200 Q 1600 250 1550 600" fill="#f4a460" opacity="0.7"/>
+  <path d="M 1870 200 Q 1820 250 1870 600" fill="#f4a460" opacity="0.7"/>
+  
+  <!-- Floor lamp -->
+  <circle cx="950" cy="350" r="50" fill="url(#lampGlow)"/>
+  <rect x="945" y="400" width="10" height="400" fill="#8b7355"/>
+  <circle cx="950" cy="790" r="30" fill="#8b7355"/>
+  
+  <!-- Side table -->
+  <ellipse cx="750" cy="720" rx="80" ry="30" fill="#a67c52"/>
+  <rect x="720" y="720" width="60" height="80" fill="#a67c52"/>
+  
+  <!-- Tea cup on table -->
+  <ellipse cx="750" cy="710" rx="20" ry="8" fill="#ffffff"/>
+  <rect x="738" y="710" width="24" height="15" fill="#ffffff"/>
+  
+  <!-- Rug -->
+  <ellipse cx="500" cy="880" rx="350" ry="100" fill="#c75b39" opacity="0.4"/>
+  
+  <!-- Plants -->
+  <ellipse cx="1600" cy="780" rx="35" ry="15" fill="#8b7355"/>
+  <path d="M 1600 780 Q 1580 750 1590 720 Q 1600 700 1610 720 Q 1620 750 1600 780" fill="#6b8e23"/>
+  
+  <ellipse cx="250" cy="780" rx="40" ry="18" fill="#8b7355"/>
+  <path d="M 250 780 Q 230 740 245 710 Q 255 690 265 710 Q 280 740 250 780" fill="#7fa02e"/>
+  
+  <!-- Text label -->
+  <text x="960" y="150" font-family="Georgia, serif" font-size="48" fill="#c75b39" text-anchor="middle" opacity="0.35">Cozy Reading Nook</text>
+</svg>
