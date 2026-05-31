@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+  <h1 class="f2">搜索</h1>
+  <input id="search-input" type="text" placeholder="输入关键词..." class="w-100 pa3 f4 ba b--moon-gray br2 mb4" autofocus>
+  <div id="search-results" class="lh-copy"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script>
+(function() {
+  var input = document.getElementById('search-input');
+  var results = document.getElementById('search-results');
+  var fuse;
+
+  fetch('/index.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      fuse = new Fuse(data, {
+        keys: ['title', 'content'],
+        threshold: 0.3,
+        includeMatches: true
+      });
+    });
+
+  input.addEventListener('input', function() {
+    if (!fuse) return;
+    var query = this.value.trim();
+    if (!query) { results.innerHTML = ''; return; }
+    var hits = fuse.search(query).slice(0, 20);
+    if (!hits.length) {
+      results.innerHTML = '<p class="gray">没有找到相关内容</p>';
+      return;
+    }
+    results.innerHTML = hits.map(function(h) {
+      var item = h.item;
+      return '<article class="bb b--light-gray pb3 mb3">' +
+        '<a href="' + item.url + '" class="link dim dark-gray">' +
+        '<h3 class="f4 mv1">' + item.title + '</h3></a>' +
+        '<p class="f6 gray mv1">' + (item.content || '').substring(0, 150) + '...</p>' +
+        '</article>';
+    }).join('');
+  });
+})();
+</script>
+{{ end }}
