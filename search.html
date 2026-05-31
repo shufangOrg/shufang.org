@@ -1,0 +1,104 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
+<title>
+搜索 - 一个人的书房
+</title>
+<meta name=viewport content="width=device-width,minimum-scale=1">
+<meta name=description content>
+<meta name=generator content="Hugo 0.87.0">
+<meta name=ROBOTS content="INDEX, FOLLOW">
+<link rel=stylesheet href=/ananke/css/main.min.css>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5>
+<meta name=msapplication-TileColor content="#2d89ef">
+<meta name=theme-color content="#ffffff">
+<meta property="og:title" content="搜索">
+<meta property="og:description" content>
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://shufang.org/search.html"><meta property="article:section" content>
+<meta itemprop=name content="搜索">
+<meta itemprop=description content>
+<meta itemprop=wordCount content="0">
+<meta itemprop=keywords content><meta name=twitter:card content="summary">
+<meta name=twitter:title content="搜索">
+<meta name=twitter:description content>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7XJ6ZG7HV"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-W7XJ6ZG7HV')</script>
+</head>
+<body class="ma0 avenir bg-near-white">
+<header>
+<div>
+<nav class="pv3 ph3 ph4-ns" role=navigation>
+<div class="flex-l justify-between items-center center">
+<a href=/ class="f3 hover-black no-underline dib">
+一个人的书房
+</a>
+<div class="flex-l items-center">
+<ul class="pl0 mr3">
+<li class="list f5 f4-ns fw4 dib pr3">
+<a class="hover-black no-underline" href=/listen.html title="收听 page">
+收听
+</a>
+</li>
+<li class="list f5 f4-ns fw4 dib pr3">
+<a class="hover-black no-underline" href=/about.html title="关于 page">
+关于
+</a>
+</li>
+<li class="list f5 f4-ns fw4 dib pr3">
+<a class="hover-black no-underline" href=/readers.html title="朗读者 page">
+朗读者
+</a>
+</li>
+<li class="list f5 f4-ns fw4 dib pr3">
+<a class="hover-black no-underline" href=/books.html title="书目 page">
+书目
+</a>
+</li>
+<li class="list f5 f4-ns fw4 dib pr3">
+<a class="hover-black no-underline" href=/syyj.html title="声音邮局 page">
+声音邮局
+</a>
+</li>
+<li class="list f5 f4-ns fw4 dib pr3">
+<a class="hover-black no-underline" href=https://ying.shufang.org title="光影 page">
+光影
+</a>
+</li>
+<li class="list f5 f4-ns fw4 dib pr3">
+<a class="hover-black no-underline" href=/donation.html title="捐助 page">
+捐助
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</header>
+<main class=pb7 role=main>
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+<h1 class=f2>搜索</h1>
+<input id=search-input type=text placeholder=输入关键词... class="w-100 pa3 f4 ba b--moon-gray br2 mb4" autofocus>
+<div id=search-results class=lh-copy></div>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js></script>
+<script>(function(){var c=document.getElementById('search-input'),a=document.getElementById('search-results'),b;fetch('/index.json').then(function(a){return a.json()}).then(function(a){b=new Fuse(a,{keys:['title','content'],threshold:.3,includeMatches:!0})}),c.addEventListener('input',function(){var c,d;if(!b)return;if(c=this.value.trim(),!c){a.innerHTML='';return}if(d=b.search(c).slice(0,20),!d.length){a.innerHTML='<p class="gray">没有找到相关内容</p>';return}a.innerHTML=d.map(function(b){var a=b.item;return'<article class="bb b--light-gray pb3 mb3"><a href="'+a.url+'" class="link dim dark-gray">'+'<h3 class="f4 mv1">'+a.title+'</h3></a>'+'<p class="f6 gray mv1">'+(a.content||'').substring(0,150)+'...</p>'+'</article>'}).join('')})})()</script>
+</main>
+<footer class="bg-dark-gray bottom-0 w-100 pa3" role=contentinfo>
+<div class="flex justify-between">
+<a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://shufang.org>
+&copy; 一个人的书房 2026
+</a>
+<div>
+</div>
+</div>
+</footer>
+<script src=/js/app.js></script>
+</body>
+</html>
