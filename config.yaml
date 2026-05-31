@@ -151,6 +151,10 @@ menu:
       name: 光影
       url: https://ying.shufang.org
       weight: -80
+    - identifier: search
+      name: 搜索
+      url: /search.html
+      weight: -70
 
 outputFormats:
   podcast-xml:
@@ -201,6 +205,7 @@ outputFormats:
 outputs:
   home:
     - "html"
+    - "json"
     - "podcast-xml"
     - "talks-xml"
     - "syyj-xml"
