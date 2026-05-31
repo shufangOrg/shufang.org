@@ -3,23 +3,22 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true
+          fetch-depth: 0
 
-      - uses: FedericoCarboni/setup-ffmpeg@v2
-        id: setup-ffmpeg
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
 
-      - name: Run shell
-        run: bash -x ./scripts/duration-length.sh
-        shell: bash
+      - name: Run duration-length script
+        run: nix develop --command bash -x ./scripts/duration-length.sh
 
       # deploy to duration-length-content branch in local repository
       - name: deploy duration-length-content branch
@@ -33,27 +32,22 @@ jobs:
       - name: Clone ox-hugo
         run: git clone https://github.com/jsntn/ox-hugo.git ox-hugo
 
-      - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.87.0'
-          extended: true
-
       - name: Build
-        run: hugo --minify
+        run: nix develop --command hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: shufang.org
 
-      - name: executing remote ssh commands using password
+      - name: Deploy to production server
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           port: ${{ secrets.PORT }}
-          script: whoami; cd ${{ secrets.WEBSITE_ABS_PATH }}; git pull
+          script: cd ${{ secrets.WEBSITE_ABS_PATH }}; git pull
