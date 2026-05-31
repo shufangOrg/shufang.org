@@ -1,5 +1,7 @@
 {{- $.Scratch.Add "index" slice -}}
-{{- range .Site.RegularPages -}}
-  {{- $.Scratch.Add "index" (dict "title" .Title "url" .Permalink "content" (.Plain | truncate 300) "section" .Section "date" (.Date.Format "2006-01-02")) -}}
+{{- range .Site.Pages -}}
+  {{- if not .IsHome -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "url" .RelPermalink "content" (substr .Plain 0 500) "section" .Section) -}}
+  {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
