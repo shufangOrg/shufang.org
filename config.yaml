@@ -139,6 +139,10 @@ menu:
       name: 书目
       url: /books.html
       weight: -90
+    - identifier: random
+      name: 随读
+      url: /random.html
+      weight: -85
     - identifier: syyj
       name: 声音邮局
       url: /syyj.html
