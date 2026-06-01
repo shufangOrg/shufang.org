@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" width="360" height="64">
+  <defs>
+    <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#4a4a4a"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="44" height="48" rx="2" fill="none" stroke="url(#ink)" stroke-width="2"/>
+  <line x1="30" y1="8" x2="30" y2="56" stroke="url(#ink)" stroke-width="1.2"/>
+  <line x1="8" y1="32" x2="52" y2="32" stroke="url(#ink)" stroke-width="1.2"/>
+  <circle cx="20" cy="42" r="3" fill="#333"/>
+  <path d="M16 52 Q20 47 24 52" fill="none" stroke="#333" stroke-width="1.5"/>
+  <path d="M22 46 L27 44 L27 48 L22 50 Z" fill="#333" opacity="0.6"/>
+  <circle cx="40" cy="20" r="5" fill="none" stroke="#333" stroke-width="1"/>
+  <circle cx="42" cy="19" r="4.5" fill="#fff"/>
+  <circle cx="40" cy="20" r="5" fill="none" stroke="#333" stroke-width="1"/>
+  <circle cx="36" cy="14" r="0.8" fill="#333" opacity="0.5"/>
+  <circle cx="44" cy="26" r="0.6" fill="#333" opacity="0.4"/>
+  <path d="M70 52 Q180 48 350 52" fill="none" stroke="#333" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+  <path d="M68 54 Q120 56 140 53" fill="none" stroke="#333" stroke-width="2" opacity="0.15" stroke-linecap="round"/>
+  <text x="72" y="42" font-family="serif" font-size="30" fill="url(#ink)" letter-spacing="2">一个人的书房</text>
+</svg>
