@@ -28,4 +28,24 @@ reference:
     "nickname_is_required": "昵称不能为空",
     "comment_has_been_sent": "评论已发送，管理员审核通过后会展示"
   }
+  // Auto-resize Cusdis iframe to show all comments
+  window.addEventListener('message', function(e) {
+    if (e.data && e.data.from === 'cusdis') {
+      var iframe = document.querySelector('#cusdis_thread iframe');
+      if (iframe && e.data.event === 'resize') {
+        iframe.style.height = e.data.data + 'px';
+      }
+    }
+  });
+  // Fallback: observe and remove fixed height
+  var observer = new MutationObserver(function() {
+    var iframe = document.querySelector('#cusdis_thread iframe');
+    if (iframe) {
+      iframe.style.height = 'auto';
+      iframe.style.minHeight = '300px';
+      iframe.setAttribute('scrolling', 'no');
+      observer.disconnect();
+    }
+  });
+  observer.observe(document.getElementById('cusdis_thread'), { childList: true });
 </script>
