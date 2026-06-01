@@ -101,12 +101,10 @@
 <script>(function(){var c=document.getElementById('search-input'),a=document.getElementById('search-results'),b;fetch('/index.json').then(function(a){return a.json()}).then(function(a){b=new Fuse(a,{keys:['title','content'],threshold:.4,ignoreLocation:!0,includeMatches:!0})}),c.addEventListener('input',function(){var c,d;if(!b)return;if(c=this.value.trim(),!c){a.innerHTML='';return}if(d=b.search(c).slice(0,30),!d.length){a.innerHTML='<p class="gray">没有找到相关内容</p>';return}a.innerHTML=d.map(function(b){var a=b.item;return'<article class="bb b--light-gray pb3 mb3"><a href="'+a.url+'" class="link dim dark-gray">'+'<h3 class="f4 mv1">'+a.title+'</h3></a>'+'<p class="f6 gray mv1">'+(a.content||'').substring(0,150)+'...</p>'+'</article>'}).join('')})})()</script>
 </main>
 <footer class="bg-dark-gray bottom-0 w-100 pa3" role=contentinfo>
-<div class="flex justify-between">
+<div class=tc>
 <a class="f4 fw4 hover-white no-underline white-70 dib pv2 ph3" href=https://shufang.org>
 &copy; 一个人的书房 2026
 </a>
-<div>
-</div>
 </div>
 </footer>
 <script src=/js/app.js></script>
