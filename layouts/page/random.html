@@ -1,0 +1,13 @@
+{{ define "main" }}
+<script>
+  var books = [
+    {{ range where .Site.RegularPages "Section" "books" }}"{{ .RelPermalink }}",
+    {{ end }}
+  ];
+  window.location.href = books[Math.floor(Math.random() * books.length)];
+</script>
+<noscript>
+  <p>请启用 JavaScript 以使用随读功能。</p>
+  <p><a href="/books.html">浏览所有书目</a></p>
+</noscript>
+{{ end }}
