@@ -28,4 +28,12 @@ reference:
     "nickname_is_required": "昵称不能为空",
     "comment_has_been_sent": "评论已发送，管理员审核通过后会展示"
   }
+  // Poll iframe content height (srcdoc iframes are same-origin)
+  setInterval(function() {
+    var iframe = document.querySelector('#cusdis_thread iframe');
+    if (iframe && iframe.contentDocument && iframe.contentDocument.body) {
+      var h = iframe.contentDocument.body.scrollHeight;
+      if (h > 0) iframe.style.height = h + 'px';
+    }
+  }, 500);
 </script>
