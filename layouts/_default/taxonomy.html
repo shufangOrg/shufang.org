@@ -8,12 +8,24 @@
     </div>
   </article>
   <div class="mw8 center">
+    {{ $paginator := .Paginate .Pages }}
     <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range  .Pages }}
+      {{ range $paginator.Pages }}
         <div class="relative w-100  mb4 bg-white">
           {{ partial "summary.html" . }}
         </div>
       {{ end }}
     </section>
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="tc pv4">
+      {{ if $paginator.HasPrev }}
+        <a class="f5 no-underline dark-gray dib ph3 pv2" href="{{ $paginator.Prev.URL }}">← 上一页</a>
+      {{ end }}
+      <span class="f5 dark-gray ph3">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+      {{ if $paginator.HasNext }}
+        <a class="f5 no-underline dark-gray dib ph3 pv2" href="{{ $paginator.Next.URL }}">下一页 →</a>
+      {{ end }}
+    </nav>
+    {{ end }}
   </div>
 {{ end }}
