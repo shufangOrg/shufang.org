@@ -8,7 +8,7 @@
           {{ .Site.Title }}
         {{ end }}
       </a>
-      <button class="hamburger dn-l bn bg-transparent f3 pointer" aria-label="菜单" onclick="document.getElementById('nav-menu').classList.toggle('open')">☰</button>
+      <button class="hamburger dn-l bn bg-transparent f3 pointer black" aria-label="菜单" onclick="var m=document.getElementById('nav-menu');m.classList.toggle('open');this.textContent=m.classList.contains('open')?'✕':'☰'">☰</button>
     </div>
     <div id="nav-menu" class="flex-l items-center nav-menu">
       {{ partial "i18nlist.html" . }}
@@ -16,7 +16,7 @@
         <ul class="pl0 mr3">
           {{ range .Site.Menus.main }}
           <li class="list f5 f4-ns fw4 dib-l pr3-l">
-            <a class="hover-black no-underline db pv2 pv0-l" href="{{ .URL }}" title="{{ .Name }} page">
+            <a class="hover-black no-underline black-80 db pv2 pv0-l" href="{{ .URL }}" title="{{ .Name }} page">
               {{ .Name }}
             </a>
           </li>
