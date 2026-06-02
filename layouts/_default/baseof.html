@@ -21,6 +21,7 @@
     {{ end }}
 
     {{ partial "site-style.html" . }} <!-- the css file -->
+    <link rel="stylesheet" href="/css/audio-player.css">
 
     {{ block "favicon" . }}
       {{ partialCached "site-favicon.html" . }}
@@ -66,6 +67,7 @@
 
     <script src="/js/app.js"></script>
     <script src="/js/fix-ce.js" data-target="main-content"></script>
+    <script src="/js/audio-player.js"></script>
 
   </body>
 </html>
