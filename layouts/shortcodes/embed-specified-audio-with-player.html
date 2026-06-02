@@ -1,13 +1,15 @@
-{{/* this is used to embed specified audio(with full url) with player
-
-the official document and reference:
-- https://gohugo.io/content-management/shortcodes/
-- https://gohugo.io/templates/shortcode-templates/
+{{/* Embed specified audio URL with custom player
 
 usage:
-{{< embed-specified-audio-with-player https://ting-2022.shufang.org/10-years-trailer.mp3 >}}
+{{< embed-specified-audio-with-player https://example.com/audio.mp3 >}}
 */}}
 
-<audio controls="">
-<source src="{{ $.Page.Site.Params.statsPrefix }}{{ .Get 0 }}" type="audio/mpeg">
-<embed src="{{ $.Page.Site.Params.statsPrefix }}{{ .Get 0 }}"></audio>
+<div class="sf-player">
+  <button class="sf-play" aria-label="播放">▶</button>
+  <div class="sf-progress"><div class="sf-progress-bar"></div></div>
+  <span class="sf-time">0:00 / 0:00</span>
+  <button class="sf-speed">1x</button>
+  <audio preload="metadata">
+    <source src="{{ $.Page.Site.Params.statsPrefix }}{{ .Get 0 }}" type="audio/mpeg">
+  </audio>
+</div>
