@@ -47,7 +47,7 @@ span.displaynone { display: none; }
 }
 
 /* fix list alignment in content */
-.nested-copy-line-height ul,
-.nested-copy-line-height ol {
-    padding-left: 1.5rem;
+article .nested-copy-line-height ul,
+article .nested-copy-line-height ol {
+    padding-left: 1.5rem !important;
 }
