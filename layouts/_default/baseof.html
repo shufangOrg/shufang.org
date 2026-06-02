@@ -22,6 +22,10 @@
 
     {{ partial "site-style.html" . }} <!-- the css file -->
     <link rel="stylesheet" href="/css/audio-player.css">
+    <style>
+      article .nested-copy-line-height ul,
+      article .nested-copy-line-height ol { padding-left: 1.5rem !important; }
+    </style>
 
     {{ block "favicon" . }}
       {{ partialCached "site-favicon.html" . }}
