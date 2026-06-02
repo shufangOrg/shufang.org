@@ -45,3 +45,9 @@ span.displaynone { display: none; }
 .sticky {
     background-color: #408bc9;
 }
+
+/* fix list alignment in content */
+.nested-copy-line-height ul,
+.nested-copy-line-height ol {
+    padding-left: 1.5rem;
+}
