@@ -1,8 +1,13 @@
-{{/* this is the partial template used to display the online player with the audio of current page */}}
+{{/* Custom audio player for shufang.org */}}
 
 <h2>线上收听</h2>
 
-<audio controls="">
-<source src="{{- .Site.Params.statsPrefix -}}{{- .Params.mp3 | string -}}" type="audio/mpeg">
-<embed src="{{ .Site.Params.statsPrefix }}{{- .Params.mp3 | string -}}">
-</audio>
+<div class="sf-player">
+  <button class="sf-play" aria-label="播放">▶</button>
+  <div class="sf-progress"><div class="sf-progress-bar"></div></div>
+  <span class="sf-time">0:00 / 0:00</span>
+  <button class="sf-speed">1x</button>
+  <audio preload="metadata">
+    <source src="{{- .Site.Params.statsPrefix -}}{{- .Params.mp3 | string -}}" type="audio/mpeg">
+  </audio>
+</div>
