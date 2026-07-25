@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="title desc">
+  <title id="title">用声音裸泳</title>
+  <desc id="desc">原文朗读，不用背景音乐干扰对文字的感知与想象。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFEFB"/><stop offset="1" stop-color="#F3EEE6"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="140" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="140" rx="20" fill="url(#bg)"/>
+    <circle cx="80" cy="120" r="70" fill="#B33A2B" fill-opacity=".05"/>
+    <rect x="48" y="42" width="36" height="5" rx="2.5" fill="#408bc9"/>
+    <text x="48" y="88" fill="#222222" font-size="42" font-weight="700" letter-spacing="4" font-family="'Noto Serif SC',Georgia,'Songti SC','PingFang SC',serif">用声音裸泳</text>
+    <text x="300" y="88" fill="#6B6560" font-size="22" font-family="'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">原文朗读 · 无配乐 · 回到文字本身</text>
+    <g transform="translate(1008 36)">
+      <path d="M28 34c0-14 12-24 24-24s24 10 24 24" fill="none" stroke="#3F3A34" stroke-width="6" stroke-linecap="round"/>
+      <rect x="22" y="32" width="14" height="26" rx="6" fill="#3F3A34"/>
+      <rect x="68" y="32" width="14" height="26" rx="6" fill="#3F3A34"/>
+      <rect x="40" y="36" width="6" height="22" rx="1" fill="#B33A2B"/>
+      <rect x="48" y="40" width="5" height="18" rx="1" fill="#D97706"/>
+      <rect x="55" y="34" width="6" height="24" rx="1" fill="#408bc9"/>
+      <rect x="63" y="38" width="5" height="20" rx="1" fill="#C4B49A"/>
+    </g>
+  </g>
+</svg>
