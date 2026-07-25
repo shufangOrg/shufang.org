@@ -1,0 +1,30 @@
+{
+  "width": 1200,
+  "fps": 30,
+  "duration": 5.0,
+  "colors": 256,
+  "dither": "none",
+  "clip_to_base_alpha": true,
+  "max_size_mb": 2.0,
+  "reveals": [
+    {
+      "id": "title-underline",
+      "axis": "x",
+      "start": 0.2,
+      "end": 1.15,
+      "exit": {"start": 4.15, "end": 4.96}
+    }
+  ],
+  "layers": [
+    {
+      "id": "motion-shelf-books",
+      "enter": {"start": 0.35, "end": 1.35, "from": [0, 28]},
+      "exit": {"start": 4.15, "end": 4.96, "to": [0, 12]}
+    },
+    {
+      "id": "motion-headphone-mark",
+      "enter": {"start": 0.95, "end": 1.95, "from": [36, 18]},
+      "exit": {"start": 4.15, "end": 4.96, "to": [14, 8]}
+    }
+  ]
+}
