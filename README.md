@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="一个人的书房：爱书人原文朗读的网络电台，用声音回到文字本身">
+  <img src="./assets/readme/hero.gif" width="100%" alt="一个人的书房：爱书人原文朗读的网络电台，用声音回到文字本身">
 </p>
 
 <p align="center">
