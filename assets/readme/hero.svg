@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">一个人的书房</title>
+  <desc id="desc">爱书人原文朗读的网络电台。用声音回到文字本身，让每本书变成你自己的房间。</desc>
+
+  <defs>
+    <linearGradient id="paper-wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFEFB"/>
+      <stop offset="0.55" stop-color="#F6F3EE"/>
+      <stop offset="1" stop-color="#EEE8DF"/>
+    </linearGradient>
+    <linearGradient id="shelf-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B6A4F"/>
+      <stop offset="1" stop-color="#6A4E38"/>
+    </linearGradient>
+    <linearGradient id="mark-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6E675C"/>
+      <stop offset="1" stop-color="#3F3A34"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" rx="24" fill="url(#paper-wash)"/>
+    <circle cx="1080" cy="40" r="150" fill="#408bc9" fill-opacity=".08"/>
+    <circle cx="980" cy="320" r="120" fill="#B33A2B" fill-opacity=".05"/>
+
+    <g stroke="#222222" stroke-opacity=".05" stroke-width="1">
+      <path d="M0 78h1200M0 156h1200M0 234h1200M0 312h1200"/>
+    </g>
+
+    <g transform="translate(56 48)" font-family="'Noto Serif SC',Georgia,'Songti SC','PingFang SC',serif">
+      <text x="0" y="18" fill="#7A7368" font-size="16" font-weight="700" letter-spacing="3.2" font-family="'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">NETWORK RADIO · SINCE 2013</text>
+      <rect x="0" y="36" width="42" height="5" rx="2.5" fill="#408bc9"/>
+
+      <text x="0" y="118" fill="#222222" font-size="64" font-weight="700" letter-spacing="6">一个人的书房</text>
+      <rect id="title-underline" x="2" y="136" width="420" height="10" rx="5" fill="#408bc9" fill-opacity=".9"/>
+
+      <text x="0" y="196" fill="#3A342E" font-size="24" font-weight="500">用声音回到文字本身。</text>
+      <text x="0" y="236" fill="#6B6560" font-size="20">若以书而论，每本书都会变成你自己的房间。</text>
+
+      <text x="0" y="286" fill="#8A847C" font-size="15" font-weight="650" letter-spacing="1.6" font-family="'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">原文朗读 · 无背景音乐 · shufang.org</text>
+    </g>
+
+    <g id="motion-shelf-books" transform="translate(690 42)" font-family="'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+      <rect x="18" y="46" width="10" height="214" rx="2" fill="#5C4331"/>
+      <rect x="372" y="46" width="10" height="214" rx="2" fill="#5C4331"/>
+      <rect x="28" y="52" width="344" height="196" rx="4" fill="#E7DFD2"/>
+      <rect x="12" y="248" width="376" height="16" rx="3" fill="url(#shelf-wood)"/>
+      <rect x="12" y="260" width="376" height="6" fill="#4A3426"/>
+
+      <rect x="48" y="88" width="28" height="160" rx="3" fill="#B33A2B"/>
+      <rect x="80" y="108" width="22" height="140" rx="3" fill="#FFF9F0"/>
+      <rect x="106" y="72" width="30" height="176" rx="3" fill="#408bc9"/>
+      <rect x="140" y="98" width="24" height="150" rx="3" fill="#2B2622"/>
+      <rect x="168" y="84" width="32" height="164" rx="3" fill="#D97706"/>
+      <rect x="204" y="112" width="20" height="136" rx="3" fill="#C4B49A"/>
+      <rect x="228" y="78" width="26" height="170" rx="3" fill="#6B8F71"/>
+      <rect x="258" y="100" width="22" height="148" rx="3" fill="#8B3A2F"/>
+      <g transform="rotate(-10 318 248)">
+        <rect x="292" y="92" width="28" height="156" rx="3" fill="#F4EBD9"/>
+        <rect x="298" y="108" width="16" height="8" rx="2" fill="#8A847C" fill-opacity=".55"/>
+        <rect x="298" y="128" width="16" height="8" rx="2" fill="#8A847C" fill-opacity=".35"/>
+      </g>
+
+      <rect x="54" y="120" width="16" height="3" rx="1.5" fill="#FFF9F0" fill-opacity=".55"/>
+      <rect x="114" y="110" width="14" height="3" rx="1.5" fill="#FFF9F0" fill-opacity=".65"/>
+      <rect x="176" y="126" width="16" height="3" rx="1.5" fill="#1C1917" fill-opacity=".2"/>
+      <rect x="234" y="118" width="14" height="3" rx="1.5" fill="#FFF9F0" fill-opacity=".5"/>
+
+      <text x="18" y="292" fill="#7A7368" font-size="15" font-weight="650" letter-spacing="1.4">SHELF · 书目与朗读</text>
+    </g>
+
+    <g id="motion-headphone-mark" transform="translate(948 158)">
+      <rect x="8" y="10" width="196" height="164" rx="18" fill="#2A241F" fill-opacity=".08"/>
+      <rect width="196" height="164" rx="18" fill="#FFFFFF"/>
+      <rect x="1" y="1" width="194" height="162" rx="17" fill="none" stroke="#408bc9" stroke-opacity=".4" stroke-width="1.5"/>
+
+      <path d="M66 54c0-18 16-30 32-30s32 12 32 30" fill="none" stroke="url(#mark-metal)" stroke-width="7" stroke-linecap="round"/>
+      <rect x="58" y="52" width="18" height="34" rx="7" fill="url(#mark-metal)"/>
+      <rect x="120" y="52" width="18" height="34" rx="7" fill="url(#mark-metal)"/>
+      <rect x="80" y="56" width="8" height="30" rx="1.5" fill="#B33A2B"/>
+      <rect x="90" y="60" width="7" height="26" rx="1.5" fill="#D97706"/>
+      <rect x="99" y="54" width="8" height="32" rx="1.5" fill="#408bc9"/>
+      <rect x="109" y="58" width="7" height="28" rx="1.5" fill="#E8DCC8"/>
+
+      <text x="98" y="114" text-anchor="middle" fill="#8A847C" font-size="11" font-weight="700" letter-spacing="2" font-family="'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">LISTEN</text>
+      <text x="98" y="138" text-anchor="middle" fill="#3A342E" font-size="14" font-weight="700" letter-spacing="0.5" font-family="'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">用声音裸泳</text>
+    </g>
+  </g>
+</svg>
