@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://shufang.org/privacy/">
+<title>Bookbower Privacy Policy</title>
+<style>
+  :root { --ink:#2b2118; --muted:#5c5045; --paper:#faf7f2; --rule:#dcd2c4; --accent:#6b4f3a; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
+  h1, h2, h3 { font-family: Georgia,"Noto Serif","Songti SC",serif; font-weight:600; line-height:1.25; }
+  h1 { font-size: 2.4rem; margin: 0 0 .4rem; }
+  h2 { font-size: 1.45rem; margin: 2.2rem 0 .6rem; }
+  .meta { color: var(--muted); margin: 0 0 2rem; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 1.25rem; }
+  table { width:100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size:.94rem; }
+  th, td { text-align:left; vertical-align:top; padding:.65rem .6rem; border-bottom:1px solid var(--rule); }
+  th { color:var(--muted); font-weight:600; }
+  a { color: var(--accent); }
+  .lead { font-size:1.05rem; }
+  footer { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--rule); color:var(--muted); font-size:.9rem; }
+  code { background:#efe7db; padding:.1em .35em; border-radius:4px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Bookbower Privacy Policy</h1>
+<p class="meta">Effective date: 12 November 2026 · Bookbower Labs</p>
+
+<p class="lead">Bookbower (书房) is a local-first reading tracker for Android published by <strong>Bookbower Labs</strong> (“we”, “us”). This policy explains what the app stores, when it uses the network, and the choices you have.</p>
+<p>Contact: <a href="mailto:hi@shufang.org">hi@shufang.org</a></p>
+
+<h2>The short version</h2>
+<ul>
+  <li>Your library, progress, sessions, quotes and photos are stored <strong>on your device</strong>. We do not have an account system and we do not receive your library.</li>
+  <li>There are <strong>no ads, no third-party analytics, no tracking SDKs and no sale of data</strong>.</li>
+  <li>The app uses the network only to look up book metadata, download cover images, process a Google Play purchase, or sync to a WebDAV server <strong>that you configure</strong>.</li>
+  <li>Camera access is used only when you choose to scan an ISBN barcode or add a photo to a quote. Photos are copied into the app’s private storage.</li>
+</ul>
+
+<h2>1. Data stored on your device</h2>
+<p>The app stores the following in a local SQLite database and the app’s private files directory:</p>
+<ul>
+  <li>book details you add or import (title, author, ISBN, publisher, tags, status, notes)</li>
+  <li>reading progress, reading sessions, timers and statistics</li>
+  <li>quotes and quote photos, including any annotations you draw</li>
+  <li>cover images saved for offline use</li>
+  <li>app settings (theme, language, layout, default format)</li>
+  <li>WebDAV server URL, username and password, if you enable sync. The password is encrypted at rest with a key held by the Android Keystore.</li>
+</ul>
+<p>This data stays on your device unless you export a backup, share a file, or enable WebDAV sync. You can delete it at any time from <strong>Settings → Clear library</strong>, or by uninstalling the app. Android backups may include app data if you have enabled system backup for this app.</p>
+
+<h2>2. Network access and third parties</h2>
+<p>The app does not send your library to us. It makes these network requests:</p>
+<table>
+  <tr><th>When</th><th>Destination</th><th>What is sent</th><th>Why</th></tr>
+  <tr><td>You scan/search an ISBN or title</td><td>Douban (<code>douban.com</code>) and/or Open Library (<code>openlibrary.org</code>)</td><td>the ISBN, title and/or author you are looking for, plus ordinary request information such as IP address and user agent</td><td>to return book metadata and cover URLs</td></tr>
+  <tr><td>A book has a remote cover</td><td>the cover host (for example <code>doubanio.com</code>)</td><td>an image request, plus a referer required by that host</td><td>to display/download the cover</td></tr>
+  <tr><td>You buy Bookbower Pro</td><td>Google Play Billing</td><td>handled by Google Play; the app receives the purchase entitlement</td><td>to unlock Pro</td></tr>
+  <tr><td>You enable WebDAV sync</td><td>the WebDAV server URL you enter</td><td>the library manifest and image blobs needed for backup/sync</td><td>to back up or sync your library</td></tr>
+</table>
+<p>Douban and Open Library are independent services with their own privacy policies. We do not control their retention or logging. Google Play’s handling of purchases is governed by Google’s privacy policy.</p>
+<p>WebDAV is optional. You choose the server, and its operator (which may be you) controls the data stored there. We do not operate a WebDAV service and cannot access your server.</p>
+
+<h2>3. What we do not do</h2>
+<ul>
+  <li>We do not create user accounts or collect names, emails or phone numbers.</li>
+  <li>We do not use advertising SDKs, analytics SDKs, crash-reporting SDKs or cross-app tracking.</li>
+  <li>We do not sell, rent or share personal data with data brokers.</li>
+  <li>We do not access your contacts, location, calendar, SMS or files beyond the photo you explicitly pick and the camera image you explicitly capture.</li>
+  <li>We do not read your photo library in the background. The system photo picker returns only the images you select.</li>
+</ul>
+
+<h2>4. Permissions</h2>
+<ul>
+  <li><strong>Camera</strong> — used for ISBN barcode scanning and for taking quote photos. You can deny it and still use the rest of the app. Camera images are processed on the device; if you save a quote photo, a normalized copy is stored in the app’s private files directory.</li>
+  <li><strong>Internet</strong> — used for the optional network operations listed above.</li>
+  <li>The app does not request location, contacts, storage, microphone or notification permissions.</li>
+</ul>
+
+<h2>5. Retention and deletion</h2>
+<p>Local data remains on your device until you delete it. You can:</p>
+<ul>
+  <li>delete individual books, quotes and photos in the app;</li>
+  <li>use <strong>Settings → Clear library</strong> to remove all books, progress, sessions, quotes and images;</li>
+  <li>uninstall the app, which removes its private app data (subject to Android backup settings).</li>
+</ul>
+<p>If you use WebDAV, backups and images remain on the server you configured until you delete them there. WebDAV deletion is controlled by you and your server operator; the app can remove blobs that are no longer referenced during sync, but we cannot delete data from a server you no longer control.</p>
+
+<h2>6. Security</h2>
+<p>Metadata and cover requests use HTTPS where the provider supports it. Local WebDAV credentials are encrypted at rest with a device-bound Android Keystore key. WebDAV transport security depends on the URL you configure; use an HTTPS WebDAV endpoint if your server supports it.</p>
+<p>No method of storage or transmission is perfectly secure. Because the app is local-first, the most sensitive data generally remains on your device.</p>
+
+<h2>7. Children</h2>
+<p>Bookbower is not directed to children under 13. The app does not knowingly collect personal data from children. It has no account system and no public social features. If you believe a child has provided personal data to us, contact us and we will help you remove it; local data can be removed from the device as described above.</p>
+
+<h2>8. International users</h2>
+<p>The app is designed for local storage, so your library does not need to leave your device. Metadata requests are sent to the third-party services listed above, which may process requests in other countries. WebDAV data goes to the server you choose. If you are in the EEA, UK, Switzerland or another region with data-protection laws, you remain in control of local data; the developer does not operate a server that stores your library.</p>
+
+<h2>9. Your choices</h2>
+<ul>
+  <li>Use the app entirely offline after adding books, if you prefer.</li>
+  <li>Disable WebDAV sync or remove the server configuration in Settings.</li>
+  <li>Export a backup at any time and delete the app data afterward.</li>
+  <li>Clear the library from Settings.</li>
+</ul>
+
+<h2>10. Changes to this policy</h2>
+<p>If the app’s data practices change, we will update this page and the effective date. Material changes will be reflected in the app’s store listing or release notes.</p>
+
+<h2>11. Contact</h2>
+<p>Questions about this policy or the app’s data practices:</p>
+<p><strong>Bookbower Labs</strong><br>Email: <a href="mailto:hi@shufang.org">hi@shufang.org</a><br>Website: <a href="https://shufang.org">https://shufang.org</a></p>
+<p>This policy describes the current app behavior. It is not legal advice; consult a qualified adviser for your jurisdiction if needed.</p>
+
+<footer>© 2026 Bookbower Labs · <a href="https://shufang.org">shufang.org</a></footer>
+</main>
+</body>
+</html>
